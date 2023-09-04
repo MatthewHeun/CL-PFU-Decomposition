@@ -15,3 +15,7 @@ Imports:
     Recca,
     tarchetypes,
     targets
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

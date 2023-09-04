@@ -1,0 +1,127 @@
+---
+title: "machine_effiency_example"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{machine_effiency_example}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>", 
+  # Set several aspects of graph chunks
+  fig.retina=4,
+  fig.align='center', 
+  fig.height=4,
+  fig.width=6
+)
+```
+
+```{r setup}
+library(CLPFUDecompositionDatabase)
+library(PFUSetup)
+library(purrr)
+```
+
+
+## Introduction
+
+This vignette provides an introduction to using the machine efficiency data
+from the CL-PFU database and the CLPFUDecomposition calculation pipeline.
+
+
+## Create the pinboard
+
+The first step is to establish a "pinboard" 
+for the [pins](https://pins.rstudio.com) package.
+Someone from the MR-PFU Database team will have shared the "PipelineReleases"
+folder if you have access to IEA data. 
+The `PFUSetup` package is helpful to find the correct folder.
+Install the `PFUSetup` package with the following code.
+
+```{r, eval=FALSE}
+devtools::install_github("EnergyEconomyDecoupling/PFUSetup")
+```
+
+Create the pinboard from the correct Dropbox folder.
+Your `pinboard_folder` might be different from this example, 
+due to a different location on your computer.
+
+```{r}
+pinboard_folder <- PFUSetup::get_abs_paths()[["pipeline_releases_folder"]]
+pinboard_folder
+pinboard <- pins::board_folder(pinboard_folder, versioned = TRUE)
+pinboard
+```
+
+
+## Read machine efficiency data
+
+Machine efficiency data is stored in the "eta_i" pin,
+so named after the function in the `Recca` package that
+performs the calculations [Recca::calc_eta_i()].
+The version below contains efficiencies 
+for the USA for the years 1960--2000.
+
+```{r}
+eta_i_data <- pins::pin_read(board = pinboard,
+                             name = "eta_i",
+                             version = "20230904T183344Z-d3924") |> 
+  PFUPipelineTools::tar_ungroup()
+names(eta_i_data)
+```
+
+The `eta_i` column contains machine efficiencies
+as column vectors in each row. 
+To unpack the efficiencies out of the vectors,
+use the `matsindf` package.
+
+```{r}
+unpacked_eta_i_data <- eta_i_data |> 
+  dplyr::filter(IEAMW == "Both", Last.stage == "Useful") |> 
+  # Delete columns containing original PSUT matrices (if present)
+  dplyr::mutate(
+    R = NULL, U = NULL, U_feed = NULL, U_EIOU = NULL, r_EIOU = NULL,
+    V = NULL, Y = NULL, S_units = NULL
+  ) |> 
+  # Put the data in the correct format for expanding the vectors
+  tidyr::pivot_longer(cols = "eta_i", names_to = "matnames", values_to = "matvals") |> 
+  # Expand the vectors
+  matsindf::expand_to_tidy() |> 
+  # Clean up
+  dplyr::rename(
+    machine = rownames, 
+    eta_i = matvals
+  ) |> 
+  dplyr::mutate(matnames = NULL, colnames = NULL)
+unpacked_eta_i_data
+```
+
+
+## Visualize the data
+
+To create a graph for each machine, 
+we can nest the data
+to create an `eta_i` column that contains 
+a `tibble` with year and efficiency columns.
+
+```{r}
+nested_eta_i_data <- unpacked_eta_i_data |> 
+  tidyr::nest(.by = tidyr::all_of(c("Country", "Method", "Energy.type", "Last.stage", "IEAMW", "machine")), .key = "year_eta_i")
+nested_eta_i_data
+```
+
+Finally, we can create a column of graphs.
+
+```{r}
+create_plot <- function(tibble_data) {
+  ggplot2::ggplot(tibble_data, ggplot2::aes(x = Year, y = eta_i)) +
+    ggplot2::geom_line() 
+}
+eta_i_graphs <- nested_eta_i_data |> 
+  dplyr::mutate(
+    plots = purrr::map(year_eta_i, create_plot)
+  )
+```
