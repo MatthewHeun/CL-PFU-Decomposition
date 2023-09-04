@@ -116,12 +116,32 @@ nested_eta_i_data
 Finally, we can create a column of graphs.
 
 ```{r}
-create_plot <- function(tibble_data) {
-  ggplot2::ggplot(tibble_data, ggplot2::aes(x = Year, y = eta_i)) +
-    ggplot2::geom_line() 
+create_plot <- function(tibble_data, country_name, energy_type, machine_name) {
+  ggplot2::ggplot() +
+    ggplot2::geom_hline(yintercept = 0, linewidth = 0.1) +
+    ggplot2::geom_hline(yintercept = 1, linewidth = 0.1) +
+    ggplot2::geom_text(ggplot2::aes(x = 1985, y = -0.1, 
+                                    label = paste(country_name, 
+                                                   energy_type, 
+                                                   machine_name, sep = "; "))) +
+    ggplot2::geom_line(data = tibble_data,
+                       mapping = ggplot2::aes(x = Year, y = eta_i)) +
+    ggplot2::labs(x = NULL, y = expression(eta[i])) + 
+    ggplot2::ylim(c(-0.5, 1.5)) +
+    MKHthemes::xy_theme()
 }
 eta_i_graphs <- nested_eta_i_data |> 
   dplyr::mutate(
-    plots = purrr::map(year_eta_i, create_plot)
+    # plots = purrr::map(.x = year_eta_i, .f = create_plot)
+    plots = purrr::pmap(.l = list(tibble_data = year_eta_i, 
+                                  country_name = Country, 
+                                  energy_type = Energy.type,
+                                  machine_name = machine), .f = create_plot)
   )
+```
+
+We can look at each graph.
+
+```{r}
+eta_i_graphs$plots[[1]]
 ```
