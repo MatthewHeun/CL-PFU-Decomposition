@@ -16,6 +16,13 @@ Imports:
     tarchetypes,
     targets
 Suggests: 
+    dplyr,
+    ggplot2,
     knitr,
-    rmarkdown
+    MKHthemes,
+    matsindf,
+    PFUSetup,
+    purrr,
+    rmarkdown,
+    tidyr
 VignetteBuilder: knitr
