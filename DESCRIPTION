@@ -1,6 +1,6 @@
 Package: CLPFUDecompositionDatabase
 Title: A calculation pipeline for CL-PFU Database decomposition
-Version: 0.0.0.9000
+Version: 0.1.1
 Authors@R: 
     person("Matthew", "Heun", , "matthew.heun@me.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-7438-214X"))
@@ -12,5 +12,17 @@ RoxygenNote: 7.2.3
 Imports:
     PFUPipelineTools,
     pins,
+    Recca,
     tarchetypes,
     targets
+Suggests: 
+    dplyr,
+    ggplot2,
+    knitr,
+    MKHthemes,
+    matsindf,
+    PFUSetup,
+    purrr,
+    rmarkdown,
+    tidyr
+VignetteBuilder: knitr

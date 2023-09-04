@@ -41,6 +41,7 @@ get_pipeline <- function(countries = "all",
     targets::tar_target_raw("Countries", list(countries)),
     targets::tar_target_raw("Years", list(years)),
     targets::tar_target_raw("PinboardFolder", pipeline_releases_folder),
+    targets::tar_target_raw("PipelineCachesFolder", pipeline_caches_folder),
     targets::tar_target_raw("Release", release),
 
     # Set the pin and release as targets
@@ -66,9 +67,19 @@ get_pipeline <- function(countries = "all",
     ),
 
 
-
-
-
+    # eta_i --------------------------------------------------------------------
+    targets::tar_target_raw(
+      "Etai",
+      quote(PSUTbyYear |>
+              Recca::calc_eta_i()),
+      pattern = quote(map(PSUTbyYear))
+    ),
+    targets::tar_target_raw(
+      "ReleaseEtai",
+      quote(PFUPipelineTools::release_target(pipeline_releases_folder = PinboardFolder,
+                                             targ = Etai,
+                                             pin_name = "eta_i",
+                                             release = Release))),
 
 
     # Zip the cache and store in the pipeline_caches_folder --------------------
@@ -77,14 +88,8 @@ get_pipeline <- function(countries = "all",
       "StoreCache",
       quote(PFUPipelineTools::stash_cache(pipeline_caches_folder = PipelineCachesFolder,
                                           cache_folder = "_targets",
-                                          file_prefix = "pfu_agg_pipeline_cache_",
-                                          dependency = c(ReleasePSUT_Re_all_Chop_all_Ds_all_Gr_all, # The RUVY matrices for ECCs
-                                                         ReleaseSectorAggEtaFU,                     # Product C
-                                                         ReleaseSectorAggEtaFUCSV,                  # Product D
-                                                         ReleaseAggEtaPFU,                          # Product E
-                                                         ReleaseAggEtaPFUCSV,                       # Product F
-                                                         ReleaseSectorAggEtaFUWorld,                # Product G
-                                                         ReleaseAggEtaPFUWorld),                    # Product H
+                                          file_prefix = "pfu_decomposition_pipeline_cache",
+                                          dependency = c(Etai),
                                           release = Release))
     )
   )
