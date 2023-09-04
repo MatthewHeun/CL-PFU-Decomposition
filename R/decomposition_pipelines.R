@@ -66,7 +66,13 @@ get_pipeline <- function(countries = "all",
     ),
 
 
-
+    # eta_i --------------------------------------------------------------------
+    targets::tar_target_raw(
+      "Etai",
+      quote(PSUTbyYear |>
+              Recca::calc_eta_i()),
+      pattern = quote(map(PSUTbyYear))
+    ),
 
 
 
