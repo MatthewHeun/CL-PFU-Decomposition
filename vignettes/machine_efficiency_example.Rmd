@@ -1,5 +1,7 @@
 ---
-title: "machine_effiency_example"
+title: "Machine Efficiency Example"
+author: "Matthew Kuperus Heun"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{machine_effiency_example}
@@ -120,7 +122,7 @@ create_plot <- function(tibble_data, country_name, energy_type, machine_name) {
   ggplot2::ggplot() +
     ggplot2::geom_hline(yintercept = 0, linewidth = 0.1) +
     ggplot2::geom_hline(yintercept = 1, linewidth = 0.1) +
-    ggplot2::geom_text(ggplot2::aes(x = 1985, y = -0.1, 
+    ggplot2::geom_text(ggplot2::aes(x = 1990, y = -0.1, 
                                     label = paste(country_name, 
                                                    energy_type, 
                                                    machine_name, sep = "; "))) +
@@ -144,4 +146,5 @@ We can look at each graph.
 
 ```{r}
 eta_i_graphs$plots[[1]]
+eta_i_graphs$plots[[184]]
 ```
