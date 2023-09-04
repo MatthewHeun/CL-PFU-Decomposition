@@ -1,0 +1,12 @@
+^CLPFUDecompositionDatabase\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^_targets$
+^_targets\.R$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+run.R
+run.sh
