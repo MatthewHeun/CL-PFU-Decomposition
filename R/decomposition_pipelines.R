@@ -82,6 +82,15 @@ get_pipeline <- function(countries = "all",
                                              release = Release))),
 
 
+    # Create an efficiencies report --------------------------------------------
+
+    targets::tar_target_raw(
+      "EtaiReports",
+      quote(Etai |>
+              create_eta_i_report())
+    ),
+
+
     # Zip the cache and store in the pipeline_caches_folder --------------------
 
     targets::tar_target_raw(
