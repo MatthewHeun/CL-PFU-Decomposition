@@ -87,7 +87,7 @@ get_pipeline <- function(countries = "all",
     targets::tar_target_raw(
       "EtaiReports",
       quote(Etai |>
-              create_eta_i_report())
+              create_eta_i_reports())
     ),
 
 
