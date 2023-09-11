@@ -11,6 +11,7 @@
 #'                     See details.
 #' @param pipeline_releases_folder The path to a folder where releases of output targets are pinned.
 #' @param pipeline_caches_folder The path to a folder where releases of pipeline caches are stored.
+#' @param reports_dest_folder The destination folder for reports.
 #' @param release Boolean that tells whether to do a release of the results.
 #'                Default is `FALSE`.
 #'
@@ -22,6 +23,7 @@ get_pipeline <- function(countries = "all",
                          psut_release,
                          pipeline_releases_folder,
                          pipeline_caches_folder,
+                         reports_dest_folder,
                          release = FALSE) {
 
   # Avoid warnings for some target names
@@ -42,6 +44,7 @@ get_pipeline <- function(countries = "all",
     targets::tar_target_raw("Years", list(years)),
     targets::tar_target_raw("PinboardFolder", pipeline_releases_folder),
     targets::tar_target_raw("PipelineCachesFolder", pipeline_caches_folder),
+    targets::tar_target_raw("ReportsDestFolder", reports_dest_folder),
     targets::tar_target_raw("Release", release),
 
     # Set the pin and release as targets
@@ -85,9 +88,9 @@ get_pipeline <- function(countries = "all",
     # Create an efficiencies report --------------------------------------------
 
     targets::tar_target_raw(
-      "EtaiReports",
+      "IEAEtaiReports",
       quote(Etai |>
-              create_eta_i_reports())
+              create_iea_eta_i_reports(reports_dest_folder = ReportsDestFolder))
     ),
 
 
