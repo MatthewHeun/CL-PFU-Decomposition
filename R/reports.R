@@ -49,8 +49,8 @@ create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder) {
                                       label = paste(country_name,
                                                     energy_type,
                                                     machine_name, sep = "; "))) +
-      ggplot2::geom_line(data = tibble_data,
-                         mapping = ggplot2::aes(x = Year, y = eta_i)) +
+      ggplot2::geom_point(data = tibble_data,
+                          mapping = ggplot2::aes(x = Year, y = eta_i)) +
       ggplot2::labs(x = NULL, y = expression(eta[i])) +
       ggplot2::xlim(c(1960, 2020)) +
       ggplot2::ylim(c(-0.5, 1.5)) +
