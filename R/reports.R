@@ -73,12 +73,17 @@ create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder) {
 
   # A function that writes only one report
   save_plots_to_pdf <- function(plot, machine_name) {
-    output_folder <- file.path(reports_dest_folder, "IEA eta_i reports")
+    output_folder <- file.path(reports_dest_folder, "IEA eta_i reports", Sys.Date())
     dir.create(output_folder, showWarnings = FALSE)
-    pdf(file = file.path(output_folder, paste0(machine_name, ".pdf")),
+    report_name <- gsub(pattern = "/",
+                        replacement = "_",
+                        machine_name,
+                        fixed = TRUE)
+    pdf(file = file.path(output_folder, paste0(report_name, ".pdf")),
         width = 8, height = 5)
     print(plot)
     dev.off()
+    return(NULL)
   }
 
   # Save plots to PDF files for each machine
@@ -87,7 +92,7 @@ create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder) {
                       machine_name = machine)
   })
 
-  return(NULL)
+  return(TRUE)
 }
 
 
