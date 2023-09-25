@@ -7,7 +7,7 @@
 get_pipeline(
   countries = "all",
   years = "all",
-  psut_release,
+  eta_i_release,
   pipeline_releases_folder,
   pipeline_caches_folder,
   reports_dest_folder,
@@ -21,9 +21,6 @@ Default is "all", meaning all available countries should be analyzed.}
 \item{years}{A numeric vector of years to be analyzed.
 Default is "all", meaning all available years should be analyzed.}
 
-\item{psut_release}{The release we'll use from \code{pipeline_releases_folder}.
-See details.}
-
 \item{pipeline_releases_folder}{The path to a folder where releases of output targets are pinned.}
 
 \item{pipeline_caches_folder}{The path to a folder where releases of pipeline caches are stored.}
@@ -32,11 +29,14 @@ See details.}
 
 \item{release}{Boolean that tells whether to do a release of the results.
 Default is \code{FALSE}.}
+
+\item{eta_i_tables_release}{The release we'll use from \code{pipeline_releases_folder}.
+See details.}
 }
 \value{
 A list of \code{tar_target}s to be executed in a workflow.
 }
 \description{
 This is a target factory whose arguments
-specify the details of a targets workflow to be constructed
+specify the details of a targets workflow to be constructed.
 }
