@@ -8,12 +8,17 @@
 #'
 #' @param eta_i_df A data frame of machine efficiencies in vectors.
 #' @param reports_dest_folder The output folder for these reports.
+#' @param release A boolean that tells whether to write the reports.
+#'                Default is `FALSE`.
 #'
 #' @return Nothing. This function should be called for its side effect of
 #'         creating reports.
 #'
 #' @export
-create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder) {
+create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder, release = FALSE) {
+  if (!release) {
+    return("Release not requested.")
+  }
   # Expand the machine efficiency data.
   expanded_eta_i_data <- eta_i_df |>
     dplyr::filter(IEAMW == "IEA", Last.stage == "Final", Energy.type == "E") |>
@@ -92,7 +97,7 @@ create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder) {
                       machine_name = machine)
   })
 
-  return(TRUE)
+  return(paste0("eta_i reports saved at `", reports_dest_folder, "`."))
 }
 
 

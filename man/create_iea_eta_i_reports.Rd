@@ -4,12 +4,15 @@
 \alias{create_iea_eta_i_reports}
 \title{Create a series of efficiency reports}
 \usage{
-create_iea_eta_i_reports(eta_i_df, reports_dest_folder)
+create_iea_eta_i_reports(eta_i_df, reports_dest_folder, release = FALSE)
 }
 \arguments{
 \item{eta_i_df}{A data frame of machine efficiencies in vectors.}
 
 \item{reports_dest_folder}{The output folder for these reports.}
+
+\item{release}{A boolean that tells whether to write the reports.
+Default is \code{FALSE}.}
 }
 \value{
 Nothing. This function should be called for its side effect of

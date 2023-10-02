@@ -2,3 +2,5 @@
 
 export(create_iea_eta_i_reports)
 export(get_pipeline)
+export(load_agg_map)
+export(psut_aggregation)
