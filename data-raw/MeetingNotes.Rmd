@@ -1,0 +1,35 @@
+# Guevara-Heun meeting notes
+
+## 13 October 2023
+
+Previous action items:
+
+- [ ] MKH: Combine "For blended natural gas" and "Natural gas extraction" in every country.
+- [ ] MKH: Build a system to to enable aggregations in arbitrary countries and years.
+- [ ] MKH: Write ECC matrices for ITA in 2000 and 2018 to an Excel file
+           for inspection at next meeting.
+- [ ] MKH: Build a file in our GitHub repository to assist with action items. (This file!)
+
+
+
+## 22 September 2023
+
+Previous action items:
+
+- [x] MKH: Create reports of Industry efficiencies. 
+           See /OutputData/Reports/IEA eta_i reports folder in Dropbox.
+
+New action items:
+
+- [ ] MKH: Combine "For blended natural gas" and "Natural gas extraction" in every country.
+- [ ] MKH: Build a system to to enable aggregations in arbitrary countries and years.
+- [ ] MKH: Write ECC matrices for ITA in 2000 and 2018 to an Excel file
+           for inspection at next meeting.
+- [ ] MKH: Build a file in our GitHub repository to assist with action items. (This file!)
+
+
+## 8 September 2023
+
+New action items:
+
+- [ ] MKH: Create reports of Industry efficiencies
