@@ -2,7 +2,7 @@
 
 ## 13 October 2023
 
-Previous action items:
+### Previous action items:
 
 - [ ] MKH: Combine "For blended natural gas" and "Natural gas extraction" in every country.
 - [ ] MKH: Build a system to to enable aggregations in arbitrary countries and years.
@@ -14,12 +14,13 @@ Previous action items:
 
 ## 22 September 2023
 
-Previous action items:
+### Previous action items:
 
 - [x] MKH: Create reports of Industry efficiencies. 
            See /OutputData/Reports/IEA eta_i reports folder in Dropbox.
+- [x] ZG: Review efficiency data after MKH creates.
 
-New action items:
+### New action items:
 
 - [ ] MKH: Combine "For blended natural gas" and "Natural gas extraction" in every country.
 - [ ] MKH: Build a system to to enable aggregations in arbitrary countries and years.
@@ -30,6 +31,7 @@ New action items:
 
 ## 8 September 2023
 
-New action items:
+### New action items:
 
 - [ ] MKH: Create reports of Industry efficiencies
+- [ ] ZG: Review efficiency data after MKH creates.
