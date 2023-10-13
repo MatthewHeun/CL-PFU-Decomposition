@@ -8,8 +8,11 @@ get_pipeline(
   countries = "all",
   years = "all",
   psut_release,
+  eta_i_release,
+  industry_aggregations_file,
   pipeline_releases_folder,
   pipeline_caches_folder,
+  reports_dest_folder,
   release = FALSE
 )
 }
@@ -23,9 +26,21 @@ Default is "all", meaning all available years should be analyzed.}
 \item{psut_release}{The release we'll use from \code{pipeline_releases_folder}.
 See details.}
 
+\item{eta_i_release}{The release we'll use from \code{pipeline_releases_folder}.
+See details.}
+
+\item{industry_aggregations_file}{The Excel file that describes industry aggregations.
+It should have a tab named "industry_aggregations" that contains
+a Many column, a Few column,
+a Country column, and a Year column.
+The string "All" in Country or Year
+designates that all countries or years should be aggregated.}
+
 \item{pipeline_releases_folder}{The path to a folder where releases of output targets are pinned.}
 
 \item{pipeline_caches_folder}{The path to a folder where releases of pipeline caches are stored.}
+
+\item{reports_dest_folder}{The destination folder for reports.}
 
 \item{release}{Boolean that tells whether to do a release of the results.
 Default is \code{FALSE}.}
@@ -35,5 +50,5 @@ A list of \code{tar_target}s to be executed in a workflow.
 }
 \description{
 This is a target factory whose arguments
-specify the details of a targets workflow to be constructed
+specify the details of a targets workflow to be constructed.
 }
