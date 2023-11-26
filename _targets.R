@@ -17,6 +17,8 @@ library(targets)
 # Set control parameters for the pipeline.
 
 # Set the countries to be analyzed.
+# countries <- PFUPipelineTools::canonical_countries |> as.character()
+countries <- c("USA", "ITA")
 # countries <- c("GBR", "USA", "MEX")
 # countries <- c("ZWE", "USA", "WRLD")
 # countries <- "USA"
@@ -25,7 +27,6 @@ library(targets)
 # countries <- "GHA"
 # countries <- "all" # Run all countries in the PSUT target.
 # countries <- c(PFUPipelineTools::canonical_countries, "WRLD") |> as.character()
-countries <- PFUPipelineTools::canonical_countries |> as.character()
 # Countries with unique allocation data plus BEL and TUR (for Pierre).
 # countries <- c("BRA", "CAN", "CHNM", "DEU", "DNK", "ESP", "FRA", "GBR", "GHA", "GRC",
 #                "HKG", "HND", "IDN", "IND", "JOR", "JPN", "KOR", "MEX", "NOR", "PRT",
@@ -33,7 +34,8 @@ countries <- PFUPipelineTools::canonical_countries |> as.character()
 
 
 # Set the years to be analyzed.
-years <- 1960:2020
+# years <- 1960:2020
+years <- 2002
 # years <- 1971:1973
 # years <- 1971:1978
 # years <- 1971
@@ -46,8 +48,10 @@ industry_aggregations_file <- system.file(aggregation_tables_dir, "industry_aggr
                                           package = "CLPFUDecompositionDatabase")
 
 # Set the releases to be used for this analysis
-psut_release <- "20230618T131003Z-4c70f"
-eta_i_release <- "20230925T185136Z-7b43b"
+# psut_release <- "20230618T131003Z-4c70f"
+# eta_i_release <- "20230925T185136Z-7b43b"
+
+database_version <- "v1.2"
 
 # Should we release the results?
 release <- FALSE
@@ -97,8 +101,7 @@ targets::tar_option_set(
 # Pull in the pipeline
 CLPFUDecompositionDatabase::get_pipeline(countries = countries,
                                          years = years,
-                                         psut_release = psut_release,
-                                         eta_i_release = eta_i_release,
+                                         database_version = database_version,
                                          industry_aggregations_file = industry_aggregations_file,
                                          pipeline_releases_folder = setup[["pipeline_releases_folder"]],
                                          pipeline_caches_folder = setup[["pipeline_caches_folder"]],

@@ -72,7 +72,7 @@ psut_aggregation <- function(psut_df,
                              country_colname = "Country",
                              year_colname = "Year",
                              agg_map_colname = "agg_map",
-                             margin = c("Product", "Industry"),
+                             margin = c("Industry", "Product"),
                              matcols = c("R", "U", "U_feed", "U_EIOU", "r_EIOU", "V", "Y", "S_units"),
                              matnames_colname = "matnames",
                              matvals_colname = "matvals") {
@@ -81,63 +81,79 @@ psut_aggregation <- function(psut_df,
     tidyr::pivot_longer(cols = tidyr::any_of(matcols), names_to = "matnames", values_to = "matvals")
   out <- psut_df_long
 
-  # Separate rows where both Country and Year are "all" (case-insensitive)
+  # Look at rows in aggregation_map where both Country and Year are "all" (case-insensitive)
   agg_map_all_all <- aggregation_map |>
     dplyr::filter(tolower(.data[[country_colname]]) == "all" &
-                    tolower(.data[[year_colname]]) == "all")
+                    tolower(.data[[year_colname]]) == "all") |>
+    # The result will be data frame with 1 row.
+    # Extract the piece we need.
+    magrittr::extract2(agg_map_colname)
   # Perform an aggregation for each row of agg_map_all_all
-  for (this_agg in agg_map_all_all[[agg_map_colname]]) {
-    out <- out |>
-      dplyr::mutate(
-        agg_map = list(this_agg)
-      ) |>
-      do_one_aggregation(matvals_colname = matvals_colname,
-                         agg_map_colname = agg_map_colname,
-                         margin = margin)
-  }
+  out <- out |>
+    dplyr::mutate(
+      "{agg_map_colname}" := agg_map_all_all,
+      "{matvals_colname}" := matsbyname::aggregate_byname(a = .data[[matvals_colname]],
+                                                          aggregation_map = .data[[agg_map_colname]],
+                                                          margin = margin),
+      "{agg_map_colname}" := NULL
+    )
 
-  # Look at rows in aggregation_map where Country is "all"
+  # Look at rows in aggregation_map where Country is "all" and Year is not
   agg_map_country_all <- aggregation_map |>
     dplyr::filter(tolower(.data[[country_colname]]) == "all" &
-                    tolower(.data[[year_colname]]) != "all")
-  # Perform the aggregation
-  # ******************* Fill this code when we need it ***************
-  # Delete the Country column from aggregation_map
-  # Join agg_map_country_all to out by Year
-  # Call do_one_aggregation
-
-  # Look at rows in aggregation_map where Year is "all"
-  agg_map_year_all <- aggregation_map |>
-    dplyr::filter(tolower(.data[[country_colname]]) != "all" &
-                    tolower(.data[[year_colname]]) == "all")
-  # Perform the aggregation
-  # ******************* Fill this code when we need it ***************
-  # Delete the Year column from aggregation_map
-  # Join agg_map_country_all to out by Country
-  # Call do_one_aggregation
-
-  out |>
+                    tolower(.data[[year_colname]]) != "all") |>
     dplyr::mutate(
-      "{agg_map_colname}" := NULL
-    ) |>
-    tidyr::pivot_wider(names_from = matnames_colname,
-                       values_from = matvals_colname)
-}
-
-
-
-do_one_aggregation <- function(psut_df_long,
-                               matvals_colname,
-                               agg_map_colname,
-                               margin) {
-  psut_df_long |>
+      "{country_colname}" := NULL,
+      "{year_colname}" := as.numeric(.data[[year_colname]])
+    )
+  out <- out |>
+    dplyr::left_join(agg_map_country_all, by = year_colname) |>
     dplyr::mutate(
       "{matvals_colname}" := matsbyname::aggregate_byname(a = .data[[matvals_colname]],
                                                           aggregation_map = .data[[agg_map_colname]],
-                                                          margin = margin)
+                                                          margin = margin),
+      "{agg_map_colname}" := NULL
     )
-}
 
+  # Look at rows in aggregation_map where Year is "all" and Country is not
+  agg_map_year_all <- aggregation_map |>
+    dplyr::filter(tolower(.data[[country_colname]]) != "all" &
+                    tolower(.data[[year_colname]]) == "all") |>
+    dplyr::mutate(
+      "{year_colname}" := NULL
+    )
+  out <- out |>
+    dplyr::left_join(agg_map_year_all, by = country_colname) |>
+    dplyr::mutate(
+      "{matvals_colname}" := matsbyname::aggregate_byname(a = .data[[matvals_colname]],
+                                                          aggregation_map = .data[[agg_map_colname]],
+                                                          margin = margin),
+      "{agg_map_colname}" := NULL
+    )
+
+  # Look at rows in aggregation_map where neither Country nor Year is "all"
+  agg_map_country_year <- aggregation_map |>
+    dplyr::filter(tolower(.data[[country_colname]]) != "all" &
+                    tolower(.data[[year_colname]]) != "all") |>
+    dplyr::mutate(
+      "{year_colname}" := as.numeric(.data[[year_colname]])
+    )
+  # The problem is here!
+  out <- out |>
+    dplyr::left_join(agg_map_country_year, by = c(country_colname, year_colname)) |>
+    dplyr::mutate(
+      "{matvals_colname}" := matsbyname::aggregate_byname(a = .data[[matvals_colname]],
+                                                          aggregation_map = .data[[agg_map_colname]],
+                                                          margin = margin),
+      "{agg_map_colname}" := NULL
+    )
+
+
+
+  out |>
+    tidyr::pivot_wider(names_from = matnames_colname,
+                       values_from = matvals_colname)
+}
 
 
 

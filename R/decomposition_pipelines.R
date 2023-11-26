@@ -7,8 +7,8 @@
 #'                  Default is "all", meaning all available countries should be analyzed.
 #' @param years A numeric vector of years to be analyzed.
 #'              Default is "all", meaning all available years should be analyzed.
-#' @param psut_release The release we'll use from `pipeline_releases_folder`.
-#'                     See details.
+#' @param database_version The version of the database we'll use.
+#'                         See details.
 #' @param eta_i_release The release we'll use from `pipeline_releases_folder`.
 #'                      See details.
 #' @param industry_aggregations_file The Excel file that describes industry aggregations.
@@ -28,8 +28,7 @@
 #' @export
 get_pipeline <- function(countries = "all",
                          years = "all",
-                         psut_release,
-                         eta_i_release,
+                         database_version,
                          industry_aggregations_file,
                          pipeline_releases_folder,
                          pipeline_caches_folder,
@@ -52,6 +51,7 @@ get_pipeline <- function(countries = "all",
     # These targets are invariant across incoming psut_releases
     targets::tar_target_raw("Countries", list(countries)),
     targets::tar_target_raw("Years", list(years)),
+    targets::tar_target_raw("DatabaseVersion",database_version),
     targets::tar_target_raw("PinboardFolder", pipeline_releases_folder),
     targets::tar_target_raw("PipelineCachesFolder", pipeline_caches_folder),
     targets::tar_target_raw("ReportsDestFolder", reports_dest_folder),
@@ -59,16 +59,13 @@ get_pipeline <- function(countries = "all",
 
     # PSUT ---------------------------------------------------------------------
 
-    targets::tar_target_raw(
-      name = "PSUTRelease",
-      command = unname(psut_release)
-    ),
     # Pull in the PSUT data frame
     targets::tar_target_raw(
-      name = "PSUT",
-      command = quote(pins::board_folder(PinboardFolder, versioned = TRUE) |>
-                        pins::pin_read("psut", version = PSUTRelease) |>
-                        PFUPipelineTools::filter_countries_years(countries = Countries, years = Years))
+      "PSUT",
+      quote(PFUPipelineTools::read_pin_version(pin_name = "psut",
+                                               database_version = database_version,
+                                               pipeline_releases_folder = PinboardFolder) |>
+              PFUPipelineTools::filter_countries_years(countries = Countries, years = Years))
     ),
     tarchetypes::tar_group_by(
       name = "PSUTByCountry",
@@ -78,15 +75,12 @@ get_pipeline <- function(countries = "all",
 
     # Etai ---------------------------------------------------------------------
 
-    targets::tar_target_raw(
-      "EtaiRelease",
-      unname(eta_i_release)
-    ),
     # Pull in the Etai data frame
     targets::tar_target_raw(
       "Etai",
-      quote(pins::board_folder(PinboardFolder, versioned = TRUE) |>
-              pins::pin_read("eta_i", version = EtaiRelease) |>
+      quote(PFUPipelineTools::read_pin_version(pin_name = "eta_i",
+                                               database_version = database_version,
+                                               pipeline_releases_folder = PinboardFolder) |>
               PFUPipelineTools::filter_countries_years(countries = Countries, years = Years))
     ),
 
@@ -104,8 +98,7 @@ get_pipeline <- function(countries = "all",
     targets::tar_target_raw(
       name = "PSUT_Agg_In",
       command = quote(psut_aggregation(PSUTByCountry,
-                                       IndustryAggregationMaps,
-                                       margin = "Industry")),
+                                       IndustryAggregationMaps)),
       pattern = quote(map(PSUTByCountry))
     ),
 
