@@ -7,9 +7,8 @@
 get_pipeline(
   countries = "all",
   years = "all",
-  psut_release,
-  eta_i_release,
-  industry_aggregations_file,
+  database_version,
+  targeted_aggregations_file,
   pipeline_releases_folder,
   pipeline_caches_folder,
   reports_dest_folder,
@@ -23,14 +22,13 @@ Default is "all", meaning all available countries should be analyzed.}
 \item{years}{A numeric vector of years to be analyzed.
 Default is "all", meaning all available years should be analyzed.}
 
-\item{psut_release}{The release we'll use from \code{pipeline_releases_folder}.
+\item{database_version}{The version of the database we'll use.
 See details.}
 
-\item{eta_i_release}{The release we'll use from \code{pipeline_releases_folder}.
-See details.}
-
-\item{industry_aggregations_file}{The Excel file that describes industry aggregations.
-It should have a tab named "industry_aggregations" that contains
+\item{targeted_aggregations_file}{The Excel file that describes industry aggregations
+(in an "industry_aggregations" tab) and product aggregations
+(in a "product_aggregations" tab).
+Both tabs should contain
 a Many column, a Few column,
 a Country column, and a Year column.
 The string "All" in Country or Year
@@ -44,6 +42,9 @@ designates that all countries or years should be aggregated.}
 
 \item{release}{Boolean that tells whether to do a release of the results.
 Default is \code{FALSE}.}
+
+\item{eta_i_release}{The release we'll use from \code{pipeline_releases_folder}.
+See details.}
 }
 \value{
 A list of \code{tar_target}s to be executed in a workflow.

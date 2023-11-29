@@ -11,8 +11,10 @@
 #'                         See details.
 #' @param eta_i_release The release we'll use from `pipeline_releases_folder`.
 #'                      See details.
-#' @param industry_aggregations_file The Excel file that describes industry aggregations.
-#'                                   It should have a tab named "industry_aggregations" that contains
+#' @param targeted_aggregations_file The Excel file that describes industry aggregations
+#'                                   (in an "industry_aggregations" tab) and product aggregations
+#'                                   (in a "product_aggregations" tab).
+#'                                   Both tabs should contain
 #'                                   a Many column, a Few column,
 #'                                   a Country column, and a Year column.
 #'                                   The string "All" in Country or Year
@@ -29,7 +31,7 @@
 get_pipeline <- function(countries = "all",
                          years = "all",
                          database_version,
-                         industry_aggregations_file,
+                         targeted_aggregations_file,
                          pipeline_releases_folder,
                          pipeline_caches_folder,
                          reports_dest_folder,
@@ -85,21 +87,41 @@ get_pipeline <- function(countries = "all",
     ),
 
 
+    # Aggregation file ------------------------------------------------------------------
+
+    targets::tar_target_raw(
+      "TargetedAggregationsFile",
+      targeted_aggregations_file
+    ),
+
+
     # Industry aggregations -------------------------------------------------------------
 
     targets::tar_target_raw(
-      "IndustryAggregationsFile",
-      industry_aggregations_file
-    ),
-    targets::tar_target_raw(
       "IndustryAggregationMaps",
-      quote(load_agg_map(IndustryAggregationsFile))
+      quote(load_agg_map(TargetedAggregationsFile, aggregation_tab = "industry_aggregations"))
     ),
     targets::tar_target_raw(
       name = "PSUT_Agg_In",
-      command = quote(psut_aggregation(PSUTByCountry,
-                                       IndustryAggregationMaps)),
+      command = quote(targeted_aggregation(psut_df = PSUTByCountry,
+                                           aggregation_map = IndustryAggregationMaps,
+                                           margin = "Industry")),
       pattern = quote(map(PSUTByCountry))
+    ),
+
+
+    # Product aggregations -------------------------------------------------------------
+
+    targets::tar_target_raw(
+      "ProductAggregationMaps",
+      quote(load_agg_map(TargetedAggregationsFile, aggregation_tab = "product_aggregations"))
+    ),
+    targets::tar_target_raw(
+      name = "PSUT_Agg_InPr",
+      command = quote(targeted_aggregation(psut_df = PSUT_Agg_In,
+                                           aggregation_map = ProductAggregationMaps,
+                                           margin = "Product")),
+      pattern = quote(map(PSUT_Agg_In))
     ),
 
 

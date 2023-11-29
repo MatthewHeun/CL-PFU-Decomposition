@@ -56,10 +56,25 @@ load_agg_map <- function(aggregation_file,
 
 
 
-#' Perform an aggregation according to an aggregation map
+#' Targeted product and industry aggregation according to an aggregation map
 #'
-#' @param psut_df A data frame of PSUT matrices.
-#' @param aggregation_map An aggregation map.
+#' `matsbyname::aggregate_byname()` performs aggregation of
+#' rows and columns but is unaware of countries and years.
+#' This function performs targeted aggregation
+#' for some or all countries and years
+#' by including a `country_colname` and a `year_colname`
+#' in the `aggregation_map`.
+#' In addition,
+#' the Country and Year columns
+#' may contain optional "All" strings
+#' to indicate all countries or years should be aggregated
+#' as specified.
+#'
+#' @param psut_df A data frame of PSUT matrices with `country_colname`, `year_colname`,
+#'                and columns of PSUT matrices (`matcols`).
+#' @param aggregation_map An aggregation map with `country_colname`, `year_colname`, and `agg_map_colname`
+#'                        in which `agg_map_colname` contains aggregation maps
+#'                        to be applied for the country and year specified.
 #' @param rowcoltype The row or column types to be aggregated.
 #'                   Default is `c("Product", "Industry")`.
 #'
@@ -67,15 +82,15 @@ load_agg_map <- function(aggregation_file,
 #'         `rowcoltype`.
 #'
 #' @export
-psut_aggregation <- function(psut_df,
-                             aggregation_map,
-                             country_colname = "Country",
-                             year_colname = "Year",
-                             agg_map_colname = "agg_map",
-                             margin = c("Industry", "Product"),
-                             matcols = c("R", "U", "U_feed", "U_EIOU", "r_EIOU", "V", "Y", "S_units"),
-                             matnames_colname = "matnames",
-                             matvals_colname = "matvals") {
+targeted_aggregation <- function(psut_df,
+                                 aggregation_map,
+                                 country_colname = "Country",
+                                 year_colname = "Year",
+                                 agg_map_colname = "agg_map",
+                                 margin = c("Industry", "Product"),
+                                 matcols = c("R", "U", "U_feed", "U_EIOU", "r_EIOU", "V", "Y", "S_units"),
+                                 matnames_colname = "matnames",
+                                 matvals_colname = "matvals") {
   psut_df_long <- psut_df |>
     # Change shape of data frame by matcols to put all matrices in one column
     tidyr::pivot_longer(cols = tidyr::any_of(matcols), names_to = "matnames", values_to = "matvals")
@@ -85,18 +100,20 @@ psut_aggregation <- function(psut_df,
   agg_map_all_all <- aggregation_map |>
     dplyr::filter(tolower(.data[[country_colname]]) == "all" &
                     tolower(.data[[year_colname]]) == "all") |>
-    # The result will be data frame with 1 row.
+    # The result will be list frame with 0 or 1 rows.
     # Extract the piece we need.
     magrittr::extract2(agg_map_colname)
-  # Perform an aggregation for each row of agg_map_all_all
-  out <- out |>
-    dplyr::mutate(
-      "{agg_map_colname}" := agg_map_all_all,
-      "{matvals_colname}" := matsbyname::aggregate_byname(a = .data[[matvals_colname]],
-                                                          aggregation_map = .data[[agg_map_colname]],
-                                                          margin = margin),
-      "{agg_map_colname}" := NULL
-    )
+  if (length(agg_map_all_all) > 0) {
+    # Perform an aggregation for agg_map_all_all
+    out <- out |>
+      dplyr::mutate(
+        "{agg_map_colname}" := agg_map_all_all,
+        "{matvals_colname}" := matsbyname::aggregate_byname(a = .data[[matvals_colname]],
+                                                            aggregation_map = .data[[agg_map_colname]],
+                                                            margin = margin),
+        "{agg_map_colname}" := NULL
+      )
+  }
 
   # Look at rows in aggregation_map where Country is "all" and Year is not
   agg_map_country_all <- aggregation_map |>
