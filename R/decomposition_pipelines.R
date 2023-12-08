@@ -7,12 +7,14 @@
 #'                  Default is "all", meaning all available countries should be analyzed.
 #' @param years A numeric vector of years to be analyzed.
 #'              Default is "all", meaning all available years should be analyzed.
-#' @param psut_release The release we'll use from `pipeline_releases_folder`.
-#'                     See details.
+#' @param database_version The version of the database we'll use.
+#'                         See details.
 #' @param eta_i_release The release we'll use from `pipeline_releases_folder`.
 #'                      See details.
-#' @param industry_aggregations_file The Excel file that describes industry aggregations.
-#'                                   It should have a tab named "industry_aggregations" that contains
+#' @param targeted_aggregations_file The Excel file that describes industry aggregations
+#'                                   (in an "industry_aggregations" tab) and product aggregations
+#'                                   (in a "product_aggregations" tab).
+#'                                   Both tabs should contain
 #'                                   a Many column, a Few column,
 #'                                   a Country column, and a Year column.
 #'                                   The string "All" in Country or Year
@@ -28,9 +30,8 @@
 #' @export
 get_pipeline <- function(countries = "all",
                          years = "all",
-                         psut_release,
-                         eta_i_release,
-                         industry_aggregations_file,
+                         database_version,
+                         targeted_aggregations_file,
                          pipeline_releases_folder,
                          pipeline_caches_folder,
                          reports_dest_folder,
@@ -52,6 +53,7 @@ get_pipeline <- function(countries = "all",
     # These targets are invariant across incoming psut_releases
     targets::tar_target_raw("Countries", list(countries)),
     targets::tar_target_raw("Years", list(years)),
+    targets::tar_target_raw("DatabaseVersion",database_version),
     targets::tar_target_raw("PinboardFolder", pipeline_releases_folder),
     targets::tar_target_raw("PipelineCachesFolder", pipeline_caches_folder),
     targets::tar_target_raw("ReportsDestFolder", reports_dest_folder),
@@ -59,16 +61,13 @@ get_pipeline <- function(countries = "all",
 
     # PSUT ---------------------------------------------------------------------
 
-    targets::tar_target_raw(
-      name = "PSUTRelease",
-      command = unname(psut_release)
-    ),
     # Pull in the PSUT data frame
     targets::tar_target_raw(
-      name = "PSUT",
-      command = quote(pins::board_folder(PinboardFolder, versioned = TRUE) |>
-                        pins::pin_read("psut", version = PSUTRelease) |>
-                        PFUPipelineTools::filter_countries_years(countries = Countries, years = Years))
+      "PSUT",
+      quote(PFUPipelineTools::read_pin_version(pin_name = "psut",
+                                               database_version = database_version,
+                                               pipeline_releases_folder = PinboardFolder) |>
+              PFUPipelineTools::filter_countries_years(countries = Countries, years = Years))
     ),
     tarchetypes::tar_group_by(
       name = "PSUTByCountry",
@@ -78,35 +77,51 @@ get_pipeline <- function(countries = "all",
 
     # Etai ---------------------------------------------------------------------
 
-    targets::tar_target_raw(
-      "EtaiRelease",
-      unname(eta_i_release)
-    ),
     # Pull in the Etai data frame
     targets::tar_target_raw(
       "Etai",
-      quote(pins::board_folder(PinboardFolder, versioned = TRUE) |>
-              pins::pin_read("eta_i", version = EtaiRelease) |>
+      quote(PFUPipelineTools::read_pin_version(pin_name = "eta_i",
+                                               database_version = database_version,
+                                               pipeline_releases_folder = PinboardFolder) |>
               PFUPipelineTools::filter_countries_years(countries = Countries, years = Years))
     ),
 
 
-    # Industry aggregations -------------------------------------------------------------
+    # Aggregation file ---------------------------------------------------------
 
     targets::tar_target_raw(
-      "IndustryAggregationsFile",
-      industry_aggregations_file
+      "TargetedAggregationsFile",
+      targeted_aggregations_file
     ),
+
+
+    # Industry aggregations ----------------------------------------------------
+
     targets::tar_target_raw(
       "IndustryAggregationMaps",
-      quote(load_agg_map(IndustryAggregationsFile))
+      quote(load_agg_map(TargetedAggregationsFile, aggregation_tab = "industry_aggregations"))
     ),
     targets::tar_target_raw(
       name = "PSUT_Agg_In",
-      command = quote(psut_aggregation(PSUTByCountry,
-                                       IndustryAggregationMaps,
-                                       margin = "Industry")),
+      command = quote(targeted_aggregation(psut_df = PSUTByCountry,
+                                           aggregation_map = IndustryAggregationMaps,
+                                           margin = "Industry")),
       pattern = quote(map(PSUTByCountry))
+    ),
+
+
+    # Product aggregations -----------------------------------------------------
+
+    targets::tar_target_raw(
+      "ProductAggregationMaps",
+      quote(load_agg_map(TargetedAggregationsFile, aggregation_tab = "product_aggregations"))
+    ),
+    targets::tar_target_raw(
+      name = "PSUT_Agg_InPr",
+      command = quote(targeted_aggregation(psut_df = PSUT_Agg_In,
+                                           aggregation_map = ProductAggregationMaps,
+                                           margin = "Product")),
+      pattern = quote(map(PSUT_Agg_In))
     ),
 
 
@@ -116,19 +131,19 @@ get_pipeline <- function(countries = "all",
       "IEAEtaiReports",
       quote(Etai |>
               create_iea_eta_i_reports(reports_dest_folder = ReportsDestFolder, release = Release))
-    ),
+    )
 
 
     # Zip the cache and store in the pipeline_caches_folder --------------------
 
-    targets::tar_target_raw(
-      "StoreCache",
-      quote(PFUPipelineTools::stash_cache(pipeline_caches_folder = PipelineCachesFolder,
-                                          cache_folder = "_targets",
-                                          file_prefix = "pfu_decomposition_pipeline_cache",
-                                          dependency = c(Etai),
-                                          release = Release))
-    )
+    # targets::tar_target_raw(
+    #   "StoreCache",
+    #   quote(PFUPipelineTools::stash_cache(pipeline_caches_folder = PipelineCachesFolder,
+    #                                       cache_folder = "_targets",
+    #                                       file_prefix = "pfu_decomposition_pipeline_cache",
+    #                                       dependency = c(Etai),
+    #                                       release = Release))
+    # )
   )
 }
 
