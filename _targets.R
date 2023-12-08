@@ -44,22 +44,20 @@ years <- 2002
 
 # Set aggregation files
 aggregation_tables_dir <- "aggregation_tables"
-industry_aggregations_file <- system.file(aggregation_tables_dir, "industry_aggregations.xlsx",
+targeted_aggregations_file <- system.file(aggregation_tables_dir, "targeted_aggregations.xlsx",
                                           package = "CLPFUDecompositionDatabase")
 
-# Set the releases to be used for this analysis
-# psut_release <- "20230618T131003Z-4c70f"
-# eta_i_release <- "20230925T185136Z-7b43b"
-
+# Set the database version to be used for this analysis
 database_version <- "v1.2"
 
 # Should we release the results?
 release <- FALSE
 
-
-
-
 # End user-adjustable parameters.
+
+
+
+
 
 #
 # Set up some machine-specific parameters,
@@ -102,7 +100,7 @@ targets::tar_option_set(
 CLPFUDecompositionDatabase::get_pipeline(countries = countries,
                                          years = years,
                                          database_version = database_version,
-                                         industry_aggregations_file = industry_aggregations_file,
+                                         targeted_aggregations_file = targeted_aggregations_file,
                                          pipeline_releases_folder = setup[["pipeline_releases_folder"]],
                                          pipeline_caches_folder = setup[["pipeline_caches_folder"]],
                                          reports_dest_folder = setup[["reports_dest_folder"]],
