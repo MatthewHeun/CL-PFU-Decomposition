@@ -1,7 +1,25 @@
 # Guevara-Heun meeting notes
 
-## 13 October 2023
 
+## 8 December 2023
+
+### Previous action items:
+
+- [ ] MKH: Aggregate Transfers to Oil refineries in ITA for 2000-2008
+- [ ] MKH: Aggregate Solar, Wind, Hydro, and Geothermal to Renewable electricity for 2015 for all countries
+- [ ] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
+- [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
+
+Discussion notes:
+
+
+### New action items:
+
+
+
+
+
+## 13 October 2023
 
 ### Previous action items:
 
@@ -22,9 +40,9 @@ Discussion notes:
   
 ### New action items
 
-- [ ] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
 - [ ] MKH: Aggregate Transfers to Oil refineries in ITA for 2000-2008
 - [ ] MKH: Aggregate Solar, Wind, Hydro, and Geothermal to Renewable electricity for 2015 for all countries
+- [ ] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
 - [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
 
 

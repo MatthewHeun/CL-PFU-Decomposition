@@ -87,7 +87,7 @@ get_pipeline <- function(countries = "all",
     ),
 
 
-    # Aggregation file ------------------------------------------------------------------
+    # Aggregation file ---------------------------------------------------------
 
     targets::tar_target_raw(
       "TargetedAggregationsFile",
@@ -95,7 +95,7 @@ get_pipeline <- function(countries = "all",
     ),
 
 
-    # Industry aggregations -------------------------------------------------------------
+    # Industry aggregations ----------------------------------------------------
 
     targets::tar_target_raw(
       "IndustryAggregationMaps",
@@ -110,7 +110,7 @@ get_pipeline <- function(countries = "all",
     ),
 
 
-    # Product aggregations -------------------------------------------------------------
+    # Product aggregations -----------------------------------------------------
 
     targets::tar_target_raw(
       "ProductAggregationMaps",
