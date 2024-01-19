@@ -4,3 +4,4 @@
 .Ruserdata
 inst/doc
 _targets
+.DS_Store
