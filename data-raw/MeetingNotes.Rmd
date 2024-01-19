@@ -1,22 +1,48 @@
 # Guevara-Heun meeting notes
 
+## 19 January 2024
+
+### Previous action items:
+
+- [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
+- [ ] ZG: Look through each technology to suggest which ones to aggregate
+
+Discussion notes:
+
+* Need to define a criteria for identifying problematic 
+  machine efficiencies.
+* Then set an alarm to look at those 
+  problematic machine efficiencies.
+* Need to decide what to do with the impossible trends.
+  - Aggregate?
+  - Fix?
+* Identify countries with most problems, because
+  they will become the norm for the rest of the database.
+* Possible criteria for problematic efficiencies:
+  - Oil refineries: Set max growth or decline from one year to another.
+  - Need to check contribution to energy story (percentage) before
+    deciding to "fix" or adjust.
+
 
 ## 8 December 2023
 
 ### Previous action items:
 
-- [ ] MKH: Aggregate Transfers to Oil refineries in ITA for 2000-2008
-- [ ] MKH: Aggregate Solar, Wind, Hydro, and Geothermal to Renewable electricity for 2015 for all countries
-- [ ] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
+- [x] MKH: Aggregate Transfers to Oil refineries in ITA for 2000-2008
+- [x] MKH: Aggregate Solar, Wind, Hydro, and Geothermal to Renewable electricity for 2015 for all countries
+- [x] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
 - [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
 
 Discussion notes:
 
+* Next steps: 
+    - Decide objectives of the study, which will help us to decide aggregations.
+    - Specify aggregations
+    
 
 ### New action items:
 
-
-
+None.
 
 
 ## 13 October 2023
