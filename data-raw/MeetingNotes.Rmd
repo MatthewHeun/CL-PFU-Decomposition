@@ -3,7 +3,8 @@
 
 ## 2 February 2024
 
-- [ ] ZG: Look up Lenzen reference on LMDI and matrices
+- [ ] ZG: Look up Lenzen reference on LMDI and matrices (Brazil)
+- [ ] ZG: Review vignette for `LMDIR` package at https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
 - [ ] ZG: Add files to GitHub
 - [ ] MKH: Provide a graph of shares of technologies for each country. Do both sums of V rows and sums of U columns. Make a data frame and send to Zeus for analysis.  Send absolute values to Zeus, not fractions. Data frame will have Country, Year, Industry, matrix, V_row_sum or U_col_sum.
 
