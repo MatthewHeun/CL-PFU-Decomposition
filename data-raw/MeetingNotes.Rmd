@@ -1,11 +1,25 @@
 # Guevara-Heun meeting notes
 
+
+## 2 February 2024
+
+- [ ] ZG: Look up Lenzen reference on LMDI and matrices
+- [ ] ZG: Add files to GitHub
+- [ ] MKH: Provide a graph of shares of technologies for each country. Do both sums of V rows and sums of U columns. Make a data frame and send to Zeus for analysis.  Send absolute values to Zeus, not fractions. Data frame will have Country, Year, Industry, matrix, V_row_sum or U_col_sum.
+
+
+### Previous action items:
+
+- [x] ZG: Suggest more aggregations using the new format defined for the pipeline
+- [x] ZG: Look through each technology to suggest which ones to aggregate
+
+
 ## 19 January 2024
 
 ### Previous action items:
 
-- [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
-- [ ] ZG: Look through each technology to suggest which ones to aggregate
+- [x] ZG: Suggest more aggregations using the new format defined for the pipeline
+- [x] ZG: Look through each technology to suggest which ones to aggregate
 
 Discussion notes:
 
