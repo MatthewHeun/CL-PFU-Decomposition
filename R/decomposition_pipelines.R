@@ -125,25 +125,17 @@ get_pipeline <- function(countries = "all",
     ),
 
 
-    # Create an efficiencies report --------------------------------------------
+    # Technology shares --------------------------------------------------------
 
     targets::tar_target_raw(
-      "IEAEtaiReports",
-      quote(Etai |>
-              create_iea_eta_i_reports(reports_dest_folder = ReportsDestFolder, release = Release))
+      "TechShares",
+      quote(calc_iea_tech_shares(psut_df = PSUTByCountry)),
+      pattern = quote(map(PSUTByCountry))
     )
 
 
-    # Zip the cache and store in the pipeline_caches_folder --------------------
 
-    # targets::tar_target_raw(
-    #   "StoreCache",
-    #   quote(PFUPipelineTools::stash_cache(pipeline_caches_folder = PipelineCachesFolder,
-    #                                       cache_folder = "_targets",
-    #                                       file_prefix = "pfu_decomposition_pipeline_cache",
-    #                                       dependency = c(Etai),
-    #                                       release = Release))
-    # )
+
   )
 }
 

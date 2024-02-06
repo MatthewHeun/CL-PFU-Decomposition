@@ -20,7 +20,9 @@ targeted_aggregation(
 \item{psut_df}{A data frame of PSUT matrices with \code{country_colname}, \code{year_colname},
 and columns of PSUT matrices (\code{matcols}).}
 
-\item{aggregation_map}{An aggregation map with \code{country_colname}, \code{year_colname}, and}
+\item{aggregation_map}{An aggregation map with \code{country_colname}, \code{year_colname}, and \code{agg_map_colname}
+in which \code{agg_map_colname} contains aggregation maps
+to be applied for the country and year specified.}
 
 \item{rowcoltype}{The row or column types to be aggregated.
 Default is \code{c("Product", "Industry")}.}
