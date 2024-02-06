@@ -129,8 +129,14 @@ get_pipeline <- function(countries = "all",
 
     targets::tar_target_raw(
       "TechShares",
-      quote(calc_iea_tech_shares(psut_df = PSUTByCountry)),
+      quote(calc_iea_industry_shares(psut_df = PSUTByCountry)),
       pattern = quote(map(PSUTByCountry))
+    ),
+
+    targets::tar_target_raw(
+      "TechSharesExpanded",
+      quote(expand_tech_shares(TechShares)),
+      pattern = quote(map(TechShares))
     )
 
 
