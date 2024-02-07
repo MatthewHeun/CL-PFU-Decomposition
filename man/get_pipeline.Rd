@@ -42,9 +42,6 @@ designates that all countries or years should be aggregated.}
 
 \item{release}{Boolean that tells whether to do a release of the results.
 Default is \code{FALSE}.}
-
-\item{eta_i_release}{The release we'll use from \code{pipeline_releases_folder}.
-See details.}
 }
 \value{
 A list of \code{tar_target}s to be executed in a workflow.

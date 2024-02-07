@@ -9,8 +9,6 @@
 #'              Default is "all", meaning all available years should be analyzed.
 #' @param database_version The version of the database we'll use.
 #'                         See details.
-#' @param eta_i_release The release we'll use from `pipeline_releases_folder`.
-#'                      See details.
 #' @param targeted_aggregations_file The Excel file that describes industry aggregations
 #'                                   (in an "industry_aggregations" tab) and product aggregations
 #'                                   (in a "product_aggregations" tab).
@@ -41,6 +39,7 @@ get_pipeline <- function(countries = "all",
   Country <- NULL
   Year <- NULL
   Etai <- NULL
+  PSUT <- NULL
   PSUT_Re_all <- NULL
   PSUT_Re_all_Chop_all_Ds_all_Gr_all <- NULL
   PSUT_Re_World <- NULL
@@ -128,14 +127,14 @@ get_pipeline <- function(countries = "all",
     # Technology shares --------------------------------------------------------
 
     targets::tar_target_raw(
-      "TechShares",
+      "IndustryShares",
       quote(calc_iea_industry_shares(psut_df = PSUTByCountry)),
       pattern = quote(map(PSUTByCountry))
     ),
     targets::tar_target_raw(
-      "TechSharesExpanded",
-      quote(expand_tech_shares(TechShares)),
-      pattern = quote(map(TechShares))
+      "IndustrySharesExpanded",
+      quote(expand_tech_shares(IndustryShares)),
+      pattern = quote(map(IndustryShares))
     )
 
 

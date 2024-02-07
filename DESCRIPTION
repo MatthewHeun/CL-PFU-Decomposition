@@ -10,9 +10,12 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports:
+    magrittr,
+    matsbyname,
     PFUPipelineTools,
-    pins,
+    readxl,
     Recca,
+    rlang,
     tarchetypes,
     targets
 Suggests: 
@@ -22,6 +25,7 @@ Suggests:
     MKHthemes,
     matsindf,
     PFUSetup,
+    pins,
     purrr,
     rmarkdown,
     tidyr

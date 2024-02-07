@@ -16,6 +16,17 @@
 #'
 #' @export
 create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder, release = FALSE) {
+  # Eliminate compile warnings
+  IEAMW <- NULL
+  Last.stage <- NULL
+  Energy.type <- NULL
+  matvals <- NULL
+  Year <- NULL
+  eta_i <- NULL
+  year_eta_i <- NULL
+  Country <- NULL
+  machine <- NULL
+
   if (!release) {
     return("Release not requested.")
   }
@@ -84,10 +95,10 @@ create_iea_eta_i_reports <- function(eta_i_df, reports_dest_folder, release = FA
                         replacement = "_",
                         machine_name,
                         fixed = TRUE)
-    pdf(file = file.path(output_folder, paste0(report_name, ".pdf")),
+    grDevices::pdf(file = file.path(output_folder, paste0(report_name, ".pdf")),
         width = 8, height = 5)
     print(plot)
-    dev.off()
+    grDevices::dev.off()
     return(NULL)
   }
 

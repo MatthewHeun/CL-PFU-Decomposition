@@ -18,6 +18,7 @@ library(targets)
 
 # Set the countries to be analyzed.
 # countries <- PFUPipelineTools::canonical_countries |> as.character()
+# countries <- c("USA", "WMBK")
 # countries <- c("USA", "ITA")
 # countries <- c("GBR", "USA", "MEX")
 # countries <- c("ZWE", "USA", "WRLD")

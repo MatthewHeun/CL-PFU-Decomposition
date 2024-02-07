@@ -6,16 +6,17 @@
 \usage{
 calc_iea_industry_shares(
   psut_df,
-  R_matname = Recca::psut_cols$R,
-  U_matname = Recca::psut_cols$U,
-  U_feed_matname = Recca::psut_cols$U_feed,
-  U_eiou_matname = Recca::psut_cols$U_eiou,
-  r_eiou_matname = Recca::psut_cols$r_eiou,
-  V_matname = Recca::psut_cols$V,
-  Y_matname = Recca::psut_cols$Y,
-  S_units_matname = Recca::psut_cols$S_units,
-  Y_fu_details_matname = Recca::psut_cols$Y_fu_details,
-  U_eiou_fu_details_matname = Recca::psut_cols$U_eiou_fu_details,
+  trim_cols = TRUE,
+  R = Recca::psut_cols$R,
+  U = Recca::psut_cols$U,
+  U_feed = Recca::psut_cols$U_feed,
+  U_eiou = Recca::psut_cols$U_eiou,
+  r_eiou = Recca::psut_cols$r_eiou,
+  V = Recca::psut_cols$V,
+  Y = Recca::psut_cols$Y,
+  S_units = Recca::psut_cols$S_units,
+  Y_fu_details = Recca::psut_cols$Y_fu_details,
+  U_eiou_fu_details = Recca::psut_cols$U_eiou_fu_details,
   input_fractions_column = "U_fractions",
   output_fractions_column = "V_fractions"
 )
@@ -23,13 +24,16 @@ calc_iea_industry_shares(
 \arguments{
 \item{psut_df}{A data frame of PSUT matrices}
 
-\item{R_matname, U_feed_matname, U_eiou_matname, r_eiou_matname, V_matname, Y_matname, S_units_matname, Y_fu_details_matname, U_eiou_matname_matname}{Columns deleted on output.}
+\item{trim_cols}{A boolean that tells whether to eliminate matrix columns on output.
+Default is \code{TRUE}.}
 
-\item{U_matname}{The name of the \strong{U} matrix in \code{psut_df}.
+\item{R, U_feed, U_eiou, r_eiou, Y, S_units, Y_fu_details, U_eiou_fu_details}{Columns deleted on output.}
+
+\item{U}{The name of the \strong{U} matrix in \code{psut_df}.
 This column is deleted on output.
 Default is "U".}
 
-\item{V_matname}{The name of the \strong{V} matrix in \code{psut_df}.
+\item{V}{The name of the \strong{V} matrix in \code{psut_df}.
 This column is deleted on output.
 Default is "V".}
 

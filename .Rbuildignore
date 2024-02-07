@@ -11,3 +11,5 @@
 run.R
 run.sh
 ^data-raw$
+^MeetingNotes$
+^Results$

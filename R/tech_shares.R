@@ -6,63 +6,70 @@
 #' The output is two coumns of column vectors.
 #'
 #' @param psut_df A data frame of PSUT matrices
-#' @param U_matname The name of the **U** matrix in `psut_df`.
-#'                  This column is deleted on output.
-#'                  Default is "U".
-#' @param V_matname The name of the **V** matrix in `psut_df`.
-#'                  This column is deleted on output.
-#'                  Default is "V".
+#' @param trim_cols A boolean that tells whether to eliminate matrix columns on output.
+#'                  Default is `TRUE`.
+#' @param U The name of the **U** matrix in `psut_df`.
+#'          This column is deleted on output.
+#'          Default is "U".
+#' @param V The name of the **V** matrix in `psut_df`.
+#'          This column is deleted on output.
+#'          Default is "V".
 #' @param input_fractions_column The name of the output column that contains vectors of input fractions.
 #' @param output_fractions_column The name of the output column that contains vectors of output fractions.
-#' @param R_matname,U_feed_matname,U_eiou_matname,r_eiou_matname,V_matname,Y_matname,S_units_matname,Y_fu_details_matname,U_eiou_matname_matname Columns deleted on output.
+#' @param R,U_feed,U_eiou,r_eiou,Y,S_units,Y_fu_details,U_eiou_fu_details Columns deleted on output.
 #'
 #' @return A version of `psut_df` with input and output industry shares added as column vectors at the right side of the data frame.
 #'
 #' @export
 calc_iea_industry_shares <- function(psut_df,
-                                     R_matname = Recca::psut_cols$R,
-                                     U_matname = Recca::psut_cols$U,
-                                     U_feed_matname = Recca::psut_cols$U_feed,
-                                     U_eiou_matname = Recca::psut_cols$U_eiou,
-                                     r_eiou_matname = Recca::psut_cols$r_eiou,
-                                     V_matname = Recca::psut_cols$V,
-                                     Y_matname = Recca::psut_cols$Y,
-                                     S_units_matname = Recca::psut_cols$S_units,
-                                     Y_fu_details_matname = Recca::psut_cols$Y_fu_details,
-                                     U_eiou_fu_details_matname = Recca::psut_cols$U_eiou_fu_details,
+                                     trim_cols = TRUE,
+                                     R = Recca::psut_cols$R,
+                                     U = Recca::psut_cols$U,
+                                     U_feed = Recca::psut_cols$U_feed,
+                                     U_eiou = Recca::psut_cols$U_eiou,
+                                     r_eiou = Recca::psut_cols$r_eiou,
+                                     V = Recca::psut_cols$V,
+                                     Y = Recca::psut_cols$Y,
+                                     S_units = Recca::psut_cols$S_units,
+                                     Y_fu_details = Recca::psut_cols$Y_fu_details,
+                                     U_eiou_fu_details = Recca::psut_cols$U_eiou_fu_details,
                                      input_fractions_column = "U_fractions",
                                      output_fractions_column = "V_fractions") {
 
-  psut_df |>
-    dplyr::filter(Last.stage == "Final", IEAMW == "IEA") |>
-    dplyr::mutate(
-      U_colsums = .data[[U_matname]] |>
-        matsbyname::colsums_byname(),
-      V_rowsums = .data[[V_matname]] |>
-        matsbyname::rowsums_byname(),
-      U_sum = matsbyname::sumall_byname(U_colsums),
-      V_sum = matsbyname::sumall_byname(V_rowsums),
-      "{input_fractions_column}" := U_colsums |>
-        matsbyname::transpose_byname() |>
-        matsbyname::quotient_byname(U_sum),
-      "{output_fractions_column}" := V_rowsums |>
-        matsbyname::quotient_byname(V_sum),
-      # Get rid of columns we don't want on output.
-      U_colsums = NULL,
-      V_rowsums = NULL,
-      U_sum = NULL,
-      V_sum = NULL,
-      "{R_matname}" := NULL,
-      "{U_matname}" := NULL,
-      "{U_feed_matname}" := NULL,
-      "{U_eiou_matname}" := NULL,
-      "{r_eiou_matname}" := NULL,
-      "{V_matname}" := NULL,
-      "{Y_matname}" := NULL,
-      "{S_units_matname}" := NULL,
-      "{Y_fu_details_matname}" := NULL,
-      "{U_eiou_fu_details_matname}" := NULL
-    )
+  industry_share_func <- function(U_mat, V_mat) {
+    U_colsums <- matsbyname::colsums_byname(U_mat)
+    V_rowsums <- matsbyname::rowsums_byname(V_mat)
+    U_sum <- matsbyname::sumall_byname(U_colsums)
+    V_sum <- matsbyname::sumall_byname(V_rowsums)
+    input_fracs <- U_colsums |>
+      matsbyname::transpose_byname() |>
+      matsbyname::quotient_byname(U_sum) |>
+      matsbyname::replaceNaN_byname()
+    output_fracs <- V_rowsums |>
+      matsbyname::quotient_byname(V_sum) |>
+      matsbyname::replaceNaN_byname()
+
+    list(input_fracs, output_fracs) |>
+      magrittr::set_names(c(input_fractions_column, output_fractions_column))
+  }
+
+  out <- matsindf::matsindf_apply(psut_df, FUN = industry_share_func, U_mat = U, V_mat = V)
+  if (is.data.frame(psut_df) & trim_cols) {
+    out <- out |>
+      dplyr::mutate(
+        "{R}" := NULL,
+        "{U}" := NULL,
+        "{U_feed}" := NULL,
+        "{U_eiou}" := NULL,
+        "{r_eiou}" := NULL,
+        "{V}" := NULL,
+        "{Y}" := NULL,
+        "{S_units}" := NULL,
+        "{Y_fu_details}" := NULL,
+        "{U_eiou_fu_details}" := NULL
+      )
+  }
+  return(out)
 }
 
 
@@ -89,4 +96,5 @@ expand_tech_shares <- function(tech_shares_vectors,
       rowtypes = NULL,
       coltypes = NULL
     ) |>
-    tidyr::pivot_wider(names_from = "matnames", values_from = "fractions")}
+    tidyr::pivot_wider(names_from = "matnames", values_from = "fractions")
+}

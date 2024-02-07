@@ -24,8 +24,14 @@ and columns of PSUT matrices (\code{matcols}).}
 in which \code{agg_map_colname} contains aggregation maps
 to be applied for the country and year specified.}
 
-\item{rowcoltype}{The row or column types to be aggregated.
+\item{country_colname, year_colname, agg_map_colname}{Names of columns in \code{psut_df}.}
+
+\item{margin}{The row or column types to be aggregated.
 Default is \code{c("Product", "Industry")}.}
+
+\item{matcols}{A list of matrix column names.}
+
+\item{matnames_colname, matvals_colname}{Columns names used internally.}
 }
 \value{
 A version of \code{psut_df} with aggregations according to \code{aggregation_map} and

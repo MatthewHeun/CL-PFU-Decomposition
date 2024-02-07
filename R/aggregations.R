@@ -75,8 +75,11 @@ load_agg_map <- function(aggregation_file,
 #' @param aggregation_map An aggregation map with `country_colname`, `year_colname`, and `agg_map_colname`
 #'                        in which `agg_map_colname` contains aggregation maps
 #'                        to be applied for the country and year specified.
-#' @param rowcoltype The row or column types to be aggregated.
-#'                   Default is `c("Product", "Industry")`.
+#' @param country_colname,year_colname,agg_map_colname Names of columns in `psut_df`.
+#' @param margin The row or column types to be aggregated.
+#'               Default is `c("Product", "Industry")`.
+#' @param matcols A list of matrix column names.
+#' @param matnames_colname,matvals_colname Columns names used internally.
 #'
 #' @return A version of `psut_df` with aggregations according to `aggregation_map` and
 #'         `rowcoltype`.
