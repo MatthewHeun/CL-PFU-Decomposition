@@ -1,5 +1,5 @@
 ---
-title: "Release notes for `PFUAggDatabase`"
+title: "Release notes for `CLPFUDecompositionDatabase`"
 output: html_document
 ---
 
