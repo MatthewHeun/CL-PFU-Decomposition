@@ -25,9 +25,30 @@
     <loc>/news/index.html</loc>
   </url>
   <url>
+    <loc>/reference/calc_iea_industry_shares.html</loc>
+  </url>
+  <url>
+    <loc>/reference/create_iea_eta_i_reports.html</loc>
+  </url>
+  <url>
+    <loc>/reference/data.html</loc>
+  </url>
+  <url>
+    <loc>/reference/expand_tech_shares.html</loc>
+  </url>
+  <url>
     <loc>/reference/get_pipeline.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/load_agg_map.html</loc>
+  </url>
+  <url>
+    <loc>/reference/quasi-quote-assign.html</loc>
+  </url>
+  <url>
+    <loc>/reference/targeted_aggregation.html</loc>
   </url>
 </urlset>

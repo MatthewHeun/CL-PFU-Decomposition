@@ -4,7 +4,7 @@ author: "Matthew Kuperus Heun"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{machine_effiency_example}
+  %\VignetteIndexEntry{Machine Efficiency Example}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -82,7 +82,7 @@ use the `matsindf` package.
 
 ```{r}
 unpacked_eta_i_data <- eta_i_data |> 
-  dplyr::filter(IEAMW == "Both", Last.stage == "Useful") |> 
+  dplyr::filter(IEAMW == "IEA", Last.stage == "Final") |> 
   # Delete columns containing original PSUT matrices (if present)
   dplyr::mutate(
     R = NULL, U = NULL, U_feed = NULL, U_EIOU = NULL, r_EIOU = NULL,
@@ -146,5 +146,5 @@ We can look at each graph.
 
 ```{r}
 eta_i_graphs$plots[[1]]
-eta_i_graphs$plots[[184]]
+eta_i_graphs$plots[[10]]
 ```

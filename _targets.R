@@ -17,14 +17,17 @@ library(targets)
 # Set control parameters for the pipeline.
 
 # Set the countries to be analyzed.
+# countries <- PFUPipelineTools::canonical_countries |> as.character()
+# countries <- c("USA", "WMBK")
+# countries <- c("USA", "ITA")
 # countries <- c("GBR", "USA", "MEX")
 # countries <- c("ZWE", "USA", "WRLD")
-countries <- "USA"
+# countries <- "USA"
 # countries <- "WRLD"
 # countries <- "CHNM"
 # countries <- "GHA"
 # countries <- "all" # Run all countries in the PSUT target.
-# countries <- c(PFUPipelineTools::canonical_countries, "WRLD") |> as.character()
+countries <- c(PFUPipelineTools::canonical_countries, "WRLD") |> as.character()
 # Countries with unique allocation data plus BEL and TUR (for Pierre).
 # countries <- c("BRA", "CAN", "CHNM", "DEU", "DNK", "ESP", "FRA", "GBR", "GHA", "GRC",
 #                "HKG", "HND", "IDN", "IND", "JOR", "JPN", "KOR", "MEX", "NOR", "PRT",
@@ -32,28 +35,30 @@ countries <- "USA"
 
 
 # Set the years to be analyzed.
-# years <- 1960:2020
-years <- 1971:1973
+years <- 1960:2020
+# years <- 2002
+# years <- 1971:1973
 # years <- 1971:1978
 # years <- 1971
 # years <- 1960:1961
+# years <- 2016:2018
 
-# Set the release to be used for input.
-# psut_release <- "20230309T184624Z-7ace5"  # v0.9 (USA only)
-# psut_release <- "20221109T152414Z-7d7ad"  # v1.0 (with matrix objects)
-# psut_release <- "20230312T211924Z-007da"  # v1.0 (with Matrix objects)
-psut_release <- "20230618T131003Z-4c70f"    # v1.1 (with Matrix objects)
-# psut_release <- "20221219T143657Z-964a6"  # For WRLD
-# psut_release <- "20230130T150642Z-631e2"  # For WRLD, 1971
-# psut_release <- "20230130T192359Z-1d3ec"  # For WRLD, 1971-2019
+# Set aggregation files
+aggregation_tables_dir <- "aggregation_tables"
+targeted_aggregations_file <- system.file(aggregation_tables_dir, "targeted_aggregations.xlsx",
+                                          package = "CLPFUDecompositionDatabase")
+
+# Set the database version to be used for this analysis
+database_version <- "v1.2"
 
 # Should we release the results?
-release <- TRUE
-
-
-
+release <- FALSE
 
 # End user-adjustable parameters.
+
+
+
+
 
 #
 # Set up some machine-specific parameters,
@@ -95,67 +100,13 @@ targets::tar_option_set(
 # Pull in the pipeline
 CLPFUDecompositionDatabase::get_pipeline(countries = countries,
                                          years = years,
-                                         psut_release = psut_release,
+                                         database_version = database_version,
+                                         targeted_aggregations_file = targeted_aggregations_file,
                                          pipeline_releases_folder = setup[["pipeline_releases_folder"]],
                                          pipeline_caches_folder = setup[["pipeline_caches_folder"]],
+                                         reports_dest_folder = setup[["reports_dest_folder"]],
                                          release = release)
 
 
 
 
-
-
-
-
-# # Set target options:
-# tar_option_set(
-#   packages = c("tibble") # packages that your targets need to run
-#   # format = "qs", # Optionally set the default storage format. qs is fast.
-#   #
-#   # For distributed computing in tar_make(), supply a {crew} controller
-#   # as discussed at https://books.ropensci.org/targets/crew.html.
-#   # Choose a controller that suits your needs. For example, the following
-#   # sets a controller with 2 workers which will run as local R processes:
-#   #
-#   #   controller = crew::crew_controller_local(workers = 2)
-#   #
-#   # Alternatively, if you want workers to run on a high-performance computing
-#   # cluster, select a controller from the {crew.cluster} package. The following
-#   # example is a controller for Sun Grid Engine (SGE).
-#   #
-#   #   controller = crew.cluster::crew_controller_sge(
-#   #     workers = 50,
-#   #     # Many clusters install R as an environment module, and you can load it
-#   #     # with the script_lines argument. To select a specific verison of R,
-#   #     # you may need to include a version string, e.g. "module load R/4.3.0".
-#   #     # Check with your system administrator if you are unsure.
-#   #     script_lines = "module load R"
-#   #   )
-#   #
-#   # Set other options as needed.
-# )
-#
-# # tar_make_clustermq() is an older (pre-{crew}) way to do distributed computing
-# # in {targets}, and its configuration for your machine is below.
-# options(clustermq.scheduler = "multicore")
-#
-# # tar_make_future() is an older (pre-{crew}) way to do distributed computing
-# # in {targets}, and its configuration for your machine is below.
-# # Install packages {{future}}, {{future.callr}}, and {{future.batchtools}} to allow use_targets() to configure tar_make_future() options.
-#
-# # Run the R scripts in the R/ folder with your custom functions:
-# tar_source()
-# # source("other_functions.R") # Source other scripts as needed.
-#
-# # Replace the target list below with your own:
-# list(
-#   tar_target(
-#     name = data,
-#     command = tibble(x = rnorm(100), y = rnorm(100))
-#     # format = "feather" # efficient storage for large data frames
-#   ),
-#   tar_target(
-#     name = model,
-#     command = coefficients(lm(y ~ x, data = data))
-#   )
-# )

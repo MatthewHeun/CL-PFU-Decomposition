@@ -1,0 +1,112 @@
+# Guevara-Heun meeting notes
+
+
+## 2 February 2024
+
+- [ ] ZG: Look up Lenzen reference on LMDI and matrices (Brazil)
+- [ ] ZG: Review vignette for `LMDIR` package at https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+- [ ] ZG: Add files to GitHub
+- [ ] MKH: Provide a graph of shares of technologies for each country. Do both sums of V rows and sums of U columns. Make a data frame and send to Zeus for analysis.  Send absolute values to Zeus, not fractions. Data frame will have Country, Year, Industry, matrix, V_row_sum or U_col_sum.
+
+
+### Previous action items:
+
+- [x] ZG: Suggest more aggregations using the new format defined for the pipeline
+- [x] ZG: Look through each technology to suggest which ones to aggregate
+
+
+## 19 January 2024
+
+### Previous action items:
+
+- [x] ZG: Suggest more aggregations using the new format defined for the pipeline
+- [x] ZG: Look through each technology to suggest which ones to aggregate
+
+Discussion notes:
+
+* Need to define a criteria for identifying problematic 
+  machine efficiencies.
+* Then set an alarm to look at those 
+  problematic machine efficiencies.
+* Need to decide what to do with the impossible trends.
+  - Aggregate?
+  - Fix?
+* Identify countries with most problems, because
+  they will become the norm for the rest of the database.
+* Possible criteria for problematic efficiencies:
+  - Oil refineries: Set max growth or decline from one year to another.
+  - Need to check contribution to energy story (percentage) before
+    deciding to "fix" or adjust.
+
+
+## 8 December 2023
+
+### Previous action items:
+
+- [x] MKH: Aggregate Transfers to Oil refineries in ITA for 2000-2008
+- [x] MKH: Aggregate Solar, Wind, Hydro, and Geothermal to Renewable electricity for 2015 for all countries
+- [x] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
+- [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
+
+Discussion notes:
+
+* Next steps: 
+    - Decide objectives of the study, which will help us to decide aggregations.
+    - Specify aggregations
+    
+
+### New action items:
+
+None.
+
+
+## 13 October 2023
+
+### Previous action items:
+
+- [x] MKH: Combine "For blended natural gas" and "Natural gas extraction" in every country.
+- [x] MKH: Build a system to to enable aggregations in arbitrary countries and years.
+- [x] MKH: Write ECC matrices for ITA in 2000 and 2018 to an Excel file
+           for inspection at next meeting.
+- [x] MKH: Build a file in our GitHub repository to assist with action items. (This file!)
+
+Discussion notes:
+
+* We need to figure out how to deal with Losses
+    - Add to U_EIOU (and U)
+    - Subtract from V
+* We need to figure out how to deal with Transfers.
+  Want a algorithm that tells how to deal with lossses
+  in a general way.
+  
+### New action items
+
+- [ ] MKH: Aggregate Transfers to Oil refineries in ITA for 2000-2008
+- [ ] MKH: Aggregate Solar, Wind, Hydro, and Geothermal to Renewable electricity for 2015 for all countries
+- [ ] MKH: Aggregate Coke ovens, Blast furnaces, and Gas works to "Iron industry" for ITA for all years
+- [ ] ZG: Suggest more aggregations using the new format defined for the pipeline
+
+
+## 22 September 2023
+
+### Previous action items:
+
+- [x] MKH: Create reports of Industry efficiencies. 
+           See /OutputData/Reports/IEA eta_i reports folder in Dropbox.
+- [x] ZG: Review efficiency data after MKH creates.
+
+### New action items:
+
+- [ ] MKH: Combine "For blended natural gas" and "Natural gas extraction" in every country.
+- [ ] MKH: Build a system to to enable aggregations in arbitrary countries and years.
+- [ ] MKH: Write ECC matrices for ITA in 2000 and 2018 to an Excel file
+           for inspection at next meeting.
+- [ ] MKH: Build a file in our GitHub repository to assist with action items. (This file!)
+
+
+## 8 September 2023
+
+### New action items:
+
+- [ ] MKH: Create reports of Industry efficiencies.
+- [ ] ZG: Review efficiency data after MKH creates.
