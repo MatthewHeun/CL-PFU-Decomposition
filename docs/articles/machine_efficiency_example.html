@@ -33,7 +33,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">CLPFUDecompositionDatabase</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.2</span>
       </span>
     </div>
 
@@ -75,7 +75,7 @@
                         <h4 data-toc-skip class="author">Matthew Kuperus
 Heun</h4>
             
-            <h4 data-toc-skip class="date">2023-09-04</h4>
+            <h4 data-toc-skip class="date">2024-02-07</h4>
       
       
       <div class="hidden name"><code>machine_efficiency_example.Rmd</code></div>
@@ -86,7 +86,7 @@ Heun</h4>
     
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">CLPFUDecompositionDatabase</span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">PFUSetup</span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://energyeconomydecoupling.github.io/PFUSetup/" class="external-link">PFUSetup</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://purrr.tidyverse.org/" class="external-link">purrr</a></span><span class="op">)</span></span></code></pre></div>
 <div class="section level2">
 <h2 id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
@@ -109,7 +109,7 @@ package with the following code.</p>
 <code>pinboard_folder</code> might be different from this example, due
 to a different location on your computer.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">pinboard_folder</span> <span class="op">&lt;-</span> <span class="fu">PFUSetup</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/PFUSetup/man/get_abs_paths.html" class="external-link">get_abs_paths</a></span><span class="op">(</span><span class="op">)</span><span class="op">[[</span><span class="st">"pipeline_releases_folder"</span><span class="op">]</span><span class="op">]</span></span>
+<code class="sourceCode R"><span><span class="va">pinboard_folder</span> <span class="op">&lt;-</span> <span class="fu">PFUSetup</span><span class="fu">::</span><span class="fu"><a href="https://energyeconomydecoupling.github.io/PFUSetup/reference/get_abs_paths.html" class="external-link">get_abs_paths</a></span><span class="op">(</span><span class="op">)</span><span class="op">[[</span><span class="st">"pipeline_releases_folder"</span><span class="op">]</span><span class="op">]</span></span>
 <span><span class="va">pinboard_folder</span></span>
 <span><span class="co">#&gt; [1] "/Users/mkh2/Dropbox/Fellowship 1960-2015 PFU database/OutputData/PipelineReleases"</span></span>
 <span><span class="va">pinboard</span> <span class="op">&lt;-</span> <span class="fu">pins</span><span class="fu">::</span><span class="fu"><a href="https://pins.rstudio.com/reference/board_folder.html" class="external-link">board_folder</a></span><span class="op">(</span><span class="va">pinboard_folder</span>, versioned <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
@@ -130,7 +130,7 @@ efficiencies for the USA for the years 1960–2000.</p>
 <code class="sourceCode R"><span><span class="va">eta_i_data</span> <span class="op">&lt;-</span> <span class="fu">pins</span><span class="fu">::</span><span class="fu"><a href="https://pins.rstudio.com/reference/pin_read.html" class="external-link">pin_read</a></span><span class="op">(</span>board <span class="op">=</span> <span class="va">pinboard</span>,</span>
 <span>                             name <span class="op">=</span> <span class="st">"eta_i"</span>,</span>
 <span>                             version <span class="op">=</span> <span class="st">"20230904T183344Z-d3924"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">PFUPipelineTools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/PFUPipelineTools/man/tar_ungroup.html" class="external-link">tar_ungroup</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>  <span class="fu">PFUPipelineTools</span><span class="fu">::</span><span class="fu"><a href="https://energyeconomydecoupling.github.io/PFUPipelineTools/reference/tar_ungroup.html" class="external-link">tar_ungroup</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">eta_i_data</span><span class="op">)</span></span>
 <span><span class="co">#&gt;  [1] "Country"     "Method"      "Energy.type" "Last.stage"  "Year"       </span></span>
 <span><span class="co">#&gt;  [6] "IEAMW"       "R"           "U"           "U_feed"      "U_EIOU"     </span></span>
@@ -140,7 +140,7 @@ vectors in each row. To unpack the efficiencies out of the vectors, use
 the <code>matsindf</code> package.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">unpacked_eta_i_data</span> <span class="op">&lt;-</span> <span class="va">eta_i_data</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">IEAMW</span> <span class="op">==</span> <span class="st">"Both"</span>, <span class="va">Last.stage</span> <span class="op">==</span> <span class="st">"Useful"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">IEAMW</span> <span class="op">==</span> <span class="st">"IEA"</span>, <span class="va">Last.stage</span> <span class="op">==</span> <span class="st">"Final"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="co"># Delete columns containing original PSUT matrices (if present)</span></span>
 <span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span></span>
 <span>    R <span class="op">=</span> <span class="cn">NULL</span>, U <span class="op">=</span> <span class="cn">NULL</span>, U_feed <span class="op">=</span> <span class="cn">NULL</span>, U_EIOU <span class="op">=</span> <span class="cn">NULL</span>, r_EIOU <span class="op">=</span> <span class="cn">NULL</span>,</span>
@@ -149,7 +149,7 @@ the <code>matsindf</code> package.</p>
 <span>  <span class="co"># Put the data in the correct format for expanding the vectors</span></span>
 <span>  <span class="fu">tidyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyr.tidyverse.org/reference/pivot_longer.html" class="external-link">pivot_longer</a></span><span class="op">(</span>cols <span class="op">=</span> <span class="st">"eta_i"</span>, names_to <span class="op">=</span> <span class="st">"matnames"</span>, values_to <span class="op">=</span> <span class="st">"matvals"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="co"># Expand the vectors</span></span>
-<span>  <span class="fu">matsindf</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/matsindf/man/expand_to_tidy.html" class="external-link">expand_to_tidy</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">matsindf</span><span class="fu">::</span><span class="fu"><a href="https://matthewheun.github.io/matsindf/reference/expand_to_tidy.html" class="external-link">expand_to_tidy</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="co"># Clean up</span></span>
 <span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/rename.html" class="external-link">rename</a></span><span class="op">(</span></span>
 <span>    machine <span class="op">=</span> <span class="va">rownames</span>, </span>
@@ -158,20 +158,20 @@ the <code>matsindf</code> package.</p>
 <span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span>matnames <span class="op">=</span> <span class="cn">NULL</span>, colnames <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Loading required package: Matrix</span></span>
 <span><span class="va">unpacked_eta_i_data</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 11,516 × 8</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 2,482 × 8</span></span></span>
 <span><span class="co">#&gt;    Country Method Energy.type Last.stage  Year IEAMW machine               eta_i</span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Air compressors -&gt;…  0.468 </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Asses -&gt; AnMech      0.065<span style="text-decoration: underline;">5</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Blast furnaces       0.400 </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Blast oxygen furna…  0.256 </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Camelids -&gt; AnMech  <span style="color: #BB0000;">NA</span>     </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Cattle -&gt; AnMech     0.046<span style="text-decoration: underline;">1</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Coal mines           1     </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Coal stoves -&gt; LTH…  0.448 </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Coal stoves -&gt; LTH…  0.448 </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> USA     PCM    E           Useful      <span style="text-decoration: underline;">1</span>960 Both  Coal stoves -&gt; MTH…  0.448 </span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 11,506 more rows</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Blast furnaces        0.400</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Coal mines            1    </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Coke ovens            0.798</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Gas works             0.929</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Main activity produc… 0.377</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Manufacture [of Geot… 1    </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Manufacture [of Hydr… 1    </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Manufacture [of Non-… 1    </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Manufacture [of Nucl… 1    </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> USA     PCM    E           Final       <span style="text-decoration: underline;">1</span>960 IEA   Natural gas extracti… 0.973</span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 2,472 more rows</span></span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="visualize-the-data">Visualize the data<a class="anchor" aria-label="anchor" href="#visualize-the-data"></a>
@@ -183,20 +183,20 @@ and efficiency columns.</p>
 <code class="sourceCode R"><span><span class="va">nested_eta_i_data</span> <span class="op">&lt;-</span> <span class="va">unpacked_eta_i_data</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">tidyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyr.tidyverse.org/reference/nest.html" class="external-link">nest</a></span><span class="op">(</span>.by <span class="op">=</span> <span class="fu">tidyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html" class="external-link">all_of</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Country"</span>, <span class="st">"Method"</span>, <span class="st">"Energy.type"</span>, <span class="st">"Last.stage"</span>, <span class="st">"IEAMW"</span>, <span class="st">"machine"</span><span class="op">)</span><span class="op">)</span>, .key <span class="op">=</span> <span class="st">"year_eta_i"</span><span class="op">)</span></span>
 <span><span class="va">nested_eta_i_data</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 232 × 7</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 62 × 7</span></span></span>
 <span><span class="co">#&gt;    Country Method Energy.type Last.stage IEAMW machine                year_eta_i</span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                  <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>    </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> USA     PCM    E           Useful     Both  Air compressors -&gt; HPA <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> USA     PCM    E           Useful     Both  Asses -&gt; AnMech        <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> USA     PCM    E           Useful     Both  Blast furnaces         <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> USA     PCM    E           Useful     Both  Blast oxygen furnaces… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> USA     PCM    E           Useful     Both  Camelids -&gt; AnMech     <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> USA     PCM    E           Useful     Both  Cattle -&gt; AnMech       <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> USA     PCM    E           Useful     Both  Coal mines             <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> USA     PCM    E           Useful     Both  Coal stoves -&gt; LTH.20… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> USA     PCM    E           Useful     Both  Coal stoves -&gt; LTH.50… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> USA     PCM    E           Useful     Both  Coal stoves -&gt; MTH.10… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 222 more rows</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> USA     PCM    E           Final      IEA   Blast furnaces         <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> USA     PCM    E           Final      IEA   Coal mines             <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> USA     PCM    E           Final      IEA   Coke ovens             <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> USA     PCM    E           Final      IEA   Gas works              <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> USA     PCM    E           Final      IEA   Main activity produce… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> USA     PCM    E           Final      IEA   Manufacture [of Geoth… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> USA     PCM    E           Final      IEA   Manufacture [of Hydro] <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> USA     PCM    E           Final      IEA   Manufacture [of Non-s… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> USA     PCM    E           Final      IEA   Manufacture [of Nucle… <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> USA     PCM    E           Final      IEA   Natural gas extraction <span style="color: #949494;">&lt;tibble&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 52 more rows</span></span></span></code></pre></div>
 <p>Finally, we can create a column of graphs.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">create_plot</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">tibble_data</span>, <span class="va">country_name</span>, <span class="va">energy_type</span>, <span class="va">machine_name</span><span class="op">)</span> <span class="op">{</span></span>
@@ -211,7 +211,7 @@ and efficiency columns.</p>
 <span>                       mapping <span class="op">=</span> <span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">Year</span>, y <span class="op">=</span> <span class="va">eta_i</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>    <span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>x <span class="op">=</span> <span class="cn">NULL</span>, y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/expression.html" class="external-link">expression</a></span><span class="op">(</span><span class="va">eta</span><span class="op">[</span><span class="va">i</span><span class="op">]</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/lims.html" class="external-link">ylim</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">0.5</span>, <span class="fl">1.5</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>    <span class="fu">MKHthemes</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/MKHthemes/man/xy_theme.html" class="external-link">xy_theme</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>    <span class="fu">MKHthemes</span><span class="fu">::</span><span class="fu"><a href="https://matthewheun.github.io/MKHthemes/reference/xy_theme.html" class="external-link">xy_theme</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="op">}</span></span>
 <span><span class="va">eta_i_graphs</span> <span class="op">&lt;-</span> <span class="va">nested_eta_i_data</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span></span>
@@ -226,7 +226,7 @@ and efficiency columns.</p>
 <code class="sourceCode R"><span><span class="va">eta_i_graphs</span><span class="op">$</span><span class="va">plots</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span></span></code></pre></div>
 <p><img src="machine_efficiency_example_files/figure-html/unnamed-chunk-8-1.png" width="576" style="display: block; margin: auto;"></p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">eta_i_graphs</span><span class="op">$</span><span class="va">plots</span><span class="op">[[</span><span class="fl">184</span><span class="op">]</span><span class="op">]</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">eta_i_graphs</span><span class="op">$</span><span class="va">plots</span><span class="op">[[</span><span class="fl">10</span><span class="op">]</span><span class="op">]</span></span></code></pre></div>
 <p><img src="machine_efficiency_example_files/figure-html/unnamed-chunk-8-2.png" width="576" style="display: block; margin: auto;"></p>
 </div>
   </div>
