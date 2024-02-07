@@ -4,7 +4,8 @@ output: html_document
 ---
 
 
-* Developed new way to do aggregations using file in inst/
+* Developed new way to do aggregations using file in inst/.
+* Added target to calculate input and output industry shares.
 
 
 # CLPFUDecompositionDatabase 0.1.1 (2023-09-04) 
