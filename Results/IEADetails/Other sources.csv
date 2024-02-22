@@ -1,0 +1,868 @@
+"Country","Method","Energy.type","Last.stage","Year","Ledger.side","Flow.aggregation.point","Flow","Product","Unit","E.dot"
+"HUN","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1080.1986
+"HUN","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1080.1986
+"HUN","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1080.1986
+"HUN","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1080.1986
+"HUN","PCM","E","Final",2014,"Supply","TFC compare","Statistical differences","Other sources","TJ",2.27373675443232e-13
+"HUN","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1934.0002
+"HUN","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-128.9995
+"HUN","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-144.0008
+"HUN","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1660.9999
+"HUN","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1934.0002
+"HUN","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1934.0002
+"HUN","PCM","E","Final",2015,"Supply","TFC compare","Statistical differences","Other sources","TJ",-9.9999999974898e-05
+"HUN","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1904.8014
+"HUN","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-188.2008
+"HUN","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-147.6014
+"HUN","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1568.9991
+"HUN","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1904.8014
+"HUN","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1904.8014
+"HUN","PCM","E","Final",2016,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00430000000051223
+"HUN","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2601.7989
+"HUN","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-136.4018
+"HUN","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-248.3987
+"HUN","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2217.0027
+"HUN","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2601.7989
+"HUN","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2601.7989
+"HUN","PCM","E","Final",2017,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00410000000033506
+"HUN","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2883.198
+"HUN","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-60.001
+"HUN","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-259.2006
+"HUN","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2564.0005
+"HUN","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2883.198
+"HUN","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2883.198
+"HUN","PCM","E","Final",2018,"Supply","TFC compare","Statistical differences","Other sources","TJ",-2.27373675443232e-13
+"HUN","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3141.3979
+"HUN","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-46.8001
+"HUN","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-453.5979
+"HUN","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2640.9999
+"HUN","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3141.3979
+"HUN","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3141.3979
+"HUN","PCM","E","Final",2019,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00410000000010768
+"HUN","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3468.6005
+"HUN","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-35.9981
+"HUN","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-363.5985
+"HUN","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3068.9998
+"HUN","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3468.6005
+"HUN","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3468.6005
+"HUN","PCM","E","Final",2020,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00419999999985521
+"HUN","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3140.7992
+"HUN","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-363.5985
+"HUN","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-151.1979
+"HUN","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2625.9986
+"HUN","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3140.7992
+"HUN","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3140.7992
+"KOR","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",25.2003
+"KOR","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-25.2003
+"KOR","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",25.2003
+"KOR","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-25.2003
+"KOR","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",28.801
+"KOR","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-28.801
+"KOR","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",28.801
+"KOR","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-28.801
+"KOR","PCM","E","Final",2008,"Supply","TFC compare","Statistical differences","Other sources","TJ",7.105427357601e-15
+"KOR","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",72.0004
+"KOR","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-72.0004
+"KOR","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",72.0004
+"KOR","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-72.0004
+"KOR","PCM","E","Final",2009,"Supply","TFC compare","Statistical differences","Other sources","TJ",1.4210854715202e-14
+"KOR","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",320.3991
+"KOR","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-320.3991
+"KOR","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",320.3991
+"KOR","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-320.3991
+"KOR","PCM","E","Final",2010,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00419999999992626
+"KOR","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",709.2021
+"KOR","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-709.1979
+"KOR","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",709.2021
+"KOR","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-709.2021
+"KOR","PCM","E","Final",2011,"Supply","TFC compare","Statistical differences","Other sources","TJ",4.2632564145606e-14
+"KOR","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1061.9986
+"KOR","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1061.9986
+"KOR","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1061.9986
+"KOR","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1061.9986
+"KOR","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1404.0015
+"KOR","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1404.0015
+"KOR","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1404.0015
+"KOR","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1404.0015
+"KOR","PCM","E","Final",2013,"Supply","TFC compare","Statistical differences","Other sources","TJ",2.8421709430404e-14
+"KOR","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2084.3984
+"KOR","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-2084.3984
+"KOR","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2084.3984
+"KOR","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2084.3984
+"KOR","PCM","E","Final",2014,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.9475983006414e-14
+"KOR","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3394.7998
+"KOR","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3394.7998
+"KOR","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3394.7998
+"KOR","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3394.7998
+"KOR","PCM","E","Final",2015,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.9475983006414e-14
+"KOR","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3927.5994
+"KOR","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3927.5994
+"KOR","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3927.5994
+"KOR","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3927.5994
+"KOR","PCM","E","Final",2016,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.000100000000060163
+"KOR","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",4118.4002
+"KOR","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-4118.4003
+"KOR","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",4118.4002
+"KOR","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-4118.4002
+"KOR","PCM","E","Final",2017,"Supply","TFC compare","Statistical differences","Other sources","TJ",-1.70530256582424e-13
+"KOR","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",5289.4398
+"KOR","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-5289.4398
+"KOR","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",5289.4398
+"KOR","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-5289.4398
+"KOR","PCM","E","Final",2018,"Supply","TFC compare","Statistical differences","Other sources","TJ",2.70006239588838e-13
+"KOR","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",6353.8123
+"KOR","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-6353.8123
+"KOR","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",6353.8123
+"KOR","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-6353.8123
+"KOR","PCM","E","Final",2019,"Supply","TFC compare","Statistical differences","Other sources","TJ",-1.27897692436818e-13
+"KOR","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",8226.5931
+"KOR","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-8226.5931
+"KOR","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",8226.5931
+"KOR","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-8226.5931
+"KOR","PCM","E","Final",2020,"Supply","TFC compare","Statistical differences","Other sources","TJ",1.13686837721616e-13
+"KOR","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",12637.86
+"KOR","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-12637.86
+"KOR","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",12637.86
+"KOR","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-12637.86
+"LVA","PCM","E","Final",1990,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1457.9987
+"LVA","PCM","E","Final",1990,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1457.9987
+"LVA","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1457.9987
+"LVA","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1457.9987
+"LVA","PCM","E","Final",1991,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",878.0013
+"LVA","PCM","E","Final",1991,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-878.0013
+"LVA","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",878.0013
+"LVA","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-878.0013
+"LVA","PCM","E","Final",1992,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",709.0011
+"LVA","PCM","E","Final",1992,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-709.0011
+"LVA","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",709.0011
+"LVA","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-709.0011
+"LVA","PCM","E","Final",1999,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3.6006
+"LVA","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3.6006
+"LVA","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3.6006
+"LVA","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3.6006
+"LVA","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7.0003
+"LVA","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-7.0003
+"LVA","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7.0003
+"LVA","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7.0003
+"LVA","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7.0003
+"LVA","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-7.0003
+"LVA","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7.0003
+"LVA","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7.0003
+"LVA","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7.0003
+"LVA","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-7.0003
+"LVA","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7.0003
+"LVA","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7.0003
+"LVA","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",13
+"LVA","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-5.9997
+"LVA","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-7.0003
+"LVA","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",13
+"LVA","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-13
+"NLD","PCM","E","Final",1990,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",626.4
+"NLD","PCM","E","Final",1990,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-626.4
+"NLD","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",626.4
+"NLD","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-626.4
+"NLD","PCM","E","Final",1991,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",435.6
+"NLD","PCM","E","Final",1991,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-435.6
+"NLD","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",435.6
+"NLD","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-435.6
+"NLD","PCM","E","Final",1992,"Supply","TFC compare","Statistical differences","Other sources","TJ",-1.13686837721616e-13
+"NLD","PCM","E","Final",1992,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",745.2
+"NLD","PCM","E","Final",1992,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-745.2
+"NLD","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",745.2
+"NLD","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-745.2
+"NLD","PCM","E","Final",1993,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",770.4
+"NLD","PCM","E","Final",1993,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-770.4
+"NLD","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",770.4
+"NLD","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-770.4
+"NLD","PCM","E","Final",1994,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",781.2
+"NLD","PCM","E","Final",1994,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-781.2
+"NLD","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",781.2
+"NLD","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-781.2
+"NLD","PCM","E","Final",1995,"Supply","TFC compare","Statistical differences","Other sources","TJ",1.13686837721616e-13
+"NLD","PCM","E","Final",1995,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1029.6
+"NLD","PCM","E","Final",1995,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1029.6
+"NLD","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1029.6
+"NLD","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1029.6
+"NLD","PCM","E","Final",1996,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",849.6
+"NLD","PCM","E","Final",1996,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-849.6
+"NLD","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",849.6
+"NLD","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-849.6
+"NLD","PCM","E","Final",1997,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",849.6
+"NLD","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-849.6
+"NLD","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",849.6
+"NLD","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-849.6
+"NLD","PCM","E","Final",1998,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",763.2
+"NLD","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-763.2
+"NLD","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",763.2
+"NLD","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-763.2
+"NLD","PCM","E","Final",1999,"Supply","TFC compare","Statistical differences","Other sources","TJ",5.6843418860808e-14
+"NLD","PCM","E","Final",1999,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",640.8
+"NLD","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-640.8
+"NLD","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",640.8
+"NLD","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-640.8
+"NLD","PCM","E","Final",2000,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",889.2
+"NLD","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-889.2
+"NLD","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",889.2
+"NLD","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-889.2
+"NLD","PCM","E","Final",2001,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",871.2
+"NLD","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-871.2
+"NLD","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",871.2
+"NLD","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-871.2
+"NLD","PCM","E","Final",2002,"Supply","TFC compare","Statistical differences","Other sources","TJ",-5.6843418860808e-14
+"NLD","PCM","E","Final",2002,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",817.2
+"NLD","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-817.2
+"NLD","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",817.2
+"NLD","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-817.2
+"NLD","PCM","E","Final",2003,"Supply","TFC compare","Statistical differences","Other sources","TJ",-5.6843418860808e-14
+"NLD","PCM","E","Final",2003,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",795.6
+"NLD","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-795.6
+"NLD","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",795.6
+"NLD","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-795.6
+"NLD","PCM","E","Final",2004,"Supply","TFC compare","Statistical differences","Other sources","TJ",5.6843418860808e-14
+"NLD","PCM","E","Final",2004,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",730.8
+"NLD","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-730.8
+"NLD","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",730.8
+"NLD","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-730.8
+"NLD","PCM","E","Final",2005,"Supply","TFC compare","Statistical differences","Other sources","TJ",-1.13686837721616e-13
+"NLD","PCM","E","Final",2005,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",943.2
+"NLD","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-943.2
+"NLD","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",943.2
+"NLD","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-943.2
+"NLD","PCM","E","Final",2006,"Supply","TFC compare","Statistical differences","Other sources","TJ",-5.6843418860808e-14
+"NLD","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",529.2
+"NLD","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-529.2
+"NLD","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",529.2
+"NLD","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-529.2
+"NLD","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",630
+"NLD","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-630
+"NLD","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",630
+"NLD","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-630
+"NLD","PCM","E","Final",2008,"Supply","TFC compare","Statistical differences","Other sources","TJ",5.6843418860808e-14
+"NLD","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",532.8
+"NLD","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-532.8
+"NLD","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",532.8
+"NLD","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-532.8
+"NLD","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",468
+"NLD","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-468
+"NLD","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",468
+"NLD","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-468
+"NLD","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",554.4
+"NLD","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-554.4
+"NLD","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",554.4
+"NLD","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-554.4
+"NLD","PCM","E","Final",2011,"Supply","TFC compare","Statistical differences","Other sources","TJ",5.6843418860808e-14
+"NLD","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",532.8
+"NLD","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-532.8
+"NLD","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",532.8
+"NLD","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-532.8
+"NLD","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",529.2
+"NLD","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-529.2
+"NLD","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",529.2
+"NLD","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-529.2
+"NLD","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",442.8
+"NLD","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-442.8
+"NLD","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",442.8
+"NLD","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-442.8
+"NLD","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",522
+"NLD","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-522
+"NLD","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",522
+"NLD","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-522
+"NLD","PCM","E","Final",2015,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.09494701772928e-13
+"NLD","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",8465.73
+"NLD","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-6690.93
+"NLD","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1774.8
+"NLD","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",8465.73
+"NLD","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-8465.73
+"NLD","PCM","E","Final",2016,"Supply","TFC compare","Statistical differences","Other sources","TJ",7.95807864051312e-13
+"NLD","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",6930.45
+"NLD","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-5195.25
+"NLD","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1735.2
+"NLD","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",6930.45
+"NLD","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-6930.45
+"NLD","PCM","E","Final",2017,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.0100000000006162
+"NLD","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7065.29
+"NLD","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-5402.54
+"NLD","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1662.74
+"NLD","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7065.29
+"NLD","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7065.29
+"NLD","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3272.25
+"NLD","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-775.18
+"NLD","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1723.8
+"NLD","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-773.27
+"NLD","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3272.25
+"NLD","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3272.25
+"NLD","PCM","E","Final",2019,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.0100000000001614
+"NLD","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1958.83
+"NLD","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-285.44
+"NLD","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1673.4
+"NLD","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1958.83
+"NLD","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1958.83
+"NLD","PCM","E","Final",2020,"Supply","TFC compare","Statistical differences","Other sources","TJ",-1.13686837721616e-13
+"NLD","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1844.96
+"NLD","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1844.96
+"NLD","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1844.96
+"NLD","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1844.96
+"NZL","PCM","E","Final",1990,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1851.33
+"NZL","PCM","E","Final",1990,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.33
+"NZL","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1851.33
+"NZL","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1851.33
+"NZL","PCM","E","Final",1991,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1850.21
+"NZL","PCM","E","Final",1991,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1850.21
+"NZL","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1850.21
+"NZL","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1850.21
+"NZL","PCM","E","Final",1992,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1852.34
+"NZL","PCM","E","Final",1992,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1852.34
+"NZL","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1852.34
+"NZL","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1852.34
+"NZL","PCM","E","Final",1993,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1852.19
+"NZL","PCM","E","Final",1993,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1852.19
+"NZL","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1852.19
+"NZL","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1852.19
+"NZL","PCM","E","Final",1994,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1852.96
+"NZL","PCM","E","Final",1994,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1852.96
+"NZL","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1852.96
+"NZL","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1852.96
+"NZL","PCM","E","Final",1995,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1851.62
+"NZL","PCM","E","Final",1995,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.62
+"NZL","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1851.62
+"NZL","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1851.62
+"NZL","PCM","E","Final",1996,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1861.23
+"NZL","PCM","E","Final",1996,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1861.23
+"NZL","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1861.23
+"NZL","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1861.23
+"NZL","PCM","E","Final",1997,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1851.63
+"NZL","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.63
+"NZL","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1851.63
+"NZL","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1851.63
+"NZL","PCM","E","Final",1998,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1851.63
+"NZL","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.63
+"NZL","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1851.63
+"NZL","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1851.63
+"NZL","PCM","E","Final",1999,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1851.63
+"NZL","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.63
+"NZL","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1851.63
+"NZL","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1851.63
+"NZL","PCM","E","Final",2000,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1851.63
+"NZL","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.63
+"NZL","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1851.63
+"NZL","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1851.63
+"NZL","PCM","E","Final",2001,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1394.85
+"NZL","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1394.85
+"NZL","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1394.85
+"NZL","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1394.85
+"NZL","PCM","E","Final",2002,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2750.48
+"NZL","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-2750.48
+"NZL","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2750.48
+"NZL","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2750.48
+"NZL","PCM","E","Final",2003,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2494.06
+"NZL","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-2494.06
+"NZL","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2494.06
+"NZL","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2494.06
+"NZL","PCM","E","Final",2004,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2449.69
+"NZL","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-2449.69
+"NZL","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2449.69
+"NZL","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2449.69
+"NZL","PCM","E","Final",2005,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2238.57
+"NZL","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-2238.57
+"NZL","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2238.57
+"NZL","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2238.57
+"NZL","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2105.17
+"NZL","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-2105.17
+"NZL","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2105.17
+"NZL","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2105.17
+"NZL","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1562.8
+"NZL","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1562.8
+"NZL","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1562.8
+"NZL","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1562.8
+"NZL","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1656.62
+"NZL","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1656.62
+"NZL","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1656.62
+"NZL","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1656.62
+"NZL","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1572.8
+"NZL","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1572.8
+"NZL","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1572.8
+"NZL","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1572.8
+"NZL","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1687.91
+"NZL","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1687.91
+"NZL","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1687.91
+"NZL","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1687.91
+"NZL","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1366.58
+"NZL","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1366.58
+"NZL","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1366.58
+"NZL","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1366.58
+"NZL","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1043.58
+"NZL","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1043.58
+"NZL","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1043.58
+"NZL","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1043.58
+"NZL","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1306.68
+"NZL","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1306.68
+"NZL","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1306.68
+"NZL","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1306.68
+"NZL","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1399.5
+"NZL","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1399.5
+"NZL","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1399.5
+"NZL","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1399.5
+"NZL","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1447.41
+"NZL","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1447.41
+"NZL","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1447.41
+"NZL","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1447.41
+"NZL","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1505.36
+"NZL","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1505.36
+"NZL","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1505.36
+"NZL","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1505.36
+"NZL","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1372.34
+"NZL","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1372.34
+"NZL","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1372.34
+"NZL","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1372.34
+"NZL","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1457.23
+"NZL","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1457.23
+"NZL","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1457.23
+"NZL","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1457.23
+"NZL","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1342.01
+"NZL","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1342.01
+"NZL","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1342.01
+"NZL","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1342.01
+"NZL","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1168.9
+"NZL","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1168.9
+"NZL","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1168.9
+"NZL","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1168.9
+"SWE","PCM","E","Final",1997,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",4345
+"SWE","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-2160
+"SWE","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2185
+"SWE","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",4345
+"SWE","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-4345
+"SWE","PCM","E","Final",1998,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",5191
+"SWE","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-3042
+"SWE","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2149
+"SWE","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",5191
+"SWE","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-5191
+"SWE","PCM","E","Final",1999,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",5209
+"SWE","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-3258
+"SWE","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1951
+"SWE","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",5209
+"SWE","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-5209
+"SWE","PCM","E","Final",2000,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",5883
+"SWE","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-3485
+"SWE","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2398
+"SWE","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",5883
+"SWE","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-5883
+"SWE","PCM","E","Final",2001,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",8082
+"SWE","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-5371
+"SWE","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2711
+"SWE","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",8082
+"SWE","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-8082
+"SWE","PCM","E","Final",2002,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",9158
+"SWE","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-6800
+"SWE","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2358
+"SWE","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",9158
+"SWE","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-9158
+"SWE","PCM","E","Final",2003,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",9889
+"SWE","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-7362
+"SWE","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2527
+"SWE","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",9889
+"SWE","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-9889
+"SWE","PCM","E","Final",2004,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",9709
+"SWE","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-6595
+"SWE","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3114
+"SWE","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",9709
+"SWE","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-9709
+"SWE","PCM","E","Final",2005,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",10436
+"SWE","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-7574
+"SWE","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2862
+"SWE","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",10436
+"SWE","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-10436
+"SWE","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",10764
+"SWE","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-8046
+"SWE","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2718
+"SWE","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",10764
+"SWE","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-10764
+"SWE","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",11200
+"SWE","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-8518
+"SWE","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2682
+"SWE","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",11200
+"SWE","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-11200
+"SWE","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",12178
+"SWE","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-9158
+"SWE","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3020
+"SWE","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",12178
+"SWE","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-12178
+"SWE","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",13557
+"SWE","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-10303
+"SWE","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3254
+"SWE","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",13557
+"SWE","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-13557
+"SWE","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",16340
+"SWE","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-13093
+"SWE","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3247
+"SWE","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",16340
+"SWE","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-16340
+"SWE","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",15704
+"SWE","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-12028
+"SWE","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3676
+"SWE","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",15704
+"SWE","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-15704
+"SWE","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",18850
+"SWE","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-14562
+"SWE","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-4288
+"SWE","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",18850
+"SWE","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-18850
+"SWE","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",18601
+"SWE","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-15512
+"SWE","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3089
+"SWE","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",18601
+"SWE","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-18601
+"SWE","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",18468
+"SWE","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-15545
+"SWE","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2923
+"SWE","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",18468
+"SWE","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-18468
+"SWE","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",20013
+"SWE","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-16841
+"SWE","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3172
+"SWE","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",20013
+"SWE","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-20013
+"SWE","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",20459
+"SWE","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-17305
+"SWE","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3154
+"SWE","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",20459
+"SWE","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-20459
+"SWE","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",21996
+"SWE","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-19008
+"SWE","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2988
+"SWE","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",21996
+"SWE","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-21996
+"SWE","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",20707
+"SWE","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-17820
+"SWE","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2887
+"SWE","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",20707
+"SWE","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-20707
+"SWE","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",21301
+"SWE","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-18137
+"SWE","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3164
+"SWE","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",21301
+"SWE","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-21301
+"SWE","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",20354
+"SWE","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-17262
+"SWE","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3092
+"SWE","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",20354
+"SWE","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-20354
+"TUR","PCM","E","Final",2000,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",778.6
+"TUR","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-165.6
+"TUR","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-613
+"TUR","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",778.6
+"TUR","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-778.6
+"TUR","PCM","E","Final",2001,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",711.2
+"TUR","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-151.2
+"TUR","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-560
+"TUR","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",711.2
+"TUR","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-711.2
+"TUR","PCM","E","Final",2002,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",674
+"TUR","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-144
+"TUR","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-530
+"TUR","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",674
+"TUR","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-674
+"TUR","PCM","E","Final",2003,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",526.6
+"TUR","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-111.6
+"TUR","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-415
+"TUR","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",526.6
+"TUR","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-526.6
+"TUR","PCM","E","Final",2004,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",355.6
+"TUR","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-75.6
+"TUR","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-280
+"TUR","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",355.6
+"TUR","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-355.6
+"TUR","PCM","E","Final",2005,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1320.8
+"TUR","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-280.8
+"TUR","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1040
+"TUR","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1320.8
+"TUR","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1320.8
+"TUR","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1371.6
+"TUR","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-291.6
+"TUR","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1080
+"TUR","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1371.6
+"TUR","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1371.6
+"TUR","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1778
+"TUR","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-378
+"TUR","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1400
+"TUR","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1778
+"TUR","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1778
+"TUR","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1084
+"TUR","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-234
+"TUR","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-850
+"TUR","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1084
+"TUR","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1084
+"TUR","PCM","E","Final",2009,"Supply","TFC compare","Statistical differences","Other sources","TJ",1.13686837721616e-13
+"TUR","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1288.6
+"TUR","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-273.6
+"TUR","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1015
+"TUR","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1288.6
+"TUR","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1288.6
+"TUR","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1879.6
+"TUR","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-399.6
+"TUR","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1480
+"TUR","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1879.6
+"TUR","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1879.6
+"TUR","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1794.6
+"TUR","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-381.6
+"TUR","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1413
+"TUR","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1794.6
+"TUR","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1794.6
+"TUR","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",1896.2
+"TUR","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-403.2
+"TUR","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1493
+"TUR","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",1896.2
+"TUR","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-1896.2
+"TUR","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",4706.8
+"TUR","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1000.8
+"TUR","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3706
+"TUR","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",4706.8
+"TUR","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-4706.8
+"TUR","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",5533.8
+"TUR","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1216.8
+"TUR","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-4317
+"TUR","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",5533.8
+"TUR","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-5533.8
+"TUR","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",8380
+"TUR","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1782
+"TUR","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-6598
+"TUR","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",8380
+"TUR","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-8380
+"TUR","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",16626.8
+"TUR","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-2566.8
+"TUR","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-14060
+"TUR","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",16626.8
+"TUR","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-16626.8
+"TUR","PCM","E","Final",2017,"Supply","TFC compare","Statistical differences","Other sources","TJ",-1.81898940354586e-12
+"TUR","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",17210.9
+"TUR","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3053.97
+"TUR","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-14156.93
+"TUR","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",17210.9
+"TUR","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-17210.9
+"TUR","PCM","E","Final",2018,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.0100000000020373
+"TUR","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",19321.04
+"TUR","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3420.73
+"TUR","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-15900.3
+"TUR","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",19321.04
+"TUR","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-19321.04
+"TUR","PCM","E","Final",2019,"Supply","TFC compare","Statistical differences","Other sources","TJ",-3.63797880709171e-12
+"TUR","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",21588.74
+"TUR","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3965.26
+"TUR","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-17623.48
+"TUR","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",21588.74
+"TUR","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-21588.74
+"TUR","PCM","E","Final",2020,"Supply","TFC compare","Statistical differences","Other sources","TJ",3.63797880709171e-12
+"TUR","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",26246.87
+"TUR","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-4596.17
+"TUR","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-21650.7
+"TUR","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",26246.87
+"TUR","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-26246.87
+"WRLD","PCM","E","Final",1990,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3935.7302
+"WRLD","PCM","E","Final",1990,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.3318
+"WRLD","PCM","E","Final",1990,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-626.3997
+"WRLD","PCM","E","Final",1990,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1457.9987
+"WRLD","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3935.7302
+"WRLD","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3935.7302
+"WRLD","PCM","E","Final",1991,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.000100000000088585
+"WRLD","PCM","E","Final",1991,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3163.8098
+"WRLD","PCM","E","Final",1991,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1850.2097
+"WRLD","PCM","E","Final",1991,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-435.5989
+"WRLD","PCM","E","Final",1991,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-878.0013
+"WRLD","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3163.8098
+"WRLD","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3163.8098
+"WRLD","PCM","E","Final",1992,"Supply","TFC compare","Statistical differences","Other sources","TJ",4.54747350886464e-13
+"WRLD","PCM","E","Final",1992,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",3306.5379
+"WRLD","PCM","E","Final",1992,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1852.3366
+"WRLD","PCM","E","Final",1992,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-745.2002
+"WRLD","PCM","E","Final",1992,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-709.0011
+"WRLD","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",3306.5379
+"WRLD","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-3306.5379
+"WRLD","PCM","E","Final",1993,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2622.5864
+"WRLD","PCM","E","Final",1993,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1852.1859
+"WRLD","PCM","E","Final",1993,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-770.4005
+"WRLD","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2622.5864
+"WRLD","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2622.5864
+"WRLD","PCM","E","Final",1994,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.9999999974898e-05
+"WRLD","PCM","E","Final",1994,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2634.1545
+"WRLD","PCM","E","Final",1994,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1852.9563
+"WRLD","PCM","E","Final",1994,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-781.1983
+"WRLD","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2634.1545
+"WRLD","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2634.1545
+"WRLD","PCM","E","Final",1995,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.9999999974898e-05
+"WRLD","PCM","E","Final",1995,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2881.226
+"WRLD","PCM","E","Final",1995,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1851.6249
+"WRLD","PCM","E","Final",1995,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1029.6012
+"WRLD","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2881.226
+"WRLD","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2881.226
+"WRLD","PCM","E","Final",1996,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.000100000000202272
+"WRLD","PCM","E","Final",1996,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",2710.8316
+"WRLD","PCM","E","Final",1996,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-1861.2336
+"WRLD","PCM","E","Final",1996,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-849.5981
+"WRLD","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",2710.8316
+"WRLD","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-2710.8316
+"WRLD","PCM","E","Final",1997,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00410000000010768
+"WRLD","PCM","E","Final",1997,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7046.2253
+"WRLD","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-4011.6284
+"WRLD","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-849.6022
+"WRLD","PCM","E","Final",1997,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2184.9988
+"WRLD","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7046.2253
+"WRLD","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7046.2253
+"WRLD","PCM","E","Final",1998,"Supply","TFC compare","Statistical differences","Other sources","TJ",4.54747350886464e-13
+"WRLD","PCM","E","Final",1998,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7805.8281
+"WRLD","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-4893.6281
+"WRLD","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-763.1993
+"WRLD","PCM","E","Final",1998,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2149.0007
+"WRLD","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7805.8281
+"WRLD","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7805.8281
+"WRLD","PCM","E","Final",1999,"Supply","TFC compare","Statistical differences","Other sources","TJ",-4.54747350886464e-13
+"WRLD","PCM","E","Final",1999,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",7705.0267
+"WRLD","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-5109.6293
+"WRLD","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-644.3988
+"WRLD","PCM","E","Final",1999,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-1950.9986
+"WRLD","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",7705.0267
+"WRLD","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-7705.0267
+"WRLD","PCM","E","Final",2000,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.000100000000429645
+"WRLD","PCM","E","Final",2000,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",9402.4266
+"WRLD","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-5336.6292
+"WRLD","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1054.7973
+"WRLD","PCM","E","Final",2000,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3011
+"WRLD","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",9402.4266
+"WRLD","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-9402.4266
+"WRLD","PCM","E","Final",2001,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00409999999976662
+"WRLD","PCM","E","Final",2001,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",11059.2564
+"WRLD","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-6765.8521
+"WRLD","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1022.3999
+"WRLD","PCM","E","Final",2001,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3271.0003
+"WRLD","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",11059.2564
+"WRLD","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-11059.2564
+"WRLD","PCM","E","Final",2002,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.99999998612111e-05
+"WRLD","PCM","E","Final",2002,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",13399.6859
+"WRLD","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-9550.4844
+"WRLD","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-961.2014
+"WRLD","PCM","E","Final",2002,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2888.0002
+"WRLD","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",13399.6859
+"WRLD","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-13399.6859
+"WRLD","PCM","E","Final",2003,"Supply","TFC compare","Statistical differences","Other sources","TJ",-5.11590769747272e-13
+"WRLD","PCM","E","Final",2003,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",13705.2637
+"WRLD","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-9856.0621
+"WRLD","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-907.2
+"WRLD","PCM","E","Final",2003,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-2942.0016
+"WRLD","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",13705.2637
+"WRLD","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-13705.2637
+"WRLD","PCM","E","Final",2004,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00419999999968468
+"WRLD","PCM","E","Final",2004,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",13245.0967
+"WRLD","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-9044.6938
+"WRLD","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-806.3986
+"WRLD","PCM","E","Final",2004,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3394.0001
+"WRLD","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",13245.0967
+"WRLD","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-13245.0967
+"WRLD","PCM","E","Final",2005,"Supply","TFC compare","Statistical differences","Other sources","TJ",1.36424205265939e-12
+"WRLD","PCM","E","Final",2005,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",14938.5736
+"WRLD","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-9812.5738
+"WRLD","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1223.9985
+"WRLD","PCM","E","Final",2005,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3902.0013
+"WRLD","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",14938.5736
+"WRLD","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-14938.5736
+"WRLD","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",14795.1715
+"WRLD","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-10151.1729
+"WRLD","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-845.9974
+"WRLD","PCM","E","Final",2006,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3798.0012
+"WRLD","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",14795.1715
+"WRLD","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-14795.1715
+"WRLD","PCM","E","Final",2007,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.0042000000007647
+"WRLD","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",15199.5996
+"WRLD","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-10080.797
+"WRLD","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1036.7982
+"WRLD","PCM","E","Final",2007,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-4082.0002
+"WRLD","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",15199.5996
+"WRLD","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-15199.5996
+"WRLD","PCM","E","Final",2008,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00420000000008258
+"WRLD","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",15523.4193
+"WRLD","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-10814.6217
+"WRLD","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-838.8003
+"WRLD","PCM","E","Final",2008,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-3870.0015
+"WRLD","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",15523.4193
+"WRLD","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-15523.4193
+"WRLD","PCM","E","Final",2009,"Supply","TFC compare","Statistical differences","Other sources","TJ",2.27373675443232e-13
+"WRLD","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",17206.8018
+"WRLD","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-11875.7996
+"WRLD","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1061.9986
+"WRLD","PCM","E","Final",2009,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-4269.0036
+"WRLD","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",17206.8018
+"WRLD","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-17206.8018
+"WRLD","PCM","E","Final",2010,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00430000000119435
+"WRLD","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",21178.1114
+"WRLD","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-14780.907
+"WRLD","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1663.1979
+"WRLD","PCM","E","Final",2010,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-4734.0022
+"WRLD","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",21178.1114
+"WRLD","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-21178.1114
+"WRLD","PCM","E","Final",2011,"Supply","TFC compare","Statistical differences","Other sources","TJ",2.72848410531878e-12
+"WRLD","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",20466.975
+"WRLD","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-13394.5738
+"WRLD","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-1976.3999
+"WRLD","PCM","E","Final",2011,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-5096.0013
+"WRLD","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",20466.975
+"WRLD","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-20466.975
+"WRLD","PCM","E","Final",2012,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00409999999988031
+"WRLD","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",23729.9785
+"WRLD","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-15605.5768
+"WRLD","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-2336.4061
+"WRLD","PCM","E","Final",2012,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-5787.9997
+"WRLD","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",23729.9785
+"WRLD","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-23729.9785
+"WRLD","PCM","E","Final",2013,"Supply","TFC compare","Statistical differences","Other sources","TJ",9.09494701772928e-13
+"WRLD","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",28234.8749
+"WRLD","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-17904.8753
+"WRLD","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-3527.9987
+"WRLD","PCM","E","Final",2013,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-6802.0009
+"WRLD","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",28234.8749
+"WRLD","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-28234.8749
+"WRLD","PCM","E","Final",2014,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.0044000000007145
+"WRLD","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",31252.1048
+"WRLD","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-17073.5025
+"WRLD","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-5277.6038
+"WRLD","PCM","E","Final",2014,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-8901.0029
+"WRLD","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",31252.1048
+"WRLD","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-31252.1048
+"WRLD","PCM","E","Final",2015,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00409999999283173
+"WRLD","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",44138.5393
+"WRLD","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-25167.5373
+"WRLD","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-7632.0005
+"WRLD","PCM","E","Final",2015,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-11338.9974
+"WRLD","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",44138.5393
+"WRLD","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-44138.5393
+"WRLD","PCM","E","Final",2016,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00420000000303844
+"WRLD","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",52241.8102
+"WRLD","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-24142.0099
+"WRLD","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-8668.8029
+"WRLD","PCM","E","Final",2016,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-19431.0016
+"WRLD","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",52241.8102
+"WRLD","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-52241.8102
+"WRLD","PCM","E","Final",2017,"Supply","TFC compare","Statistical differences","Other sources","TJ",0.00830000000314612
+"WRLD","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",55817.1616
+"WRLD","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-25842.8807
+"WRLD","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-10265.3595
+"WRLD","PCM","E","Final",2017,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-19708.9297
+"WRLD","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",55817.1616
+"WRLD","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-55817.1616
+"WRLD","PCM","E","Final",2018,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00409999999465072
+"WRLD","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",54252.7261
+"WRLD","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-20099.2023
+"WRLD","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-11951.9492
+"WRLD","PCM","E","Final",2018,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-22201.5705
+"WRLD","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",54252.7261
+"WRLD","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-54252.7261
+"WRLD","PCM","E","Final",2019,"Supply","TFC compare","Statistical differences","Other sources","TJ",-0.00420000000667642
+"WRLD","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",57885.7715
+"WRLD","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-19800.4407
+"WRLD","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-14228.8481
+"WRLD","PCM","E","Final",2019,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-23856.4785
+"WRLD","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",57885.7715
+"WRLD","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-57885.7715
+"WRLD","PCM","E","Final",2020,"Supply","TFC compare","Statistical differences","Other sources","TJ",-7.27595761418343e-12
+"WRLD","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Other sources]","Other sources [from Resources]","TJ",65393.3822
+"WRLD","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer CHP plants","Other sources","TJ",-18794.495
+"WRLD","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer electricity plants","Other sources","TJ",-19230.1859
+"WRLD","PCM","E","Final",2020,"Supply","Transformation processes","Main activity producer heat plants","Other sources","TJ",-27368.7013
+"WRLD","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources","TJ",65393.3822
+"WRLD","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Other sources]","Other sources [from Resources]","TJ",-65393.3822

@@ -1,0 +1,565 @@
+"Country","Method","Energy.type","Last.stage","Year","Ledger.side","Flow.aggregation.point","Flow","Product","Unit","E.dot"
+"CHE","PCM","E","Final",1960,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",14510
+"CHE","PCM","E","Final",1960,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",14510
+"CHE","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",14510
+"CHE","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-14510
+"CHE","PCM","E","Final",1961,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",14210
+"CHE","PCM","E","Final",1961,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",14210
+"CHE","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",14210
+"CHE","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-14210
+"CHE","PCM","E","Final",1962,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",16120
+"CHE","PCM","E","Final",1962,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",16120
+"CHE","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",16120
+"CHE","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-16120
+"CHE","PCM","E","Final",1963,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",16120
+"CHE","PCM","E","Final",1963,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",16120
+"CHE","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",16120
+"CHE","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-16120
+"CHE","PCM","E","Final",1964,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",16120
+"CHE","PCM","E","Final",1964,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",16120
+"CHE","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",16120
+"CHE","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-16120
+"CHE","PCM","E","Final",1965,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",16850
+"CHE","PCM","E","Final",1965,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",16850
+"CHE","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",16850
+"CHE","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-16850
+"CHE","PCM","E","Final",1966,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",14650
+"CHE","PCM","E","Final",1966,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",14650
+"CHE","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",14650
+"CHE","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-14650
+"CHE","PCM","E","Final",1967,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",14290
+"CHE","PCM","E","Final",1967,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",14290
+"CHE","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",14290
+"CHE","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-14290
+"CHE","PCM","E","Final",1968,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",13630
+"CHE","PCM","E","Final",1968,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",13630
+"CHE","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",13630
+"CHE","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-13630
+"CHE","PCM","E","Final",1969,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",12310
+"CHE","PCM","E","Final",1969,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",12310
+"CHE","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",12310
+"CHE","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-12310
+"CHE","PCM","E","Final",1970,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",10110
+"CHE","PCM","E","Final",1970,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",10110
+"CHE","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",10110
+"CHE","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-10110
+"CHE","PCM","E","Final",1971,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",9670
+"CHE","PCM","E","Final",1971,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",9670
+"CHE","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",9670
+"CHE","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-9670
+"CHE","PCM","E","Final",1972,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",9230
+"CHE","PCM","E","Final",1972,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",9230
+"CHE","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",9230
+"CHE","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-9230
+"CHE","PCM","E","Final",1973,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",10110
+"CHE","PCM","E","Final",1973,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",9890
+"CHE","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",9890
+"CHE","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-9890
+"CHE","PCM","E","Final",1974,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1974,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",8350
+"CHE","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-8350
+"CHE","PCM","E","Final",1975,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1975,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",8350
+"CHE","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-8350
+"CHE","PCM","E","Final",1976,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1976,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",8350
+"CHE","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-8350
+"CHE","PCM","E","Final",1977,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",8350
+"CHE","PCM","E","Final",1977,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",7910
+"CHE","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",7910
+"CHE","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-7910
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",1930
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",310
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Machinery","Non-specified primary biofuels and waste","TJ",90
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Non-ferrous metals","Non-specified primary biofuels and waste","TJ",30
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Non-metallic minerals","Non-specified primary biofuels and waste","TJ",230
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",990
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Textile and leather","Non-specified primary biofuels and waste","TJ",20
+"CHE","PCM","E","Final",1978,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",1230
+"CHE","PCM","E","Final",1978,"Consumption","Other","Agriculture/forestry","Non-specified primary biofuels and waste","TJ",790
+"CHE","PCM","E","Final",1978,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",5890
+"CHE","PCM","E","Final",1978,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",11510
+"CHE","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",11510
+"CHE","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-11510
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",1760
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",70
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Machinery","Non-specified primary biofuels and waste","TJ",220
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Non-ferrous metals","Non-specified primary biofuels and waste","TJ",30
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Non-metallic minerals","Non-specified primary biofuels and waste","TJ",370
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",1250
+"CHE","PCM","E","Final",1979,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",1410
+"CHE","PCM","E","Final",1979,"Consumption","Other","Agriculture/forestry","Non-specified primary biofuels and waste","TJ",880
+"CHE","PCM","E","Final",1979,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",6720
+"CHE","PCM","E","Final",1979,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",12710
+"CHE","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",12710
+"CHE","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-12710
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",1690
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",10
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Machinery","Non-specified primary biofuels and waste","TJ",210
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Non-ferrous metals","Non-specified primary biofuels and waste","TJ",30
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Non-metallic minerals","Non-specified primary biofuels and waste","TJ",400
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",1360
+"CHE","PCM","E","Final",1980,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",1410
+"CHE","PCM","E","Final",1980,"Consumption","Other","Agriculture/forestry","Non-specified primary biofuels and waste","TJ",960
+"CHE","PCM","E","Final",1980,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",7300
+"CHE","PCM","E","Final",1980,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",13150
+"CHE","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",13150
+"CHE","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-13150
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",1760
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",30
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",230
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Machinery","Non-specified primary biofuels and waste","TJ",620
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Non-ferrous metals","Non-specified primary biofuels and waste","TJ",20
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Non-metallic minerals","Non-specified primary biofuels and waste","TJ",390
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",1520
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Textile and leather","Non-specified primary biofuels and waste","TJ",30
+"CHE","PCM","E","Final",1981,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",1760
+"CHE","PCM","E","Final",1981,"Consumption","Other","Agriculture/forestry","Non-specified primary biofuels and waste","TJ",1050
+"CHE","PCM","E","Final",1981,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",7740
+"CHE","PCM","E","Final",1981,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",14930
+"CHE","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",14930
+"CHE","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-14930
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",1860
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",30
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",250
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Machinery","Non-specified primary biofuels and waste","TJ",660
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Non-ferrous metals","Non-specified primary biofuels and waste","TJ",20
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Non-metallic minerals","Non-specified primary biofuels and waste","TJ",420
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",1600
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Textile and leather","Non-specified primary biofuels and waste","TJ",40
+"CHE","PCM","E","Final",1982,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",2110
+"CHE","PCM","E","Final",1982,"Consumption","Other","Agriculture/forestry","Non-specified primary biofuels and waste","TJ",1110
+"CHE","PCM","E","Final",1982,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",7830
+"CHE","PCM","E","Final",1982,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",15650
+"CHE","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",15650
+"CHE","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-15650
+"CHE","PCM","E","Final",1973,"Supply","Total primary energy supply","Imports [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",220
+"CHE","PCM","E","Final",1977,"Supply","Total primary energy supply","Imports [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",440
+"CHE","PCM","E","Final",1980,"Supply","Total primary energy supply","Imports [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",220
+"CHE","PCM","E","Final",1981,"Supply","Total primary energy supply","Imports [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",220
+"CHE","PCM","E","Final",1982,"Supply","Total primary energy supply","Imports [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",280
+"SWE","PCM","E","Final",1960,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",95459
+"SWE","PCM","E","Final",1960,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11304
+"SWE","PCM","E","Final",1960,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",106763
+"SWE","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",106763
+"SWE","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-106763
+"SWE","PCM","E","Final",1961,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",96296
+"SWE","PCM","E","Final",1961,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",10886
+"SWE","PCM","E","Final",1961,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",107182
+"SWE","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",107182
+"SWE","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-107182
+"SWE","PCM","E","Final",1962,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",97134
+"SWE","PCM","E","Final",1962,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",10886
+"SWE","PCM","E","Final",1962,"Supply","TFC compare","Statistical differences","Non-specified primary biofuels and waste","TJ",1
+"SWE","PCM","E","Final",1962,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",108019
+"SWE","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",108019
+"SWE","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-108019
+"SWE","PCM","E","Final",1963,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",97552
+"SWE","PCM","E","Final",1963,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11304
+"SWE","PCM","E","Final",1963,"Supply","TFC compare","Statistical differences","Non-specified primary biofuels and waste","TJ",-1
+"SWE","PCM","E","Final",1963,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",108857
+"SWE","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",108857
+"SWE","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-108857
+"SWE","PCM","E","Final",1964,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",99646
+"SWE","PCM","E","Final",1964,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11304
+"SWE","PCM","E","Final",1964,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",110950
+"SWE","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",110950
+"SWE","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-110950
+"SWE","PCM","E","Final",1965,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",100065
+"SWE","PCM","E","Final",1965,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11723
+"SWE","PCM","E","Final",1965,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",111788
+"SWE","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",111788
+"SWE","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-111788
+"SWE","PCM","E","Final",1966,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",98390
+"SWE","PCM","E","Final",1966,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11304
+"SWE","PCM","E","Final",1966,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",109694
+"SWE","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",109694
+"SWE","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-109694
+"SWE","PCM","E","Final",1967,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",100065
+"SWE","PCM","E","Final",1967,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11723
+"SWE","PCM","E","Final",1967,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",111788
+"SWE","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",111788
+"SWE","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-111788
+"SWE","PCM","E","Final",1968,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",100065
+"SWE","PCM","E","Final",1968,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11723
+"SWE","PCM","E","Final",1968,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",111788
+"SWE","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",111788
+"SWE","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-111788
+"SWE","PCM","E","Final",1969,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",107182
+"SWE","PCM","E","Final",1969,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11723
+"SWE","PCM","E","Final",1969,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",118905
+"SWE","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",118905
+"SWE","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-118905
+"SWE","PCM","E","Final",1970,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",107601
+"SWE","PCM","E","Final",1970,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",11723
+"SWE","PCM","E","Final",1970,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",121836
+"SWE","PCM","E","Final",1970,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-2512
+"SWE","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",121836
+"SWE","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-121836
+"SWE","PCM","E","Final",1971,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",105926
+"SWE","PCM","E","Final",1971,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",12560
+"SWE","PCM","E","Final",1971,"Supply","TFC compare","Statistical differences","Non-specified primary biofuels and waste","TJ",-1
+"SWE","PCM","E","Final",1971,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",120999
+"SWE","PCM","E","Final",1971,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-2512
+"SWE","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",120999
+"SWE","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-120999
+"SWE","PCM","E","Final",1972,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",105926
+"SWE","PCM","E","Final",1972,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",12560
+"SWE","PCM","E","Final",1972,"Supply","TFC compare","Statistical differences","Non-specified primary biofuels and waste","TJ",-1
+"SWE","PCM","E","Final",1972,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",120999
+"SWE","PCM","E","Final",1972,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-2512
+"SWE","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",120999
+"SWE","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-120999
+"SWE","PCM","E","Final",1973,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",435
+"SWE","PCM","E","Final",1973,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",236
+"SWE","PCM","E","Final",1973,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",105751
+"SWE","PCM","E","Final",1973,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",79
+"SWE","PCM","E","Final",1973,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",16465
+"SWE","PCM","E","Final",1973,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",21771
+"SWE","PCM","E","Final",1973,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",148421
+"SWE","PCM","E","Final",1973,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-3684
+"SWE","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",148421
+"SWE","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-148421
+"SWE","PCM","E","Final",1974,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",453
+"SWE","PCM","E","Final",1974,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",246
+"SWE","PCM","E","Final",1974,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",110071
+"SWE","PCM","E","Final",1974,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",82
+"SWE","PCM","E","Final",1974,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",17138
+"SWE","PCM","E","Final",1974,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",16454
+"SWE","PCM","E","Final",1974,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",148212
+"SWE","PCM","E","Final",1974,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-3768
+"SWE","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",148212
+"SWE","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-148212
+"SWE","PCM","E","Final",1975,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",461
+"SWE","PCM","E","Final",1975,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",251
+"SWE","PCM","E","Final",1975,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",879
+"SWE","PCM","E","Final",1975,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",111955
+"SWE","PCM","E","Final",1975,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",84
+"SWE","PCM","E","Final",1975,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",17417
+"SWE","PCM","E","Final",1975,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",16704
+"SWE","PCM","E","Final",1975,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",149344
+"SWE","PCM","E","Final",1975,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-1593
+"SWE","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",149344
+"SWE","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-149344
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",377
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",335
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1382
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Iron and steel","Non-specified primary biofuels and waste","TJ",167
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",109025
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",293
+"SWE","PCM","E","Final",1976,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",14528
+"SWE","PCM","E","Final",1976,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",19133
+"SWE","PCM","E","Final",1976,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",147375
+"SWE","PCM","E","Final",1976,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-2135
+"SWE","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",147375
+"SWE","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-147375
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",293
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",209
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1005
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Iron and steel","Non-specified primary biofuels and waste","TJ",84
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",99353
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",209
+"SWE","PCM","E","Final",1977,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",15784
+"SWE","PCM","E","Final",1977,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",21897
+"SWE","PCM","E","Final",1977,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",141765
+"SWE","PCM","E","Final",1977,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-2931
+"SWE","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",141765
+"SWE","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-141765
+"SWE","PCM","E","Final",1978,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",251
+"SWE","PCM","E","Final",1978,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",419
+"SWE","PCM","E","Final",1978,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1424
+"SWE","PCM","E","Final",1978,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",108941
+"SWE","PCM","E","Final",1978,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",293
+"SWE","PCM","E","Final",1978,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",15072
+"SWE","PCM","E","Final",1978,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",25989
+"SWE","PCM","E","Final",1978,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",155487
+"SWE","PCM","E","Final",1978,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-3098
+"SWE","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",155487
+"SWE","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-155487
+"SWE","PCM","E","Final",1979,"Consumption","Industry","Chemical and petrochemical","Non-specified primary biofuels and waste","TJ",795
+"SWE","PCM","E","Final",1979,"Consumption","Industry","Food and tobacco","Non-specified primary biofuels and waste","TJ",419
+"SWE","PCM","E","Final",1979,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",2638
+"SWE","PCM","E","Final",1979,"Consumption","Industry","Paper, pulp and printing","Non-specified primary biofuels and waste","TJ",111578
+"SWE","PCM","E","Final",1979,"Consumption","Industry","Transport equipment","Non-specified primary biofuels and waste","TJ",419
+"SWE","PCM","E","Final",1979,"Consumption","Industry","Wood and wood products","Non-specified primary biofuels and waste","TJ",16035
+"SWE","PCM","E","Final",1979,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",30772
+"SWE","PCM","E","Final",1979,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",165084
+"SWE","PCM","E","Final",1979,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-2428
+"SWE","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",165084
+"SWE","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-165084
+"TUR","PCM","E","Final",1960,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",246184
+"TUR","PCM","E","Final",1960,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",246184
+"TUR","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",246184
+"TUR","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-246184
+"TUR","PCM","E","Final",1961,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",249156
+"TUR","PCM","E","Final",1961,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",249156
+"TUR","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",249156
+"TUR","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-249156
+"TUR","PCM","E","Final",1962,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",248863
+"TUR","PCM","E","Final",1962,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",248863
+"TUR","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",248863
+"TUR","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-248863
+"TUR","PCM","E","Final",1963,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",244467
+"TUR","PCM","E","Final",1963,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",244467
+"TUR","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",244467
+"TUR","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-244467
+"TUR","PCM","E","Final",1964,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",246854
+"TUR","PCM","E","Final",1964,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",246854
+"TUR","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",246854
+"TUR","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-246854
+"TUR","PCM","E","Final",1965,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",245849
+"TUR","PCM","E","Final",1965,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",245849
+"TUR","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",245849
+"TUR","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-245849
+"TUR","PCM","E","Final",1966,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",248863
+"TUR","PCM","E","Final",1966,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",248863
+"TUR","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",248863
+"TUR","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-248863
+"TUR","PCM","E","Final",1967,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",250287
+"TUR","PCM","E","Final",1967,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",250287
+"TUR","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",250287
+"TUR","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-250287
+"TUR","PCM","E","Final",1968,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",249910
+"TUR","PCM","E","Final",1968,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",249910
+"TUR","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",249910
+"TUR","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-249910
+"TUR","PCM","E","Final",1969,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",248696
+"TUR","PCM","E","Final",1969,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",248696
+"TUR","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",248696
+"TUR","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-248696
+"TUR","PCM","E","Final",1970,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",250078
+"TUR","PCM","E","Final",1970,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",250078
+"TUR","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",250078
+"TUR","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-250078
+"TUR","PCM","E","Final",1971,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",242793
+"TUR","PCM","E","Final",1971,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",242793
+"TUR","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",242793
+"TUR","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-242793
+"TUR","PCM","E","Final",1972,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",261566
+"TUR","PCM","E","Final",1972,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",261566
+"TUR","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",261566
+"TUR","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-261566
+"TUR","PCM","E","Final",1973,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",270174
+"TUR","PCM","E","Final",1973,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",270174
+"TUR","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",270174
+"TUR","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-270174
+"TUR","PCM","E","Final",1974,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",275295
+"TUR","PCM","E","Final",1974,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",275295
+"TUR","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",275295
+"TUR","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-275295
+"TUR","PCM","E","Final",1975,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",285569
+"TUR","PCM","E","Final",1975,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",285569
+"TUR","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",285569
+"TUR","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-285569
+"TUR","PCM","E","Final",1976,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",294160
+"TUR","PCM","E","Final",1976,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",294160
+"TUR","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",294160
+"TUR","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-294160
+"TUR","PCM","E","Final",1977,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",301207
+"TUR","PCM","E","Final",1977,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",301207
+"TUR","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",301207
+"TUR","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-301207
+"TUR","PCM","E","Final",1978,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",311900
+"TUR","PCM","E","Final",1978,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",311900
+"TUR","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",311900
+"TUR","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-311900
+"TUR","PCM","E","Final",1979,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",324142
+"TUR","PCM","E","Final",1979,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",324142
+"TUR","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",324142
+"TUR","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-324142
+"TUR","PCM","E","Final",1980,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",321610
+"TUR","PCM","E","Final",1980,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",321610
+"TUR","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",321610
+"TUR","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-321610
+"TUR","PCM","E","Final",1981,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",323369
+"TUR","PCM","E","Final",1981,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",323369
+"TUR","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",323369
+"TUR","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-323369
+"TUR","PCM","E","Final",1982,"Consumption","Other","Residential","Non-specified primary biofuels and waste","TJ",331866
+"TUR","PCM","E","Final",1982,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",331866
+"TUR","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",331866
+"TUR","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-331866
+"USA","PCM","E","Final",1960,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",698384
+"USA","PCM","E","Final",1960,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",655892
+"USA","PCM","E","Final",1960,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1355141
+"USA","PCM","E","Final",1960,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-865
+"USA","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1355141
+"USA","PCM","E","Final",1960,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1355141
+"USA","PCM","E","Final",1961,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",714357
+"USA","PCM","E","Final",1961,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",614298
+"USA","PCM","E","Final",1961,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1329466
+"USA","PCM","E","Final",1961,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-811
+"USA","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1329466
+"USA","PCM","E","Final",1961,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1329466
+"USA","PCM","E","Final",1962,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",748014
+"USA","PCM","E","Final",1962,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",586258
+"USA","PCM","E","Final",1962,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1335263
+"USA","PCM","E","Final",1962,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-991
+"USA","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1335263
+"USA","PCM","E","Final",1962,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1335263
+"USA","PCM","E","Final",1963,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",795949
+"USA","PCM","E","Final",1963,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",562034
+"USA","PCM","E","Final",1963,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1359043
+"USA","PCM","E","Final",1963,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1060
+"USA","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1359043
+"USA","PCM","E","Final",1963,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1359043
+"USA","PCM","E","Final",1964,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",849254
+"USA","PCM","E","Final",1964,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",522372
+"USA","PCM","E","Final",1964,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1372650
+"USA","PCM","E","Final",1964,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1024
+"USA","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1372650
+"USA","PCM","E","Final",1964,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1372650
+"USA","PCM","E","Final",1965,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",878233
+"USA","PCM","E","Final",1965,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",490003
+"USA","PCM","E","Final",1965,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1369667
+"USA","PCM","E","Final",1965,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1431
+"USA","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1369667
+"USA","PCM","E","Final",1965,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1369667
+"USA","PCM","E","Final",1966,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",926487
+"USA","PCM","E","Final",1966,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",476219
+"USA","PCM","E","Final",1966,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1404523
+"USA","PCM","E","Final",1966,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1817
+"USA","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1404523
+"USA","PCM","E","Final",1966,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1404523
+"USA","PCM","E","Final",1967,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",919029
+"USA","PCM","E","Final",1967,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",454348
+"USA","PCM","E","Final",1967,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1374734
+"USA","PCM","E","Final",1967,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1357
+"USA","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1374734
+"USA","PCM","E","Final",1967,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1374734
+"USA","PCM","E","Final",1968,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1008698
+"USA","PCM","E","Final",1968,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",445456
+"USA","PCM","E","Final",1968,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1455796
+"USA","PCM","E","Final",1968,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1642
+"USA","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1455796
+"USA","PCM","E","Final",1968,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1455796
+"USA","PCM","E","Final",1969,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1041861
+"USA","PCM","E","Final",1969,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",434436
+"USA","PCM","E","Final",1969,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1477708
+"USA","PCM","E","Final",1969,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1411
+"USA","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1477708
+"USA","PCM","E","Final",1969,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1477708
+"USA","PCM","E","Final",1970,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1046666
+"USA","PCM","E","Final",1970,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",419436
+"USA","PCM","E","Final",1970,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1468657
+"USA","PCM","E","Final",1970,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2555
+"USA","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1468657
+"USA","PCM","E","Final",1970,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1468657
+"USA","PCM","E","Final",1971,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1068328
+"USA","PCM","E","Final",1971,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",399662
+"USA","PCM","E","Final",1971,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1470574
+"USA","PCM","E","Final",1971,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2584
+"USA","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1470574
+"USA","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1470574
+"USA","PCM","E","Final",1972,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1142976
+"USA","PCM","E","Final",1972,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",397505
+"USA","PCM","E","Final",1972,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1543315
+"USA","PCM","E","Final",1972,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2834
+"USA","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1543315
+"USA","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1543315
+"USA","PCM","E","Final",1973,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1196586
+"USA","PCM","E","Final",1973,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",370631
+"USA","PCM","E","Final",1973,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1570193
+"USA","PCM","E","Final",1973,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2976
+"USA","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1570193
+"USA","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1570193
+"USA","PCM","E","Final",1974,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1190649
+"USA","PCM","E","Final",1974,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",388264
+"USA","PCM","E","Final",1974,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1581554
+"USA","PCM","E","Final",1974,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2641
+"USA","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1581554
+"USA","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1581554
+"USA","PCM","E","Final",1975,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1092235
+"USA","PCM","E","Final",1975,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",445284
+"USA","PCM","E","Final",1975,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1539536
+"USA","PCM","E","Final",1975,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2017
+"USA","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1539536
+"USA","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1539536
+"USA","PCM","E","Final",1976,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1253105
+"USA","PCM","E","Final",1976,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",504104
+"USA","PCM","E","Final",1976,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1760029
+"USA","PCM","E","Final",1976,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2820
+"USA","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1760029
+"USA","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1760029
+"USA","PCM","E","Final",1977,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1316148
+"USA","PCM","E","Final",1977,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",567104
+"USA","PCM","E","Final",1977,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",1888320
+"USA","PCM","E","Final",1977,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-5068
+"USA","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",1888320
+"USA","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-1888320
+"USA","PCM","E","Final",1978,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1438572
+"USA","PCM","E","Final",1978,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",650944
+"USA","PCM","E","Final",1978,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2093074
+"USA","PCM","E","Final",1978,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-3558
+"USA","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2093074
+"USA","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2093074
+"USA","PCM","E","Final",1979,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1443133
+"USA","PCM","E","Final",1979,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",762097
+"USA","PCM","E","Final",1979,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2210475
+"USA","PCM","E","Final",1979,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-5245
+"USA","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2210475
+"USA","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2210475
+"USA","PCM","E","Final",1980,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1421242
+"USA","PCM","E","Final",1980,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",855965
+"USA","PCM","E","Final",1980,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2281777
+"USA","PCM","E","Final",1980,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-4570
+"USA","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2281777
+"USA","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2281777
+"USA","PCM","E","Final",1981,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1427587
+"USA","PCM","E","Final",1981,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",868142
+"USA","PCM","E","Final",1981,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2299666
+"USA","PCM","E","Final",1981,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-3937
+"USA","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2299666
+"USA","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2299666
+"USA","PCM","E","Final",1982,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1426006
+"USA","PCM","E","Final",1982,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",904891
+"USA","PCM","E","Final",1982,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2332777
+"USA","PCM","E","Final",1982,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-1880
+"USA","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2332777
+"USA","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2332777
+"USA","PCM","E","Final",1983,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1565224
+"USA","PCM","E","Final",1983,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",910536
+"USA","PCM","E","Final",1983,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2478581
+"USA","PCM","E","Final",1983,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-2821
+"USA","PCM","E","Final",1983,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2478581
+"USA","PCM","E","Final",1983,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2478581
+"USA","PCM","E","Final",1984,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1834428
+"USA","PCM","E","Final",1984,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",936912
+"USA","PCM","E","Final",1984,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2775017
+"USA","PCM","E","Final",1984,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-3677
+"USA","PCM","E","Final",1984,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2775017
+"USA","PCM","E","Final",1984,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2775017
+"USA","PCM","E","Final",1985,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1753727
+"USA","PCM","E","Final",1985,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",957541
+"USA","PCM","E","Final",1985,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2726112
+"USA","PCM","E","Final",1985,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-14844
+"USA","PCM","E","Final",1985,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2726112
+"USA","PCM","E","Final",1985,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2726112
+"USA","PCM","E","Final",1986,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",1842682
+"USA","PCM","E","Final",1986,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",929493
+"USA","PCM","E","Final",1986,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2785266
+"USA","PCM","E","Final",1986,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-13091
+"USA","PCM","E","Final",1986,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2785266
+"USA","PCM","E","Final",1986,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2785266
+"USA","PCM","E","Final",1987,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",2068862
+"USA","PCM","E","Final",1987,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",978416
+"USA","PCM","E","Final",1987,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",3063792
+"USA","PCM","E","Final",1987,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-16514
+"USA","PCM","E","Final",1987,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",3063792
+"USA","PCM","E","Final",1987,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-3063792
+"USA","PCM","E","Final",1988,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",2079784
+"USA","PCM","E","Final",1988,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",933570
+"USA","PCM","E","Final",1988,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",3032086
+"USA","PCM","E","Final",1988,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-18732
+"USA","PCM","E","Final",1988,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",3032086
+"USA","PCM","E","Final",1988,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-3032086
+"USA","PCM","E","Final",1989,"Consumption","Industry","Industry not elsewhere specified","Non-specified primary biofuels and waste","TJ",444264
+"USA","PCM","E","Final",1989,"Consumption","Other","Final consumption not elsewhere specified","Non-specified primary biofuels and waste","TJ",1095545
+"USA","PCM","E","Final",1989,"Supply","Total primary energy supply","Resources [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",2888219
+"USA","PCM","E","Final",1989,"Supply","Transformation processes","Main activity producer CHP plants","Non-specified primary biofuels and waste","TJ",-1321740
+"USA","PCM","E","Final",1989,"Supply","Transformation processes","Main activity producer electricity plants","Non-specified primary biofuels and waste","TJ",-26670
+"USA","PCM","E","Final",1989,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste","TJ",2888219
+"USA","PCM","E","Final",1989,"Supply","Transformation processes","Manufacture [of Non-specified primary biofuels and waste]","Non-specified primary biofuels and waste [from Resources]","TJ",-2888219

@@ -1,0 +1,334 @@
+"Country","Method","Energy.type","Last.stage","Year","Ledger.side","Flow.aggregation.point","Flow","Product","Unit","E.dot"
+"CUB","PCM","E","Final",1971,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1971,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",502.0266
+"CUB","PCM","E","Final",1971,"Consumption","Other","Residential","Biogasoline","TJ",33259.3196
+"CUB","PCM","E","Final",1971,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-251.011199999997
+"CUB","PCM","E","Final",1971,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",34213.1689
+"CUB","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",34213.1689
+"CUB","PCM","E","Final",1971,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-34213.1689
+"CUB","PCM","E","Final",1972,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1972,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",476.9268
+"CUB","PCM","E","Final",1972,"Consumption","Other","Residential","Biogasoline","TJ",34790.4993
+"CUB","PCM","E","Final",1972,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-753.041999999993
+"CUB","PCM","E","Final",1972,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",36221.2796
+"CUB","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",36221.2796
+"CUB","PCM","E","Final",1972,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-36221.2796
+"CUB","PCM","E","Final",1973,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1973,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",502.0266
+"CUB","PCM","E","Final",1973,"Consumption","Other","Residential","Biogasoline","TJ",35267.4261
+"CUB","PCM","E","Final",1973,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-225.915500000006
+"CUB","PCM","E","Final",1973,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",36196.1797
+"CUB","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",36196.1797
+"CUB","PCM","E","Final",1973,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-36196.1797
+"CUB","PCM","E","Final",1974,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1974,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",326.3192
+"CUB","PCM","E","Final",1974,"Consumption","Other","Residential","Biogasoline","TJ",36497.3949
+"CUB","PCM","E","Final",1974,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",527.13079999999
+"CUB","PCM","E","Final",1974,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",36522.4947
+"CUB","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",36522.4947
+"CUB","PCM","E","Final",1974,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-36522.4947
+"CUB","PCM","E","Final",1975,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1975,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",401.623
+"CUB","PCM","E","Final",1975,"Consumption","Other","Residential","Biogasoline","TJ",34715.1955
+"CUB","PCM","E","Final",1975,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",727.938
+"CUB","PCM","E","Final",1975,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",34589.692
+"CUB","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",34589.692
+"CUB","PCM","E","Final",1975,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-34589.692
+"CUB","PCM","E","Final",1976,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1976,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",502.0266
+"CUB","PCM","E","Final",1976,"Consumption","Other","Residential","Biogasoline","TJ",35694.1489
+"CUB","PCM","E","Final",1976,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",1029.1531
+"CUB","PCM","E","Final",1976,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",35392.9338
+"CUB","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",35392.9338
+"CUB","PCM","E","Final",1976,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-35392.9338
+"CUB","PCM","E","Final",1977,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1977,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",401.623
+"CUB","PCM","E","Final",1977,"Consumption","Other","Residential","Biogasoline","TJ",39459.3549
+"CUB","PCM","E","Final",1977,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",326.315099999994
+"CUB","PCM","E","Final",1977,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",39760.5742
+"CUB","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",39760.5742
+"CUB","PCM","E","Final",1977,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-39760.5742
+"CUB","PCM","E","Final",1978,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1978,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",527.1307
+"CUB","PCM","E","Final",1978,"Consumption","Other","Residential","Biogasoline","TJ",38455.3016
+"CUB","PCM","E","Final",1978,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-702.833899999997
+"CUB","PCM","E","Final",1978,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",39886.0777
+"CUB","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",39886.0777
+"CUB","PCM","E","Final",1978,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-39886.0777
+"CUB","PCM","E","Final",1979,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1979,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",426.7228
+"CUB","PCM","E","Final",1979,"Consumption","Other","Residential","Biogasoline","TJ",40237.4968
+"CUB","PCM","E","Final",1979,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-502.030800000003
+"CUB","PCM","E","Final",1979,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",41392.1618
+"CUB","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",41392.1618
+"CUB","PCM","E","Final",1979,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-41392.1618
+"CUB","PCM","E","Final",1980,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1980,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",351.4191
+"CUB","PCM","E","Final",1980,"Consumption","Other","Residential","Biogasoline","TJ",44379.2259
+"CUB","PCM","E","Final",1980,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",1531.184
+"CUB","PCM","E","Final",1980,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",43400.2725
+"CUB","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",43400.2725
+"CUB","PCM","E","Final",1980,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-43400.2725
+"CUB","PCM","E","Final",1981,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1981,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",426.7228
+"CUB","PCM","E","Final",1981,"Consumption","Other","Residential","Biogasoline","TJ",39434.255
+"CUB","PCM","E","Final",1981,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-251.015499999997
+"CUB","PCM","E","Final",1981,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",40312.8048
+"CUB","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",40312.8048
+"CUB","PCM","E","Final",1981,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-40312.8048
+"CUB","PCM","E","Final",1982,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",175.7116
+"CUB","PCM","E","Final",1982,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",326.3192
+"CUB","PCM","E","Final",1982,"Consumption","Other","Residential","Biogasoline","TJ",42145.2038
+"CUB","PCM","E","Final",1982,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-2108.51019999999
+"CUB","PCM","E","Final",1982,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",44755.7448
+"CUB","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",44755.7448
+"CUB","PCM","E","Final",1982,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-44755.7448
+"CUB","PCM","E","Final",1983,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",175.7116
+"CUB","PCM","E","Final",1983,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",351.4191
+"CUB","PCM","E","Final",1983,"Consumption","Other","Residential","Biogasoline","TJ",44253.7182
+"CUB","PCM","E","Final",1983,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1983,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",44580.0374
+"CUB","PCM","E","Final",1983,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",44580.0374
+"CUB","PCM","E","Final",1983,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-44580.0374
+"CUB","PCM","E","Final",1984,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1984,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",401.623
+"CUB","PCM","E","Final",1984,"Consumption","Other","Residential","Biogasoline","TJ",45006.7602
+"CUB","PCM","E","Final",1984,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-200.807299999997
+"CUB","PCM","E","Final",1984,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",45810.002
+"CUB","PCM","E","Final",1984,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",45810.002
+"CUB","PCM","E","Final",1984,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-45810.002
+"CUB","PCM","E","Final",1985,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1985,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",150.6076
+"CUB","PCM","E","Final",1985,"Consumption","Other","Residential","Biogasoline","TJ",47567.0973
+"CUB","PCM","E","Final",1985,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-426.726999999988
+"CUB","PCM","E","Final",1985,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",48345.2434
+"CUB","PCM","E","Final",1985,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",48345.2434
+"CUB","PCM","E","Final",1985,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-48345.2434
+"CUB","PCM","E","Final",1986,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1986,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",175.7116
+"CUB","PCM","E","Final",1986,"Consumption","Other","Residential","Biogasoline","TJ",49048.0815
+"CUB","PCM","E","Final",1986,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-602.43029999999
+"CUB","PCM","E","Final",1986,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",50027.0349
+"CUB","PCM","E","Final",1986,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",50027.0349
+"CUB","PCM","E","Final",1986,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-50027.0349
+"CUB","PCM","E","Final",1987,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1987,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1987,"Consumption","Other","Residential","Biogasoline","TJ",49575.208
+"CUB","PCM","E","Final",1987,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-1932.80689999999
+"CUB","PCM","E","Final",1987,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",51909.6379
+"CUB","PCM","E","Final",1987,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",51909.6379
+"CUB","PCM","E","Final",1987,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-51909.6379
+"CUB","PCM","E","Final",1988,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1988,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1988,"Consumption","Other","Residential","Biogasoline","TJ",51156.5958
+"CUB","PCM","E","Final",1988,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-401.622900000003
+"CUB","PCM","E","Final",1988,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",52010.0415
+"CUB","PCM","E","Final",1988,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",52010.0415
+"CUB","PCM","E","Final",1988,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-52010.0415
+"CUB","PCM","E","Final",1989,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",175.7116
+"CUB","PCM","E","Final",1989,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",200.8115
+"CUB","PCM","E","Final",1989,"Consumption","Other","Residential","Biogasoline","TJ",51733.9262
+"CUB","PCM","E","Final",1989,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-401.61879999999
+"CUB","PCM","E","Final",1989,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",52512.0681
+"CUB","PCM","E","Final",1989,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",52512.0681
+"CUB","PCM","E","Final",1989,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-52512.0681
+"CUB","PCM","E","Final",1990,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",150.6076
+"CUB","PCM","E","Final",1990,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",175.7116
+"CUB","PCM","E","Final",1990,"Consumption","Other","Residential","Biogasoline","TJ",53139.6025
+"CUB","PCM","E","Final",1990,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-1656.69159999999
+"CUB","PCM","E","Final",1990,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",55122.6133
+"CUB","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",55122.6133
+"CUB","PCM","E","Final",1990,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-55122.6133
+"CUB","PCM","E","Final",1991,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",100.4037
+"CUB","PCM","E","Final",1991,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",100.4037
+"CUB","PCM","E","Final",1991,"Consumption","Other","Residential","Biogasoline","TJ",53691.833
+"CUB","PCM","E","Final",1991,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",1857.4948
+"CUB","PCM","E","Final",1991,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",52035.1456
+"CUB","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",52035.1456
+"CUB","PCM","E","Final",1991,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-52035.1456
+"CUB","PCM","E","Final",1992,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",100.4037
+"CUB","PCM","E","Final",1992,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",100.4037
+"CUB","PCM","E","Final",1992,"Consumption","Other","Residential","Biogasoline","TJ",42647.2305
+"CUB","PCM","E","Final",1992,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-3915.81759999999
+"CUB","PCM","E","Final",1992,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",46763.8555
+"CUB","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",46763.8555
+"CUB","PCM","E","Final",1992,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-46763.8555
+"CUB","PCM","E","Final",1993,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",50.2039
+"CUB","PCM","E","Final",1993,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",25.0999
+"CUB","PCM","E","Final",1993,"Consumption","Other","Residential","Biogasoline","TJ",34213.1689
+"CUB","PCM","E","Final",1993,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-200.8115
+"CUB","PCM","E","Final",1993,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",34489.2842
+"CUB","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",34489.2842
+"CUB","PCM","E","Final",1993,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-34489.2842
+"CUB","PCM","E","Final",1994,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",50.2039
+"CUB","PCM","E","Final",1994,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",50.2039
+"CUB","PCM","E","Final",1994,"Consumption","Other","Residential","Biogasoline","TJ",34062.5613
+"CUB","PCM","E","Final",1994,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-1405.6763
+"CUB","PCM","E","Final",1994,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",35568.6454
+"CUB","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",35568.6454
+"CUB","PCM","E","Final",1994,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-35568.6454
+"CUB","PCM","E","Final",1995,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",225.9114
+"CUB","PCM","E","Final",1995,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",175.7116
+"CUB","PCM","E","Final",1995,"Consumption","Other","Residential","Biogasoline","TJ",35920.0644
+"CUB","PCM","E","Final",1995,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",3137.67580000001
+"CUB","PCM","E","Final",1995,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",33184.0116
+"CUB","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",33184.0116
+"CUB","PCM","E","Final",1995,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-33184.0116
+"CUB","PCM","E","Final",1996,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",284.3968
+"CUB","PCM","E","Final",1996,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",232.6898
+"CUB","PCM","E","Final",1996,"Consumption","Other","Residential","Biogasoline","TJ",35058.3205
+"CUB","PCM","E","Final",1996,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",749.7764
+"CUB","PCM","E","Final",1996,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",34825.6307
+"CUB","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",34825.6307
+"CUB","PCM","E","Final",1996,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-34825.6307
+"CUB","PCM","E","Final",1997,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",361.9572
+"CUB","PCM","E","Final",1997,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",387.8149
+"CUB","PCM","E","Final",1997,"Consumption","Other","Residential","Biogasoline","TJ",36428.5932
+"CUB","PCM","E","Final",1997,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",1396.12609999999
+"CUB","PCM","E","Final",1997,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",35782.2392
+"CUB","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",35782.2392
+"CUB","PCM","E","Final",1997,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-35782.2392
+"CUB","PCM","E","Final",1998,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",568.7935
+"CUB","PCM","E","Final",1998,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",646.354
+"CUB","PCM","E","Final",1998,"Consumption","Other","Residential","Biogasoline","TJ",36195.9076
+"CUB","PCM","E","Final",1998,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",7730.4112
+"CUB","PCM","E","Final",1998,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",29680.6439
+"CUB","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",29680.6439
+"CUB","PCM","E","Final",1998,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-29680.6439
+"CUB","PCM","E","Final",1999,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",258.5433
+"CUB","PCM","E","Final",1999,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",284.3968
+"CUB","PCM","E","Final",1999,"Consumption","Other","Residential","Biogasoline","TJ",35549.5494
+"CUB","PCM","E","Final",1999,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",7135.7643
+"CUB","PCM","E","Final",1999,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",28956.7252
+"CUB","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",28956.7252
+"CUB","PCM","E","Final",1999,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-28956.7252
+"CUB","PCM","E","Final",2000,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",258.5433
+"CUB","PCM","E","Final",2000,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",517.0824
+"CUB","PCM","E","Final",2000,"Consumption","Other","Residential","Biogasoline","TJ",35394.4243
+"CUB","PCM","E","Final",2000,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",2249.31649999999
+"CUB","PCM","E","Final",2000,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",33920.7335
+"CUB","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",33920.7335
+"CUB","PCM","E","Final",2000,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-33920.7335
+"CUB","PCM","E","Final",2001,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",232.6898
+"CUB","PCM","E","Final",2001,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",361.9572
+"CUB","PCM","E","Final",2001,"Consumption","Other","Residential","Biogasoline","TJ",34024.1516
+"CUB","PCM","E","Final",2001,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",1447.83729999999
+"CUB","PCM","E","Final",2001,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",33170.9613
+"CUB","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",33170.9613
+"CUB","PCM","E","Final",2001,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-33170.9613
+"CUB","PCM","E","Final",2002,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",284.3968
+"CUB","PCM","E","Final",2002,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",1085.8759
+"CUB","PCM","E","Final",2002,"Consumption","Other","Residential","Biogasoline","TJ",31490.4384
+"CUB","PCM","E","Final",2002,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",387.810800000002
+"CUB","PCM","E","Final",2002,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",32472.9003
+"CUB","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",32472.9003
+"CUB","PCM","E","Final",2002,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-32472.9003
+"CUB","PCM","E","Final",2003,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",284.3968
+"CUB","PCM","E","Final",2003,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",904.8973
+"CUB","PCM","E","Final",2003,"Consumption","Other","Residential","Biogasoline","TJ",32188.5036
+"CUB","PCM","E","Final",2003,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",1060.0225
+"CUB","PCM","E","Final",2003,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",32317.7752
+"CUB","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",32317.7752
+"CUB","PCM","E","Final",2003,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-32317.7752
+"CUB","PCM","E","Final",2004,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",284.3968
+"CUB","PCM","E","Final",2004,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",775.6256
+"CUB","PCM","E","Final",2004,"Consumption","Other","Residential","Biogasoline","TJ",31464.5849
+"CUB","PCM","E","Final",2004,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-206.8321
+"CUB","PCM","E","Final",2004,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",32731.4394
+"CUB","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",32731.4394
+"CUB","PCM","E","Final",2004,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-32731.4394
+"CUB","PCM","E","Final",2005,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",258.5433
+"CUB","PCM","E","Final",2005,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",853.1903
+"CUB","PCM","E","Final",2005,"Consumption","Other","Residential","Biogasoline","TJ",29525.5188
+"CUB","PCM","E","Final",2005,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",6618.6819
+"CUB","PCM","E","Final",2005,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",24018.5705
+"CUB","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",24018.5705
+"CUB","PCM","E","Final",2005,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-24018.5705
+"CUB","PCM","E","Final",2006,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",258.5433
+"CUB","PCM","E","Final",2006,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",4240.0938
+"CUB","PCM","E","Final",2006,"Consumption","Other","Residential","Biogasoline","TJ",16701.8235
+"CUB","PCM","E","Final",2006,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",4524.4906
+"CUB","PCM","E","Final",2006,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",16675.97
+"CUB","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",16675.97
+"CUB","PCM","E","Final",2006,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-16675.97
+"CUB","PCM","E","Final",2007,"Consumption","Industry","Industry not elsewhere specified","Biogasoline","TJ",206.8321
+"CUB","PCM","E","Final",2007,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",25.8535
+"CUB","PCM","E","Final",2007,"Consumption","Other","Residential","Biogasoline","TJ",11324.1468
+"CUB","PCM","E","Final",2007,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-749.776300000001
+"CUB","PCM","E","Final",2007,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",12306.6087
+"CUB","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",12306.6087
+"CUB","PCM","E","Final",2007,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-12306.6087
+"CUB","PCM","E","Final",2008,"Consumption","Other","Residential","Biogasoline","TJ",11013.8966
+"CUB","PCM","E","Final",2008,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-258.543200000001
+"CUB","PCM","E","Final",2008,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",11272.4398
+"CUB","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",11272.4398
+"CUB","PCM","E","Final",2008,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-11272.4398
+"CUB","PCM","E","Final",2009,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",77.5647
+"CUB","PCM","E","Final",2009,"Consumption","Other","Residential","Biogasoline","TJ",9928.0207
+"CUB","PCM","E","Final",2009,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-801.4791
+"CUB","PCM","E","Final",2009,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",10807.0645
+"CUB","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",10807.0645
+"CUB","PCM","E","Final",2009,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-10807.0645
+"CUB","PCM","E","Final",2010,"Consumption","Other","Residential","Biogasoline","TJ",10031.4388
+"CUB","PCM","E","Final",2010,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-1189.2941
+"CUB","PCM","E","Final",2010,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",11220.7329
+"CUB","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",11220.7329
+"CUB","PCM","E","Final",2010,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-11220.7329
+"CUB","PCM","E","Final",2011,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",672.2117
+"CUB","PCM","E","Final",2011,"Consumption","Other","Residential","Biogasoline","TJ",10186.5639
+"CUB","PCM","E","Final",2011,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",129.275799999999
+"CUB","PCM","E","Final",2011,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",10729.4998
+"CUB","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",10729.4998
+"CUB","PCM","E","Final",2011,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-10729.4998
+"CUB","PCM","E","Final",2012,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",542.94
+"CUB","PCM","E","Final",2012,"Consumption","Other","Residential","Biogasoline","TJ",9566.0593
+"CUB","PCM","E","Final",2012,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-491.228899999998
+"CUB","PCM","E","Final",2012,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",10600.2282
+"CUB","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",10600.2282
+"CUB","PCM","E","Final",2012,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-10600.2282
+"CUB","PCM","E","Final",2013,"Consumption","Other","Residential","Biogasoline","TJ",9513.2805
+"CUB","PCM","E","Final",2013,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-351.4106
+"CUB","PCM","E","Final",2013,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",9864.6911
+"CUB","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",9864.6911
+"CUB","PCM","E","Final",2013,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-9864.6911
+"CUB","PCM","E","Final",2014,"Consumption","Other","Residential","Biogasoline","TJ",9463.0765
+"CUB","PCM","E","Final",2014,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-75.3038000000018
+"CUB","PCM","E","Final",2014,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",9538.3803
+"CUB","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",9538.3803
+"CUB","PCM","E","Final",2014,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-9538.3803
+"CUB","PCM","E","Final",2015,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",276.1111
+"CUB","PCM","E","Final",2015,"Consumption","Other","Residential","Biogasoline","TJ",9086.5618
+"CUB","PCM","E","Final",2015,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-175.707400000002
+"CUB","PCM","E","Final",2015,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",9538.3803
+"CUB","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",9538.3803
+"CUB","PCM","E","Final",2015,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-9538.3803
+"CUB","PCM","E","Final",2016,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",200.8073
+"CUB","PCM","E","Final",2016,"Consumption","Other","Residential","Biogasoline","TJ",9312.469
+"CUB","PCM","E","Final",2016,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",251.007099999998
+"CUB","PCM","E","Final",2016,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",9262.2692
+"CUB","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",9262.2692
+"CUB","PCM","E","Final",2016,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-9262.2692
+"CUB","PCM","E","Final",2017,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",583.0203
+"CUB","PCM","E","Final",2017,"Consumption","Other","Residential","Biogasoline","TJ",8791.9032
+"CUB","PCM","E","Final",2017,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",247.649300000001
+"CUB","PCM","E","Final",2017,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",9127.2742
+"CUB","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",9127.2742
+"CUB","PCM","E","Final",2017,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-9127.2742
+"CUB","PCM","E","Final",2018,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",72.5907
+"CUB","PCM","E","Final",2018,"Consumption","Other","Residential","Biogasoline","TJ",9184.0305
+"CUB","PCM","E","Final",2018,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-1108.9368
+"CUB","PCM","E","Final",2018,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",10365.558
+"CUB","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",10365.558
+"CUB","PCM","E","Final",2018,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-10365.558
+"CUB","PCM","E","Final",2019,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",251.2624
+"CUB","PCM","E","Final",2019,"Consumption","Other","Residential","Biogasoline","TJ",8530.2994
+"CUB","PCM","E","Final",2019,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",-187.501599999999
+"CUB","PCM","E","Final",2019,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",8969.0634
+"CUB","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",8969.0634
+"CUB","PCM","E","Final",2019,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-8969.0634
+"CUB","PCM","E","Final",2020,"Consumption","Other","Final consumption not elsewhere specified","Biogasoline","TJ",253.7452
+"CUB","PCM","E","Final",2020,"Consumption","Other","Residential","Biogasoline","TJ",8614.4875
+"CUB","PCM","E","Final",2020,"Supply","TFC compare","Statistical differences","Biogasoline","TJ",29.8936999999989
+"CUB","PCM","E","Final",2020,"Supply","Total primary energy supply","Resources [of Biogasoline]","Biogasoline [from Resources]","TJ",8838.339
+"CUB","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline","TJ",8838.339
+"CUB","PCM","E","Final",2020,"Supply","Transformation processes","Manufacture [of Biogasoline]","Biogasoline [from Resources]","TJ",-8838.339
