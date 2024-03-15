@@ -1,8 +1,23 @@
 # Guevara-Heun meeting notes
 
 
-## 16 February 2024
 
+
+## 15 Mar 2024
+
+### Review previous action items
+- [ ] ZG: Review vignette for `LMDIR` package at https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+- [ ] MKH: Make an Excel document with data for 
+           Cuba (Biogasoline),
+           Austria, Switzerland, Sweden, Turkey, USA 
+             (Non-specified primary biofuels and waste). 
+           All countries 
+             (Manufacture [of Other sources], Other sources, Non-specified, Transfers)
+           Send to Zeus.
+- [ ] ZG: Put decided aggregations into MKH format.
+
+
+## 16 February 2024
 
 ### Review previous action items
 
