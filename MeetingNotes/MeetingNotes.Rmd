@@ -5,9 +5,12 @@
 
 ## 22 Mar 2024
 
+### New action items
+- [ ] MKH: Send ZG Non-specified industries (not flows) Industry (not elsewhere specified).
+
 ### Review previous action items
 - [ ] ZG: Review vignette for `LMDIR` package at https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
-- [ ] MKH: Make an Excel document with data for 
+- [x] MKH: Make an Excel document with data for 
            Cuba (Biogasoline),
            Austria, Switzerland, Sweden, Turkey, USA 
              (Non-specified primary biofuels and waste). 
