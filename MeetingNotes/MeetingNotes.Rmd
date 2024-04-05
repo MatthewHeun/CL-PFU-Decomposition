@@ -1,15 +1,45 @@
-# Guevara-Heun meeting notes
+# Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 5 Apr 2024
+
+### New action items
+- [ ] EA: Distribute EIOU for renewable electricity generation by share of
+          output 
+- [ ] EA: Add a grid industry to the energy conversion chains
+          of each country and year
+- [ ] ZG: Review previous work on specifying fossil fuel electricity
+          production from Main activity producer electricity plants
+- [ ] MKH: Extract Other Sources and Biosolids and waste
+           from R, U, V matrices. Send to ZG.
+- [ ] MKH: Develop an Excel example of distributing the products 
+           consumed and made by non-physical industries such as
+           Statistical differences, Transfers, etc. according 
+           to their known consumption and use elsewhere in the ECC.
+           This example should be for one country and one year.
+
+### Review of previous action items
+- [x] ZG: Put decided aggregations into MKH format. 
+          (No longer relevant. We're taking a different approach,
+           suggested by Zeus, for distributing 
+           Statistical differences, etc. into industries.)
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+- [x] MKH: Send ZG Non-specified industries (not flows) 
+           Industry (not elsewhere specified).
+
+Next meeting: 10 AM (ET), Friday 19 April
 
 
 ## 22 Mar 2024
 
 ### New action items
-- [ ] MKH: Send ZG Non-specified industries (not flows) Industry (not elsewhere specified).
+- [ ] MKH: Send ZG Non-specified industries (not flows) Industry
+           (not elsewhere specified).
 
 ### Review previous action items
-- [ ] ZG: Review vignette for `LMDIR` package at https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
 - [x] MKH: Make an Excel document with data for 
            Cuba (Biogasoline),
            Austria, Switzerland, Sweden, Turkey, USA 
