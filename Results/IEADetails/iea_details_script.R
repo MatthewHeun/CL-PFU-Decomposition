@@ -34,3 +34,13 @@ non_specified <- specified_iea_data |>
 non_specified |>
   write.csv("~/Desktop/IEADetails/Non-specified flows.csv", row.names = FALSE)
 
+
+
+psut <- tar_read(PSUT)
+
+usa <- psut |>
+  dplyr::filter(Country == "USA", Last.stage == "Final", IEAMW == "IEA", Energy.type == "E") |>
+  dplyr::select(-U_feed, -U_EIOU, -r_EIOU, -S_units) |>
+  tidyr::pivot_longer(cols = c(R, U, V, Y), names_to = "matname", values_to = "matval") |>
+  matsbyname::select_rowcol_piece_byname(piece = "pref")
+
