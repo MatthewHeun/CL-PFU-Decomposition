@@ -4,16 +4,34 @@
 ## 9 May 2024
 
 ### New action items
-- [ ] 
+- [ ] EA Create distribution industries for losses.
 
 ### Review of previous action items
-- [ ] EA: Develop an Excel example for simpler distribution industry
+- [x] EA: Develop an Excel example for simpler distribution industry
           for all products with losses (except Electricity).
+          We decided to go for Option 1 
+          (specify the source of each product
+          with [from XXXX] notation).
+          I.e., we will do the same thing we did for Electricity,
+          except we'll use a "Distribution" industry instead of Grid.
 - [ ] MKH: Develop an Excel example of distributing the products 
            consumed and made by non-physical industries such as
            Statistical differences, Transfers, etc. according 
            to their known consumption and use elsewhere in the ECC.
            This example should be for one country and one year.
+           Not done yet.
+           Need to include R+V for fractionizing.
+           (And U+Y.)
+           Look out for created industries (Manufacture) vs. Resources.
+           Try another country with more flows (USA).
+           Order of reallocation:
+           (1) Losses (EA algorithm)
+           (2) Statistical differences (MKH algorithm, 
+               only assign stat diffs to Y matrix, 
+               which may result in some -ve values for stat diffs in Y. 
+               Distribute the stat diffs across both U and Y.)
+           (3) Transfers (reallocate to energy sector, MKH algorithm)
+           (4) Non-specified (reallocate only to Y matrix, MKH algorithm)
 - [ ] ZG: Review vignette for `LMDIR` package at
           https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
 
