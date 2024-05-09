@@ -1,6 +1,22 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 9 May 2024
+
+### New action items
+- [ ] 
+
+### Review of previous action items
+- [ ] EA: Develop an Excel example for simpler distribution industry
+          for all products with losses (except Electricity).
+- [ ] MKH: Develop an Excel example of distributing the products 
+           consumed and made by non-physical industries such as
+           Statistical differences, Transfers, etc. according 
+           to their known consumption and use elsewhere in the ECC.
+           This example should be for one country and one year.
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+
 
 ## 19 Apr 2024
 
