@@ -3,33 +3,73 @@
 
 ## 24 May 2024
 
-
 ### Review of previous action items
-- [ ] EA Create distribution industries for losses.
-- [ ] MKH: Develop an Excel example of distributing the products 
+- [ ] EA: Create distribution industries for losses.
+          Nearly done, but some discussion required.
+          Some "Losses" appear and disappear from one year to the next.
+          Is this a problem?
+          Answer: 
+          Yes for a decomposition analysis, but no for the "real" database.
+          For the "real" database, add distribution industries
+          ONLY when the products with losses exist.
+          Do this when the data are still in IEA format
+          (not matrix format).
+          For the decomposition analysis, 
+          we will aggregate many industries and products first.
+          So wait until after that aggregation before adding distribution 
+          industries. 
+          We may unpack matrices and run through same code to 
+          form distribution industries, thereafter re-packing the matrices.
+- [x] MKH: Develop an Excel example of distributing the products 
            consumed and made by non-physical industries such as
            Statistical differences, Transfers, etc. according 
            to their known consumption and use elsewhere in the ECC.
            This example should be for one country and one year.
-           Not done yet.
            Need to include R+V for fractionizing.
            (And U+Y.)
            Look out for created industries (Manufacture) vs. Resources.
-           Try another country with more flows (USA).
            Order of reallocation:
            (1) Losses (EA algorithm)
            (2) Statistical differences (MKH algorithm, 
                only assign stat diffs to Y matrix, 
                which may result in some -ve values for stat diffs in Y. 
                Distribute the stat diffs across both U and Y.)
+               The idea is that consumption is more likely to be wrong.
+               Production is more likely to be right.
            (3) Transfers (reallocate to energy sector, MKH algorithm)
            (4) Non-specified (reallocate only to Y matrix, MKH algorithm)
+           We reviewed the Excel document called GH1995.xlsx, and 
+           all were good with the approach. 
 - [ ] ZG: Review vignette for `LMDIR` package at
           https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
 
+
 ### Discussion topics
 
-#### Use of GWh information to create specific fossil fuel electricity and heat producers. See emails of 9 and 10 May 2024 for our offline discussion.
+#### Use of GWh information to create specific fossil fuel electricity and heat producers. 
+
+See emails of 9 and 10 May 2024 for our offline discussion.
+
+Yes, we can do this.
+But need to worry about EIOU (which is not accounted separately).
+We can assign EIOU by fraction of output.
+
+
+### Next meeting
+
+Due to travel, next meeting will be 12 July 2024. 
+Teams invitation has been sent.
+
+
+### New action items
+- [ ] EA: Finish distribution industries per discussion above.
+- [ ] MKH: Implement code to redistribute statistical differences.
+- [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
+- [ ] MKH: Implement code to redistributed Non-specified (only to Y matrix)
+- [ ] EA: Implement GWhr information into the database.
+- [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel consumption to specialized industries.
+
+
 
 
 ## 9 May 2024
