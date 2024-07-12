@@ -1,6 +1,70 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 12 July 2024
+
+### Review of previous action items
+- [x] EA: Create distribution industries for losses.
+          Nearly done, but some discussion required.
+          Some "Losses" appear and disappear from one year to the next.
+          Is this a problem?
+          Answer: 
+          Yes for a decomposition analysis, but no for the "real" database.
+          For the "real" database, add distribution industries
+          ONLY when the products with losses exist.
+          Do this when the data are still in IEA format
+          (not matrix format).
+          For the decomposition analysis, 
+          we will aggregate many industries and products first.
+          So wait until after that aggregation before adding distribution 
+          industries. 
+          We may unpack matrices and run through same code to 
+          form distribution industries, thereafter re-packing the matrices.
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+          Half done.
+          Checked it once.
+- [x] EA: Finish distribution industries per discussion above.
+- [ ] MKH: Build data frames of GWh IEA data.
+- [ ] MKH: Implement code to redistribute statistical differences.
+- [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
+- [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
+- [ ] EA: Implement GWhr information into the database.
+- [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel consumption
+          to specialized industries. 
+          Send to Emmanuel.
+
+
+### Discussion topics
+
+#### Format of GWh data frame
+
+#### Reports from the network
+
+- ZG: He mentioned that soon there will be a database for these studies.
+- ZG: If I finish redistributing the rows and columns, we need to re-check the efficiencies.
+- EA: Will be starting on a French project in Sept, Oct. 
+      Time will probably get squeezed for this decomposition work.
+- MKH: Discussed IEA data. Looked at Eviz website.
+- ZG: Discharged from half of teaching duties to January.
+- ZG: Working with Gabriel Carmona on some material exerguy stuff. 
+      ZG has already thought about the format for a database on materials.
+
+
+### Next meeting 11 AM Matt's time 11 AM Matt's time 24 July 2024
+
+
+
+### New action items
+
+
+
+
+
+
+
+
+
 ## 24 May 2024
 
 ### Review of previous action items
