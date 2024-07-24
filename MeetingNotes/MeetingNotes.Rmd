@@ -1,6 +1,36 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 24 July 2024
+
+### Review of previous action items
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+- [ ] MKH: Build data frames of GWh IEA data.
+- [ ] MKH: Implement code to redistribute statistical differences.
+- [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
+- [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
+- [ ] EA: Implement GWhr information into the database.
+- [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel consumption
+          to specialized industries. 
+          Send to Emmanuel.
+
+### New action items
+
+
+### Reports from the network
+
+
+### Next meeting: 
+
+
+
+
+
+
+
+
+
 ## 12 July 2024
 
 ### Review of previous action items
@@ -57,6 +87,7 @@
 
 ### New action items
 
+None.
 
 
 
