@@ -8,11 +8,21 @@
 - [ ] EA: Send code that looked at GWh data to Matt.
 - [ ] MKH: Build data frames of GWh IEA data.
 - [ ] MKH: Run new function across GWh data. Look for mismatches.
+
+
+## 24 July 2024
+
+### Review of previous action items
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+- [ ] MKH: Build data frames of GWh IEA data.
 - [ ] MKH: Implement code to redistribute statistical differences.
 - [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
 - [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
 - [ ] EA: Implement GWhr information into the database.
-- [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel
+- [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel consumption
+          to specialized industries. 
+          Send to Emmanuel.
 - [ ] ZG: Review vignette for `LMDIR` package at
           https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
           Half done.
@@ -26,7 +36,6 @@
 * EA is now off the hook for disaggregating FF power plants using the GWh data.
   We will disaggregate renewables/nuclear where possible.
   Researchers will aggregate renewables as needed.
-
 
 
 ## 12 July 2024
@@ -85,6 +94,7 @@
 
 ### New action items
 
+None.
 
 
 
