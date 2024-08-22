@@ -1,0 +1,97 @@
+---
+title: "ElecHeatOutput Tests"
+output: pdf_document
+date: "2024-08-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load data
+
+Load data but filter to two countries and single years to show differences.
+
+```{r}
+# Path to data
+# EA:
+# path_to_iea_data <- "/home/eeear/Documents/Datasets/IEA/WEEBs/IEA Extended Energy Balances 2022 (TJ).csv"
+# MKH:
+path_to_iea_data <- "~/OneDrive - University of Leeds/Fellowship 1960-2015 PFU database research/IEA extended energy balance data/IEA 2022 energy balance data/IEA Extended Energy Balances 2022 (TJ).csv"
+
+# Loading tidy IEA data
+tidy_iea_raw <- IEATools::load_tidy_iea_df(path_to_iea_data) |> 
+  # Restrict to GHA and PRT in specific years to demonstrate differences.
+  dplyr::filter((Country == "GHA" & Year == 1971) | (Country == "PRT" & Year == 1976), 
+                FlowAggregationPoint == "Transformation processes") |> 
+    dplyr::mutate(
+    # Get rid of non-unique columns.
+    Method = NULL, # All "PCM"
+    EnergyType = NULL, # All "Energy"
+    LastStage = NULL, # All "Final"
+    LedgerSide = NULL, # All "Production"
+    FlowAggregationPoint = NULL # Not necessary
+  )
+
+# Loading electricity/heat data
+iea_elec_heat_generation <- IEATools::load_electricity_heat_output(path_to_iea_data) |> 
+  # Restrict to GHA and PRT in specific years to demonstrate differences.
+  dplyr::filter((Country == "GHA" & Year == 1971) |
+                  (Country == "PRT" & Year == 1976)) |> 
+  dplyr::mutate(
+    # Get rid of non-unique columns.
+    Method = NULL, 
+    EnergyType = NULL, 
+    LastStage = NULL, 
+    LedgerSide = NULL, 
+    FlowAggregationPoint = NULL
+  )
+```
+
+Now do some comparisons.
+First, outputs.
+
+```{r}
+# (1) Checking (Machine, OutputProduct) ------------------------------------------
+
+# Calculating output of (Machine, OutputProduct) in balanced tidy_iea_raw df
+elec_heat_output_weeb <- tidy_iea_raw |>
+  dplyr::filter(Product %in% c("Electricity", "Heat")) |>
+  # removing irrelevant flows, here we only look at main activity/autoproducer plants
+  dplyr::filter(Flow %in% IEATools::main_act_plants) |> 
+  dplyr::arrange(Year, Flow)
+elec_heat_output_weeb
+
+# Calculating output of each (Machine, OutputProduct) combination in generation (GWh) data
+iea_elec_heat_total_generation <- iea_elec_heat_generation |>
+  dplyr::group_by(Country, Year, Machine, OutputProduct, Unit) |>
+  dplyr::summarise(Edot = sum(Edot), .groups = "keep") |> 
+  dplyr::arrange(Year, Machine)
+iea_elec_heat_total_generation
+```
+
+Note that outputs match for GHA, 1971 but are different for PRT, 1976, 
+except for Main activity producer electricity plants.
+
+
+
+```{r}
+# (2) Checking (Machine, InputProduct) ----------------------------
+
+# Calculating input of each (Machine, InputProduct) in balanced tidy_iea_raw df
+elec_heat_input_weeb <- tidy_iea_raw |>
+  dplyr::filter(Flow %in% IEATools::main_act_plants, Edot < 0) |>
+  dplyr::mutate(
+    Edot = abs(Edot)
+  ) |> 
+  dplyr::arrange(Year, Flow, Product)
+elec_heat_input_weeb
+
+# Calculating input of each (Machine, InputProduct) combination in generation (gwh) data
+iea_elec_heat_total_input <- iea_elec_heat_generation |>
+  dplyr::group_by(Country, Year, Machine, InputProduct, Unit) |>
+  dplyr::summarise(Edot = sum(Edot), .groups = "keep") |> 
+  dplyr::arrange(Year, Machine, InputProduct)
+iea_elec_heat_total_input
+```
+

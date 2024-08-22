@@ -1,6 +1,34 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 30 July 2024
+
+### Review of previous action items
+
+- [ ] EA: Send code that looked at GWh data to Matt.
+- [ ] MKH: Build data frames of GWh IEA data.
+- [ ] MKH: Run new function across GWh data. Look for mismatches.
+- [ ] MKH: Implement code to redistribute statistical differences.
+- [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
+- [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
+- [ ] EA: Implement GWhr information into the database.
+- [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+          Half done.
+          Checked it once.
+          
+### Discussion topics
+* We looked at how ZG performed balancing of GWh data.
+* Didn't find problems with balancing.
+* Saw no difference between entering electricity flows.
+* Most of the data was exactly the same in the database and the GWh rows.
+* EA is now off the hook for disaggregating FF power plants using the GWh data.
+  We will disaggregate renewables/nuclear where possible.
+  Researchers will aggregate renewables as needed.
+
+
+
 ## 12 July 2024
 
 ### Review of previous action items
