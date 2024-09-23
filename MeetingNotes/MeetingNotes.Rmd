@@ -1,13 +1,38 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+
+## 22 Aug 2024
+
+### Discussion of GWh mismatches
+
+* No practical way to separate industries for electricity and heat production
+  without studying every country and every year separately.
+* Best way to move forward: include the electricity and heat output
+  data in the database for people who might want to do focused studies
+  on particular countries or years. 
+  Make available on the Mexer website.
+* Energy balance is correct on IEA data.
+  So we need to use that data, not the electricity and heat output.
+
+### Next steps:
+- [ ] MKH: Implement code to redistribute statistical differences.
+- [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
+- [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
+- [ ] MKH: Implement GWhr information into the database.
+           Make available to mexer.site.
+
+### Next meeting:
+10 AM MKH time (8 AM ZG time, 3 PM EA time), Fri 20 Sept 2024.
+
+
 ## 30 July 2024
 
 ### Review of previous action items
 
-- [ ] EA: Send code that looked at GWh data to Matt.
-- [ ] MKH: Build data frames of GWh IEA data.
-- [ ] MKH: Run new function across GWh data. Look for mismatches.
+- [x] EA: Send code that looked at GWh data to Matt.
+- [x] MKH: Build data frames of GWh IEA data.
+- [x] MKH: Run new function across GWh data. Look for mismatches.
 
 
 ## 24 July 2024
