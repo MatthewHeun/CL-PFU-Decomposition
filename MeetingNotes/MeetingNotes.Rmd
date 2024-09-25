@@ -1,6 +1,59 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+
+## 22 Aug 2024
+
+### Discussion of GWh mismatches
+
+* No practical way to separate industries for electricity and heat production
+  without studying every country and every year separately.
+* Best way to move forward: include the electricity and heat output
+  data in the database for people who might want to do focused studies
+  on particular countries or years. 
+  Make available on the Mexer website.
+* Energy balance is correct on IEA data.
+  So we need to use that data, not the electricity and heat output.
+
+### Next steps:
+- [ ] MKH: Implement code to redistribute statistical differences.
+- [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
+- [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
+- [ ] MKH: Implement GWhr information into the database.
+           Make available to mexer.site.
+
+### Next meeting:
+10 AM MKH time (8 AM ZG time, 3 PM EA time), Fri 20 Sept 2024.
+
+
+## 30 July 2024
+
+### Review of previous action items
+
+- [x] EA: Send code that looked at GWh data to Matt.
+- [x] MKH: Build data frames of GWh IEA data.
+- [x] MKH: Run new function across GWh data. Look for mismatches.
+
+### Discussion topics
+* We looked at how ZG performed balancing of GWh data.
+* Didn't find problems with balancing.
+* Saw no difference between entering electricity flows.
+* Most of the data was exactly the same in the database and the GWh rows.
+* EA is now off the hook for disaggregating FF power plants using the GWh data.
+  We will disaggregate renewables/nuclear where possible.
+  Researchers will aggregate renewables as needed.
+  
+### Reports from the network
+#### EA holiday 5 Aug - 12 Sept 2024
+
+
+### Next meeting: 
+
+Noon Matt's time, 30 July 2024.  
+Teams invitation has been sent.
+
+
+
 ## 24 July 2024
 
 ### Review of previous action items
@@ -17,6 +70,10 @@
 - [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel consumption
           to specialized industries. 
           Send to Emmanuel.
+- [ ] ZG: Review vignette for `LMDIR` package at
+          https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
+          Half done.
+          Checked it once.
 
 ### New action items
 - [ ] EA: Send ZG a specific year, country, energy carrier example
@@ -25,22 +82,7 @@
 - [ ] ZG: Check data about GWh outputs using EA's suggested 
           year, country, energy carrier. 
           Check for consistency with other output information. 
-
-
-### Reports from the network
-#### EA holiday 5 Aug - 12 Sept 2024
-
-
-### Next meeting: 
-
-Noon Matt's time, 30 July 2024.  
-Teams invitation has been sent.
-
-
-
-
-
-
+          
 
 ## 12 July 2024
 
