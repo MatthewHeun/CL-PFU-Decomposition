@@ -7,23 +7,34 @@
 - [ ] ZG: Review vignette for `LMDIR` package at
           https://matthewheun.github.io/LMDIR/articles/LMDIR.html. 
 - [ ] MKH: Build data frames of GWh IEA data.
+           Not yet integrated into the CL-PFU pipeline.
+- [ ] EA: Implement GWhr information into the database.
+          EA found a lot of mismatches between GWh output of electricity 
+          and the WEB data.
 - [ ] MKH: Implement code to redistribute statistical differences.
 - [ ] MKH: Implement code to redistribute transfers (reallocate to energy sector)
 - [ ] MKH: Implement code to redistribute Non-specified (only to Y matrix)
-- [ ] EA: Implement GWhr information into the database.
 - [ ] ZG: Look for old code that uses GWhr data to distribute fossil fuel consumption
           to specialized industries. 
           Send to Emmanuel.
 
 ### New action items
+- [ ] EA: Send ZG a specific year, country, energy carrier example
+          that does not balance for the GWh information.
+          Denmark, Portugal, UK would be good candidates.
+- [ ] ZG: Check data about GWh outputs using EA's suggested 
+          year, country, energy carrier. 
+          Check for consistency with other output information. 
 
 
 ### Reports from the network
+#### EA holiday 5 Aug - 12 Sept 2024
 
 
 ### Next meeting: 
 
-
+Noon Matt's time, 30 July 2024.  
+Teams invitation has been sent.
 
 
 
