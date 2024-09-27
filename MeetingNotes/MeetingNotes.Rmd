@@ -13,7 +13,6 @@
 #### Example: Non-specified industry energy consumption needs to be redistributed, but no other industries exist.
 #### Example: Statistical differences exist, but no other uses of that energy carrier are found.
 #### Example: How to distribute statistical differences across U, U_feed, and U_EIOU?
-
 ### Next steps
 - [ ] MKH: Implement lower-level function with argument for how to handle degenerate cases
 - [ ] MKH: Implementing higher-level function in Recca package
@@ -22,8 +21,6 @@
 ### New action items
 - [ ] ZG: Check the industry (or industries) into which transfers were distributed, 
           especially into U or V matrices?
-
-
 
 
 ## 22 Aug 2024
