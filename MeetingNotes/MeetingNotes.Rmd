@@ -1,6 +1,30 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 27 Sept 2024
+
+### MKH: Status of redistribution code
+#### Worked on simple Excel examples to show the theory.
+#### Completed draft of `matsbyname::redistribute_byname()`.
+#### Should this function be called `matsbyname::reallocate_byname()`? ZG says "yes".
+* Works for a single matrix
+* Will include RUVY matrices and ECC in Recca package function yet to be written.
+### MKH: Discussion of redistribution degenerate cases in file emailed by MKH
+#### Example: Non-specified industry energy consumption needs to be redistributed, but no other industries exist.
+#### Example: Statistical differences exist, but no other uses of that energy carrier are found.
+#### Example: How to distribute statistical differences across U, U_feed, and U_EIOU?
+
+### Next steps
+- [ ] MKH: Implement lower-level function with argument for how to handle degenerate cases
+- [ ] MKH: Implementing higher-level function in Recca package
+- [ ] MKH: rename as "reallocate"
+- [ ] Continue conversation about transfers at next meeting
+### New action items
+- [ ] ZG: Check the industry (or industries) into which transfers were distributed, 
+          especially into U or V matrices?
+
+
+
 
 ## 22 Aug 2024
 
@@ -24,6 +48,8 @@
 
 ### Next meeting:
 10 AM MKH time (8 AM ZG time, 3 PM EA time), Fri 20 Sept 2024.
+
+
 
 
 ## 30 July 2024
