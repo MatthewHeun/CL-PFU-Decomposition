@@ -21,6 +21,8 @@
 ### New action items
 - [ ] ZG: Check the industry (or industries) into which transfers were distributed, 
           especially into U or V matrices?
+          
+### Next meeting: 11 AM MKH time, Friday, 18 October
 
 
 ## 22 Aug 2024
