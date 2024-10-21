@@ -1,6 +1,34 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 18 Oct 2024
+
+### Review of previous action items
+- [x] MKH: Implement lower-level function with argument for how to handle degenerate cases
+- [ ] MKH: Implementing higher-level functiosn in Recca package.  In progress.
+- [x] MKH: rename as "reallocate"
+- [x] Continue conversation about transfers at next meeting
+- [x] ZG: Check the industry (or industries) into which transfers were distributed, 
+          especially into U or V matrices? DONE
+### MKH: Status of redistribution code
+#### Worked on IEATools code and `IEATools::reallocate_industry_nes()`.
+* MKH sent questions to ZG.
+* We decided to NOT reallocate Industry not elsewhere specified.
+* We decided to NOT reallocate Transport not elsewhere specified.
+### ZG: Transfers
+* Took the easy way.
+* Transfers were flows used only in energy sector.
+* Transfers were a very small fraction of all energy.
+* Flows were used by specific industries.
+### New action items
+- [ ] MKH Add a new way to handle zero data in matsbyname: do nothing.
+- [ ] MKH Remove `IEATools::reallocate_industry_nes()` from IEATools.
+          We now think these allocations are truly Industry but are unspecified.
+- [ ] MKH Implement algorithms for Statistical differences and Transfers.
+          Reallocate only to energy sector in the U_EIOU matrix.
+### Next meeting: 11 AM Matt's time on Friday 8 November 2024.
+
+
 ## 27 Sept 2024
 
 ### MKH: Status of redistribution code
