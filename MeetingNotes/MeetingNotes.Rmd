@@ -1,11 +1,41 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+
+## 15 November 2024
+
+### Review of previous action items
+- [ ] MKH: Implementing higher-level functions in the `IEATools` package.  In progress.
+- [x] MKH Add a new way to handle zero data in matsbyname: do nothing.
+- [x] MKH Remove `IEATools::reallocate_industry_nes()` from IEATools.
+          We now think these allocations are truly Industry but are unspecified.
+- [ ] MKH Implement algorithms for Statistical differences and Transfers.
+          Reallocate only to energy sector in the U_EIOU matrix.
+          
+### Discussion
+* Algorithm for redistribution of Statistical differences
+    * We decided on the following algorithm
+        * Reallocate **Y** Stat diffs to the **U** and **Y** matrices.
+            * If no other consumption in **U** or **Y**,
+              move those specific Stat diffs from **Y** to **R**. (A)
+            * If any -ve values in **U** or **Y**, 
+              move those specific Stat diffs to the **R** matrix. (B)
+        * Move **R** Stat diffs to the **Y** matrix
+        * Reallocate **Y** Stat diffs to **U** and **Y**
+            * If no other consumption in **U** or **Y**,
+              move those specific Stat diffs from **Y** to **R**. (A)
+            * If any -ve values in **U** or **Y**, 
+              move those specific Stat diffs to the **R** matrix. (B)
+        * Reallocate any remaining **R** Stat diffs to the **R** and **V** matrices.
+    * Note that steps (A) and (B) are repeated in the algorithm and 
+      can be moved into a single function.
+
+
 ## 18 Oct 2024
 
 ### Review of previous action items
 - [x] MKH: Implement lower-level function with argument for how to handle degenerate cases
-- [ ] MKH: Implementing higher-level functiosn in Recca package.  In progress.
+- [ ] MKH: Implementing higher-level functions in Recca package.  In progress.
 - [x] MKH: rename as "reallocate"
 - [x] Continue conversation about transfers at next meeting
 - [x] ZG: Check the industry (or industries) into which transfers were distributed, 
