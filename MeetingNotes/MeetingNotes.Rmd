@@ -10,7 +10,8 @@
 
 ### Discussion
 * We worked through the reallocation examples for Stat diffs.
-* No comments were raised, so Matt can move ahead with implementing the code.
+* We will use Option 1 in Matt's spreadsheet.
+* No other comments were raised, so Matt can move ahead with implementing the code.
 
 ### Next meeting: 11 AM Matt's time 14 Jan 2025.
 
