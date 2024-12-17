@@ -1,6 +1,20 @@
 # Decomposition papers (Guevara, Aramendia, Heun) meeting notes
 
 
+## 17 December 2024
+
+### Review of previous action items
+- [ ] MKH: Implementing higher-level functions in the `IEATools` package.  In progress.
+- [ ] MKH: Implement algorithms for Statistical differences and Transfers.
+           Reallocate only to energy sector in the U_EIOU matrix.
+
+### Discussion
+* We worked through the reallocation examples for Stat diffs.
+* No comments were raised, so Matt can move ahead with implementing the code.
+
+### Next meeting: 11 AM Matt's time 14 Jan 2025.
+
+
 
 ## 15 November 2024
 
@@ -18,9 +32,7 @@
         * Reallocate **Y** Stat diffs to the **U** and **Y** matrices.
             * If no other consumption in **U** or **Y**,
               move those specific Stat diffs from **Y** to **R**. (A)
-            * If any -ve values in **U** or **Y**, 
-              move those specific Stat diffs to the **R** matrix. (B)
-        * Move **R** Stat diffs to the **Y** matrix
+        * Move **R** Stat diffs to the **Y** matrix by subtracting the transpose.
         * Reallocate **Y** Stat diffs to **U** and **Y**
             * If no other consumption in **U** or **Y**,
               move those specific Stat diffs from **Y** to **R**. (A)
